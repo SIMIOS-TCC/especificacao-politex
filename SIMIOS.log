@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  22 APR 2018 19:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  16 AUG 2018 13:09
 entering extended mode
 **./SIMIOS.tex
 (SIMIOS.tex
@@ -911,22 +911,21 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
 
 Cap\'{\i }tulo 1.
-)
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 163.
+less on input line 16.
 
 [11
 
 
 
-]
+] [12]) [13]
 Apendice A.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 181.
 
-[12
+[14
 
 
 ]
@@ -935,7 +934,7 @@ Apendice B.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 186.
 
-[13
+[15
 
 ]
 Anexo A.
@@ -943,7 +942,7 @@ Anexo A.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 187.
 
-[14
+[16
 
 ]
 Anexo B.
@@ -951,26 +950,26 @@ Anexo B.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 191.
 
-[15
+[17
 
 ] (SIMIOS.aux (introducao.aux)) ) 
 Here is how much of TeX's memory you used:
- 5019 strings out of 493305
- 69364 string characters out of 3129802
- 156120 words of memory out of 3000000
- 8429 multiletter control sequences out of 15000+200000
+ 5022 strings out of 493305
+ 69388 string characters out of 3129802
+ 159120 words of memory out of 3000000
+ 8432 multiletter control sequences out of 15000+200000
  10757 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,45p,432b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,45p,700b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/laris/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/laris/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/laris/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
 /laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on SIMIOS.pdf (17 pages, 70747 bytes).
+Output written on SIMIOS.pdf (19 pages, 79109 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
