@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  16 AUG 2018 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  3 SEP 2018 15:31
 entering extended mode
 **./SIMIOS.tex
 (SIMIOS.tex
@@ -639,10 +639,22 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \rotheadsize=\dimen135
 \c@nlinenum=\count115
 \TeXr@lab=\toks31
-) ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
-y"
+)
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\placeins\placeins.
+sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.
+sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip70
+\enit@outerparindent=\dimen136
+\enit@toks=\toks32
+\enit@inbox=\box54
+\enitdp@description=\count116
+)
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2018/02/14 3.18 The Babel package
-
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
 "
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
@@ -660,12 +672,12 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count116
-\U@D=\dimen136
+\babel@savecnt=\count117
+\U@D=\dimen137
 
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
 ef")
-\bbl@dirlevel=\count117
+\bbl@dirlevel=\count118
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
@@ -680,20 +692,20 @@ ev.sty")
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\minimumbiblabelwidth=\skip70
-\ABCIauxlen=\skip71
-\c@ABCIaux=\count118
-\c@ABCImax=\count119
+\minimumbiblabelwidth=\skip71
+\ABCIauxlen=\skip72
+\c@ABCIaux=\count119
+\c@ABCImax=\count120
 
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\relsize.st
 y"
 Package: relsize 2003/07/04 ver 3.1
 )
-\biblabelsep=\skip72
+\biblabelsep=\skip73
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 862.
 LaTeX Info: Redefining \citeonline on input line 866.
-\ABCItoken=\toks32
+\ABCItoken=\toks33
 )
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\blindtext\blindtex
 t.sty"
@@ -702,39 +714,39 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count120
-\c@Blindtext=\count121
-\c@blind@countparstart=\count122
-\blind@countxx=\count123
-\blindtext@numBlindtext=\count124
-\blind@countyy=\count125
-\c@blindlist=\count126
-\c@blindlistlevel=\count127
-\c@blindlist@level=\count128
-\blind@listitem=\count129
-\c@blind@listcount=\count130
-\c@blind@levelcount=\count131
-\blind@mathformula=\count132
-\blind@Mathformula=\count133
-\c@blind@randomcount=\count134
-\c@blind@randommax=\count135
-\c@blind@pangramcount=\count136
-\c@blind@pangrammax=\count137
+\c@blindtext=\count121
+\c@Blindtext=\count122
+\c@blind@countparstart=\count123
+\blind@countxx=\count124
+\blindtext@numBlindtext=\count125
+\blind@countyy=\count126
+\c@blindlist=\count127
+\c@blindlistlevel=\count128
+\c@blindlist@level=\count129
+\blind@listitem=\count130
+\c@blind@listcount=\count131
+\c@blind@levelcount=\count132
+\blind@mathformula=\count133
+\blind@Mathformula=\count134
+\c@blind@randomcount=\count135
+\c@blind@randommax=\count136
+\c@blind@pangramcount=\count137
+\c@blind@pangrammax=\count138
 ) (SIMIOS.aux (introducao.aux) (aspectos-conceituais.aux))
 \openout1 = `SIMIOS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -774,17 +786,17 @@ LaTeX Font Info:    ... okay on input line 82.
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count138
-\scratchdimen=\dimen137
-\scratchbox=\box54
-\nofMPsegments=\count139
-\nofMParguments=\count140
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count141
-\MPscratchDim=\dimen138
-\MPnumerator=\count142
-\makeMPintoPDFobject=\count143
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count139
+\scratchdimen=\dimen138
+\scratchbox=\box55
+\nofMPsegments=\count140
+\nofMParguments=\count141
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count142
+\MPscratchDim=\dimen139
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
+\everyMPtoPDFconversion=\toks35
 )
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
 base.sty"
@@ -847,28 +859,28 @@ G,.JBIG2,.JB2,.eps]
 
 
 {C:/Users/laris/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+LaTeX Font Info:    Try loading font information for U+msa on input line 87.
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+LaTeX Font Info:    Try loading font information for U+msb on input line 87.
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
@@ -878,17 +890,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 ] [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
 
  []
 
 
-Overfull \hbox (17.97797pt too wide) in paragraph at lines 120--121
+Overfull \hbox (17.97797pt too wide) in paragraph at lines 122--123
 []  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
@@ -953,73 +965,93 @@ less on input line 18.
 <./images/ATS1.png, id=62, 196.93575pt x 200.54926pt>
 File: ./images/ATS1.png Graphic file (type png)
 <use ./images/ATS1.png>
-Package pdftex.def Info: ./images/ATS1.png  used on input line 72.
+Package pdftex.def Info: ./images/ATS1.png  used on input line 70.
 (pdftex.def)             Requested size: 98.46762pt x 100.27437pt.
 <./images/ATS2.png, id=64, 142.73325pt x 192.72pt>
 File: ./images/ATS2.png Graphic file (type png)
 <use ./images/ATS2.png>
-Package pdftex.def Info: ./images/ATS2.png  used on input line 72.
+Package pdftex.def Info: ./images/ATS2.png  used on input line 70.
 (pdftex.def)             Requested size: 71.36644pt x 96.35976pt.
 <./images/ATS3.png, id=65, 158.994pt x 184.2885pt>
 File: ./images/ATS3.png Graphic file (type png)
 <use ./images/ATS3.png>
-Package pdftex.def Info: ./images/ATS3.png  used on input line 72.
+Package pdftex.def Info: ./images/ATS3.png  used on input line 70.
 (pdftex.def)             Requested size: 79.4968pt x 92.14401pt.
+ [17]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
 
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [17] [18 <./images/ATS1.png> <./images/ATS2.png> <./images/ATS3.png>]
+[18 <./images/ATS1.png> <./images/ATS2.png> <./images/ATS3.png>]
+<./images/trilateracao.png, id=79, 246.9225pt x 196.48407pt>
+File: ./images/trilateracao.png Graphic file (type png)
+<use ./images/trilateracao.png>
+Package pdftex.def Info: ./images/trilateracao.png  used on input line 117.
+(pdftex.def)             Requested size: 246.92188pt x 196.48358pt.
+ [19 <./images/trilateracao.png>]
+<./images/referencia.png, id=84, 280.79906pt x 301.125pt>
+File: ./images/referencia.png Graphic file (type png)
+<use ./images/referencia.png>
+Package pdftex.def Info: ./images/referencia.png  used on input line 138.
+(pdftex.def)             Requested size: 196.558pt x 210.78606pt.
+) [20 <./images/referencia.png>]
 Apendice A.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 185.
+less on input line 187.
 
-[19
+[21
 
 
 ]
 Apendice B.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 190.
+less on input line 192.
 
-[20
+[22
 
 ]
 Anexo A.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 191.
+less on input line 193.
 
-[21
+[23
 
 ]
 Anexo B.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 195.
+less on input line 197.
 
-[22
+[24
 
 ] (SIMIOS.aux (introducao.aux) (aspectos-conceituais.aux)) ) 
 Here is how much of TeX's memory you used:
- 5239 strings out of 493305
- 72155 string characters out of 3129802
- 164255 words of memory out of 3000000
- 8631 multiletter control sequences out of 15000+200000
+ 5559 strings out of 493305
+ 77846 string characters out of 3129802
+ 170533 words of memory out of 3000000
+ 8938 multiletter control sequences out of 15000+200000
  10757 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,15n,45p,828b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/laris/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
-ers/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmti12.pfb>
-Output written on SIMIOS.pdf (24 pages, 314621 bytes).
+ers/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/laris/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/laris/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on SIMIOS.pdf (26 pages, 386591 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

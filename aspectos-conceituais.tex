@@ -35,9 +35,9 @@ Como é enfatizado por Amaral e Biscaro (2017), o BLE também possui baixo custo
 
 Este projeto de fato é ambientado em local com indisponibilidade energética e, ao mesmo tempo, não se é requisitado alto processamento. Assim, foi escolhido trabalhar com o Bluetooth e, por isso, sua arquitetura será explanada brevemente.
 
-O BLE possui duas estruturas principais: o GAP (Generic Access Profile) e o GATT (Generic Attribute Profile). O GAP é responsável pela visibilidade dos dispositivos e pelo controle das conexões entre os mesmos. Para isso, os dispositivos são categorizados como periférico (dispositivos menores que consomem menos energia e processamento e se conectam ao dispositivo central) ou central.
+O BLE possui duas estruturas principais: o GAP (\textit{Generic Access Profile}) e o GATT (\textit{Generic Attribute Profile}). O GAP é responsável pela visibilidade dos dispositivos e pelo controle das conexões entre os mesmos. Para isso, os dispositivos são categorizados como periférico (dispositivos menores que consomem menos energia e processamento e se conectam ao dispositivo central) ou central.
 
-Os dispositivos periféricos se anunciam para tornarem-se visíveis através de pequenos pacotes que são enviados periodicamente em broadcast. Tais pacotes são denominados Advertising Data e constam de até 31 bytes. Os dispositivos centrais são responsáveis pela escuta. Recebem os pacotes anunciados pelos periféricos e identificam se desejam realizar conexão e respondem o respectivo dispositivo. Uma vez que a conexão é estabelecida, o broadcast é normalmente interrompido e é estabelecido um serviço GATT, concluindo que um periférico só possa se conectar a um dispositivo central de cada vez.
+Os dispositivos periféricos se anunciam para tornarem-se visíveis através de pequenos pacotes que são enviados periodicamente em broadcast. Tais pacotes são denominados \textit{Advertising Data} e constam de até 31 bytes. Os dispositivos centrais são responsáveis pela escuta. Recebem os pacotes anunciados pelos periféricos e identificam se desejam realizar conexão e respondem o respectivo dispositivo. Uma vez que a conexão é estabelecida, o broadcast é normalmente interrompido e é estabelecido um serviço GATT, concluindo que um periférico só possa se conectar a um dispositivo central de cada vez.
 
 O GATT, por sua vez, define a forma como dois dispositivos BLE transferem dados através de uma conexão dedicada bidirecional entre eles. Para isso, haverá uma topologia mestre (GATT Client - que faz o request) escravo (GATT Server - que faz o response).
 
@@ -60,9 +60,7 @@ Alguns modelos de coleiras voltadas a mamíferos são citadas na tabela a seguir
 
 Por outro lado, foi possível conceber alguns potenciais modelos para o invólucro do produto final deste projeto, principalmente no que diz respeito ao material utilizado.
 
-Como visto no item anterior, comercialmente é utilizado rádio na maior parte dos casos (M17X0 e M15X5) e, eventualmente, GPS (W500 - para o qual é possível notar que exige um peso bem superior ao limite estabelecido de cerca de 10g).
-
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \caption{Exemplos comerciais de coleiras de rastreamento de mamíferos da ATS}
 \vspace{0.5cm}
@@ -83,3 +81,61 @@ Material &
 \makecell{- Coleira de \textbf{neoprene} \\ \textbf{ou nylon} }   
 \end{tabular}
 \end{table}
+
+Como visto no item anterior, comercialmente é utilizado rádio na maior parte dos casos (M17X0 e M15X5) e, eventualmente, GPS (W500 - para o qual é possível notar que exige um peso bem superior ao limite estabelecido de cerca de 10g).
+\FloatBarrier
+
+\section{Algoritmos}
+Inicialmente, é necessário compreender uma forma de calcular a distância relativa entre os animais. De praxe, em RSSFs este cálculo pode ser feito de duas formas.
+
+A primeira delas é utilizando a intensidade do sinal (\textit{Received Signal Strength Indication} - RSSI). O cálculo da distância, neste caso, é dado pelo seguinte modelo proposto pela Texas Instruments, que é melhor detalhado por Dong e Dargie (2012).
+
+\begin{equation}
+RSSI = -10 \times n \times \log_{10} d + A
+\end{equation}
+
+Sendo:
+\begin{itemize}
+\item d a distância em metros
+\item RSSI a intensidade do sinal em dBm
+\item n a constante de propagação do sinal
+\item A a intensidade do sinal para 1 metro de distância
+\end{itemize}
+
+Essa é uma maneira simples de baixo custo de implementação, porém, como é bem destacado por Larsson (2015), dada a alta variação de n devido a suscetibilidade do sinal à interferência do meio, demonstra-se um tanto imprecisa.
+
+A constante de propagação pode ser determinada empiricamente. Se sabe n=2 para o vácuo; no ar, valores coerentes estão entre 2.7 e 4. A determinação da constante para este projeto pode ser observada no apêndice.
+
+Outra forma seria calcular a distância sabendo a velocidade de propagação do sinal no meio, dado o tempo que demora para que o sinal seja recebido a partir da implementação de um eco. Idealmente esta é uma abordagem muito mais precisa, que só é impossibilitada em casos que o hardware utilizado não possua relógio. No entanto, o BLE já é um padrão que possui temporização e sincronização deficientes, principalmente se considerando o tempo em que o dispositivo fica dormente.
+
+Para este projeto, pretende-se implementar ambas as formas e verificar a precisão das mesmas.
+
+Além disso, foi requerido desenvolver um algoritmo para obtenção do mapeamento da posição relativa dos macacos. Este tema já havia sido discutido por Amaral e Biscaro (2017) e, para este caso, o único algoritmo que se fez praticável é a trilateração.
+
+\begin{figure}[ht]
+  \centering
+    \includegraphics[scale=1]{trilateracao}
+  \caption{Algoritmo de trilateração (Fonte: autores)}
+\end{figure}
+\FloatBarrier
+
+Dada a figura acima, o ponto Px pode ser calculado conhecendo-se os pontos fixos P1, P2, P3, as distâncias entre eles e as distâncias entre os mesmos e Px (r1, r2 e r3, respectivamente) a partir do seguinte equacionamento.
+
+\begin{equation}
+x = \dfrac{r1^2 - r2^2 + d^2}{2d}
+\end{equation}
+
+\begin{equation}
+y = \dfrac{r1^2 - r3^2 - x^2 + (x - a)^2 + b^2}{2b}
+\end{equation}
+
+É notável que este algoritmo requer que existam pelo menos 3 pontos conhecidos. Por isso, normalmente é mais utilizado para o cálculo de posicionamento absoluto utilizando pontos de acesso (AMARAL L. et al, 2017), no entanto, é possível implementá-lo para posicionamento relativo adotando pontos de referência.
+
+Portanto, o mapeamento dos macacos foi feito para cada macaco, que é centralizado em um sistema de coordenadas próprio. Um segundo macaco qualquer é utilizado como P2 e um terceiro (P3) é obtido através da lei dos cossenos (ver figura a seguir).
+
+\begin{figure}[ht]
+  \centering
+    \includegraphics[scale=0.7]{referencia}
+  \caption{Pontos fixos relativos (Fonte: autores)}
+\end{figure}
+\FloatBarrier
