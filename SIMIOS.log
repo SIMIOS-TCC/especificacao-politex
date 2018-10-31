@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  3 SEP 2018 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  5 SEP 2018 09:07
 entering extended mode
 **./SIMIOS.tex
 (SIMIOS.tex
@@ -732,7 +732,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count136
 \c@blind@pangramcount=\count137
 \c@blind@pangrammax=\count138
-) (SIMIOS.aux (introducao.aux) (aspectos-conceituais.aux))
+) (SIMIOS.aux (metodologia-do-trabalho.aux) (especificacao-requisitos.aux))
 \openout1 = `SIMIOS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -931,10 +931,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
  [10
 
 ]
-\openout2 = `introducao.aux'.
+\openout2 = `tecnologias-utilizadas.aux'.
 
 
-(introducao.tex
+(tecnologias-utilizadas.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
@@ -942,116 +942,63 @@ less on input line 1.
 Cap\'{\i }tulo 1.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 16.
+less on input line 17.
 
 [11
 
 
 
-] [12]) [13]
-\openout2 = `aspectos-conceituais.aux'.
-
- (aspectos-conceituais.tex
-Cap\'{\i }tulo 2.
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 18.
-
-[14
-
-
-
-] [15] [16]
-<./images/ATS1.png, id=62, 196.93575pt x 200.54926pt>
-File: ./images/ATS1.png Graphic file (type png)
-<use ./images/ATS1.png>
-Package pdftex.def Info: ./images/ATS1.png  used on input line 70.
-(pdftex.def)             Requested size: 98.46762pt x 100.27437pt.
-<./images/ATS2.png, id=64, 142.73325pt x 192.72pt>
-File: ./images/ATS2.png Graphic file (type png)
-<use ./images/ATS2.png>
-Package pdftex.def Info: ./images/ATS2.png  used on input line 70.
-(pdftex.def)             Requested size: 71.36644pt x 96.35976pt.
-<./images/ATS3.png, id=65, 158.994pt x 184.2885pt>
-File: ./images/ATS3.png Graphic file (type png)
-<use ./images/ATS3.png>
-Package pdftex.def Info: ./images/ATS3.png  used on input line 70.
-(pdftex.def)             Requested size: 79.4968pt x 92.14401pt.
- [17]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
-
-("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
-
-[18 <./images/ATS1.png> <./images/ATS2.png> <./images/ATS3.png>]
-<./images/trilateracao.png, id=79, 246.9225pt x 196.48407pt>
-File: ./images/trilateracao.png Graphic file (type png)
-<use ./images/trilateracao.png>
-Package pdftex.def Info: ./images/trilateracao.png  used on input line 117.
-(pdftex.def)             Requested size: 246.92188pt x 196.48358pt.
- [19 <./images/trilateracao.png>]
-<./images/referencia.png, id=84, 280.79906pt x 301.125pt>
-File: ./images/referencia.png Graphic file (type png)
-<use ./images/referencia.png>
-Package pdftex.def Info: ./images/referencia.png  used on input line 138.
-(pdftex.def)             Requested size: 196.558pt x 210.78606pt.
-) [20 <./images/referencia.png>]
+]) [12]
 Apendice A.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 187.
+less on input line 192.
 
-[21
+[13
 
 
 ]
 Apendice B.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 192.
+less on input line 197.
 
-[22
+[14
 
 ]
 Anexo A.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 193.
+less on input line 198.
 
-[23
+[15
 
 ]
 Anexo B.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 197.
+less on input line 202.
 
-[24
+[16
 
-] (SIMIOS.aux (introducao.aux) (aspectos-conceituais.aux)) ) 
+] (SIMIOS.aux (tecnologias-utilizadas.aux)) ) 
 Here is how much of TeX's memory you used:
- 5559 strings out of 493305
- 77846 string characters out of 3129802
- 170533 words of memory out of 3000000
- 8938 multiletter control sequences out of 15000+200000
+ 5502 strings out of 493305
+ 76819 string characters out of 3129802
+ 167533 words of memory out of 3000000
+ 8894 multiletter control sequences out of 15000+200000
  10757 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,15n,45p,828b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/laris/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
-ers/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/laris/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/laris/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on SIMIOS.pdf (26 pages, 386591 bytes).
+ 41i,10n,45p,430b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/laris/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/laris/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
+/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmti12.pfb>
+Output written on SIMIOS.pdf (18 pages, 75962 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

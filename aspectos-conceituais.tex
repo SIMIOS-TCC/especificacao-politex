@@ -86,7 +86,7 @@ Como visto no item anterior, comercialmente é utilizado rádio na maior parte d
 \FloatBarrier
 
 \section{Algoritmos}
-Inicialmente, é necessário compreender uma forma de calcular a distância relativa entre os animais. De praxe, em RSSFs este cálculo pode ser feito de duas formas.
+Inicialmente, é necessário compreender uma forma de calcular a posição dos animais através da distância entre macaco e ponto de acesso. De praxe, em RSSFs este cálculo pode ser feito de duas formas.
 
 A primeira delas é utilizando a intensidade do sinal (\textit{Received Signal Strength Indication} - RSSI). O cálculo da distância, neste caso, é dado pelo seguinte modelo proposto pela Texas Instruments, que é melhor detalhado por Dong e Dargie (2012).
 
@@ -110,7 +110,7 @@ Outra forma seria calcular a distância sabendo a velocidade de propagação do 
 
 Para este projeto, pretende-se implementar ambas as formas e verificar a precisão das mesmas.
 
-Além disso, foi requerido desenvolver um algoritmo para obtenção do mapeamento da posição relativa dos macacos. Este tema já havia sido discutido por Amaral e Biscaro (2017) e, para este caso, o único algoritmo que se fez praticável é a trilateração.
+Além disso, foi requerido desenvolver um algoritmo para obtenção do mapeamento da posição dos macacos. Este tema já havia sido discutido por Amaral e Biscaro (2017) e, para este caso, o único algoritmo que se fez praticável é a trilateração.
 
 \begin{figure}[ht]
   \centering
@@ -128,14 +128,3 @@ x = \dfrac{r1^2 - r2^2 + d^2}{2d}
 \begin{equation}
 y = \dfrac{r1^2 - r3^2 - x^2 + (x - a)^2 + b^2}{2b}
 \end{equation}
-
-É notável que este algoritmo requer que existam pelo menos 3 pontos conhecidos. Por isso, normalmente é mais utilizado para o cálculo de posicionamento absoluto utilizando pontos de acesso (AMARAL L. et al, 2017), no entanto, é possível implementá-lo para posicionamento relativo adotando pontos de referência.
-
-Portanto, o mapeamento dos macacos foi feito para cada macaco, que é centralizado em um sistema de coordenadas próprio. Um segundo macaco qualquer é utilizado como P2 e um terceiro (P3) é obtido através da lei dos cossenos (ver figura a seguir).
-
-\begin{figure}[ht]
-  \centering
-    \includegraphics[scale=0.7]{referencia}
-  \caption{Pontos fixos relativos (Fonte: autores)}
-\end{figure}
-\FloatBarrier
