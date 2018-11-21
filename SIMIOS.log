@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  5 SEP 2018 09:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  21 NOV 2018 08:29
 entering extended mode
 **./SIMIOS.tex
 (SIMIOS.tex
@@ -732,7 +732,9 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count136
 \c@blind@pangramcount=\count137
 \c@blind@pangrammax=\count138
-) (SIMIOS.aux (metodologia-do-trabalho.aux) (especificacao-requisitos.aux))
+) (SIMIOS.aux (agradecimentos.aux) (resumo.aux) (abstract.aux)
+(projeto-implementacao.aux) (testes-avaliacao.aux) (consideracoes-finais.aux)
+(apendice1.aux))
 \openout1 = `SIMIOS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -880,125 +882,121 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--88
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+\openout2 = `agradecimentos.aux'.
 
- []
-
-[2
+ (agradecimentos.tex [2
 
 
-] [3
+
+])
+\openout2 = `resumo.aux'.
+
+ (resumo.tex [3
+
+
+
+]) [4
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\openout2 = `abstract.aux'.
 
- []
+ (abstract.tex) [5
 
-
-Overfull \hbox (17.97797pt too wide) in paragraph at lines 122--123
-[]  $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-[4
-
-] [5
-
-] [6
-
-] (SIMIOS.lof)
+]
+(SIMIOS.lof)
 \tf@lof=\write3
 \openout3 = `SIMIOS.lof'.
 
- [7
+ [6
+
 
 ] (SIMIOS.lot)
 \tf@lot=\write4
 \openout4 = `SIMIOS.lot'.
 
- [8
+ [7
 
-] [9
+] [8
 
 ] (SIMIOS.toc)
 \tf@toc=\write5
 \openout5 = `SIMIOS.toc'.
 
- [10
+ [9
 
 ]
-\openout2 = `tecnologias-utilizadas.aux'.
+\openout2 = `projeto-implementacao.aux'.
 
 
-(tecnologias-utilizadas.tex
+No file projeto-implementacao.tex.
+\openout2 = `testes-avaliacao.aux'.
+
+No file testes-avaliacao.tex.
+\openout2 = `consideracoes-finais.aux'.
+
+No file consideracoes-finais.tex.
+No file SIMIOS.bbl.
+\openout2 = `apendice1.aux'.
+
+(apendice1.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
 
-Cap\'{\i }tulo 1.
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 17.
-
-[11
-
-
-
-]) [12]
 Apendice A.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 192.
+less on input line 25.
 
-[13
+[10
 
 
-]
-Apendice B.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 197.
 
-[14
 
-]
+
+
+
+
+] [11] [12] [13] [14] [15] [16] [17]) [18]
 Anexo A.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 198.
+less on input line 195.
 
-[15
+[19
+
 
 ]
 Anexo B.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 202.
+less on input line 199.
 
-[16
+[20
 
-] (SIMIOS.aux (tecnologias-utilizadas.aux)) ) 
+] (SIMIOS.aux (agradecimentos.aux) (resumo.aux) (abstract.aux)
+(projeto-implementacao.aux) (testes-avaliacao.aux) (consideracoes-finais.aux)
+(apendice1.aux)) ) 
 Here is how much of TeX's memory you used:
- 5502 strings out of 493305
- 76819 string characters out of 3129802
- 167533 words of memory out of 3000000
- 8894 multiletter control sequences out of 15000+200000
- 10757 words of font info for 40 fonts, out of 3000000 for 9000
+ 5552 strings out of 493305
+ 77999 string characters out of 3129802
+ 172380 words of memory out of 3000000
+ 8913 multiletter control sequences out of 15000+200000
+ 13859 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,45p,430b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/laris/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/laris/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
-/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmti12.pfb>
-Output written on SIMIOS.pdf (18 pages, 75962 bytes).
+ 41i,11n,45p,1434b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/laris/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/laris/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/la
+ris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
+>
+Output written on SIMIOS.pdf (22 pages, 105102 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

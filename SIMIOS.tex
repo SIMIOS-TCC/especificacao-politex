@@ -102,58 +102,47 @@
 
 
 % ========== Dedicatória (opcional) ==========
-\dedicatoria{Dedicatória}
+%\dedicatoria{Dedicatória}
 
 
 % ========== Agradecimentos ==========
-\begin{agradecimentos}
-
-Thanks...
-
-\end{agradecimentos}
-
+\include{agradecimentos}
 
 % ========== Epígrafe (opcional) ==========
-\epigrafe{%
-	\emph{``Epígrafe''}
-	\begin{flushright}
-		-{}- Autor
-	\end{flushright}
-}
+%\epigrafe{%
+%	\emph{``Epígrafe''}
+%	\begin{flushright}
+%		-{}- Autor
+%	\end{flushright}
+%}
 
 
 % ========== Resumo ==========
-\begin{resumo}
-Resumo...
-%
-\\[3\baselineskip]
-%
-\textbf{Palavras-Chave} -- Palavra, Palavra, Palavra, Palavra, Palavra.
-\end{resumo}
-
+\include{resumo}
 
 % ========== Abstract ==========
-\begin{abstract}
-Abstract...
-%
-\\[3\baselineskip]
-%
-\textbf{Keywords} -- Word, Word, Word, Word, Word.
-\end{abstract}
-
+\include{abstract}
 
 % ========== Listas (opcional) ==========
 \listadefiguras
 \listadetabelas
 
 % ========== Listas definidas pelo usuário (opcional) ==========
-\begin{pretextualsection}{Lista de símbolos}
+\begin{pretextualsection}{Lista de abreviaturas e siglas}
 
 GPS \textit{Global Positioning System}
 
 BLE \textit{Bluetooth Low Energy}
 
 MVC \textit{Model-view-controller}
+
+GAP \textit{Generic Access Profile}
+
+GATT \textit{Generic Attribute Profile}
+
+RFID \textit{Radio-Frequency Identification}
+
+RSSI \textit{Received Signal Strength Indication}
 
 \end{pretextualsection}
 
@@ -194,14 +183,13 @@ MVC \textit{Model-view-controller}
 
 % ========== Apêndices (opcional) ==========
 \apendice
-\chapter{}
-\chapter{Beta}
+\include{apendice1}
 
 
 % ========== Anexos (opcional) ==========
 \anexo
-\chapter{Alpha}
-\chapter{}
+%\chapter{Alpha}
+%\chapter{}
 
 
 

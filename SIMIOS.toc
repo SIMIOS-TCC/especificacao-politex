@@ -1,9 +1,4 @@
 \babel@toc {brazil}{}
-\contentsline {chapter}{\numberline {1}Tecnologias Utilizadas}{11}
-\contentsline {section}{\numberline {1.1}Dispositivo Embarcado}{11}
-\contentsline {section}{\numberline {1.2}Servidor}{11}
-\contentsline {section}{\numberline {1.3}Software}{12}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} A}{13}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} B{} -- Beta}{14}
-\contentsline {chapter}{Anexo{} A{} -- Alpha}{15}
-\contentsline {chapter}{Anexo{} B}{16}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} A{} -- Ap\IeC {\^e}ndice 1 - Entrevista com a prof\IeC {\textordfeminine } Dr\IeC {\textordfeminine }. Cristiane Schilbach Pizzutto}{10}
+\contentsline {chapter}{Anexo{} A{} -- Alpha}{19}
+\contentsline {chapter}{Anexo{} B}{20}
