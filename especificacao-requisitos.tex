@@ -1,5 +1,5 @@
 \chapter{Especificação de Requisitos de Sistema}
-O funcionamento essencial do sistema, o que define seus requisitos funcionais, requer que a posição e a temperatura dos macacos seja possível de ser medida, armazenada e mostrada para o usuário. A arquitetura desenvolvida, portanto, tentará fundamentalmente cobrir tais funcionalidades.
+O funcionamento essencial do sistema, o que define seus requisitos funcionais, requer que a posição dos macacos seja possível de ser medida, armazenada e mostrada para o usuário.
 
 Além desses, são levantados os requisitos não funcionais, que trabalham aspectos necessários e complementares para o bom funcionamento do sistema, muitas vezes previstos pelo público solicitante do mesmo.
 
@@ -9,6 +9,13 @@ Outra situação apontada é o fato de que toda vez que a bateria do aparelho ti
 
 Além da mochila do animal, espera-se que os dados coletados sejam confiáveis. Isso envolve garantir a autenticidade e a ausência de erros, ou seja, que eles estejam sendo de fato enviados íntegros pelo macaco a quem estão associados. Assim, evita-se casos em que o dispositivo possa ter sido removido acidentalmente e, por exemplo, enroscado em uma árvore ou em que existam interferências ruidosas no sinal capazes de alterar significativamente as medições enviadas. Também é relevante que o acesso à informação seja possível somente para pessoas autorizadas, envolvendo conceitos como autenticação e codificação.
 
-SIMIOS é um sistema que, estruturalmente, poderia ser contextualizado em praticamente qualquer aplicação que se tenha algo a ser rastreado, seja um ser vivo ou não, para qual a precisão do GPS seja insuficiente. Portanto, de maneira geral, também é necessário que o sistema tenha escalabilidade em todos os aspectos - que os dispositivos embarcados consigam acoplar demais sensores diversos e que, possivelmente, toda a aplicação suporte que uma quantidade maior de variáveis e de usuários seja inserida.
+SIMIOS é um sistema que, estruturalmente, poderia ser contextualizado em praticamente qualquer aplicação que se tenha algo a ser rastreado, seja um ser vivo ou não, para qual a precisão do GPS seja insuficiente. Portanto, de maneira geral, também é interessante que o sistema tenha escalabilidade em todos os aspectos - que os dispositivos embarcados consigam acoplar demais sensores diversos e que, possivelmente, toda a aplicação suporte que uma quantidade maior de variáveis e de usuários seja inserida.
 
 Por fim, é sempre relevante que a interface com o usuário siga princípios de UX, especialmente se considerando que uma quantidade grande de dados deve ser visualizada de forma intuitiva e simples pelo pesquisador.
+
+\begin{figure}[ht]
+  \centering
+    \includegraphics[scale=1]{esquematico}
+  \caption{Resumo gráfico do sistema (Fonte: autores)}
+\end{figure}
+\FloatBarrier

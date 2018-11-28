@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  21 NOV 2018 08:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  28 NOV 2018 10:01
 entering extended mode
 **./SIMIOS.tex
 (SIMIOS.tex
@@ -733,6 +733,8 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count137
 \c@blind@pangrammax=\count138
 ) (SIMIOS.aux (agradecimentos.aux) (resumo.aux) (abstract.aux)
+(aspectos-conceituais.aux) (metodologia-do-trabalho.aux)
+(especificacao-requisitos.aux) (tecnologias-utilizadas.aux)
 (projeto-implementacao.aux) (testes-avaliacao.aux) (consideracoes-finais.aux)
 (apendice1.aux))
 \openout1 = `SIMIOS.aux'.
@@ -881,29 +883,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--88
 
 [1
 
+] [2
+
+
 ]
 \openout2 = `agradecimentos.aux'.
 
- (agradecimentos.tex [2
+ (agradecimentos.tex [3
 
 
 
 ])
 \openout2 = `resumo.aux'.
 
- (resumo.tex [3
+ (resumo.tex [4
 
 
 
-]) [4
-
-
-]
+])
 \openout2 = `abstract.aux'.
 
- (abstract.tex) [5
+ (abstract.tex [5
 
-]
+
+
+])
 (SIMIOS.lof)
 \tf@lof=\write3
 \openout3 = `SIMIOS.lof'.
@@ -926,6 +930,116 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--88
  [9
 
 ]
+\openout2 = `aspectos-conceituais.aux'.
+
+
+(aspectos-conceituais.tex
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 1.
+
+Cap\'{\i }tulo 1.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 18.
+
+[10
+
+
+
+] [11]
+<./images/ATS1.png, id=48, 196.93575pt x 200.54926pt>
+File: ./images/ATS1.png Graphic file (type png)
+<use ./images/ATS1.png>
+Package pdftex.def Info: ./images/ATS1.png  used on input line 56.
+(pdftex.def)             Requested size: 98.46762pt x 100.27437pt.
+<./images/ATS2.png, id=50, 142.73325pt x 192.72pt>
+File: ./images/ATS2.png Graphic file (type png)
+<use ./images/ATS2.png>
+Package pdftex.def Info: ./images/ATS2.png  used on input line 56.
+(pdftex.def)             Requested size: 71.36644pt x 96.35976pt.
+<./images/ATS3.png, id=51, 158.994pt x 184.2885pt>
+File: ./images/ATS3.png Graphic file (type png)
+<use ./images/ATS3.png>
+Package pdftex.def Info: ./images/ATS3.png  used on input line 56.
+(pdftex.def)             Requested size: 79.4968pt x 92.14401pt.
+ [12]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
+
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+
+[13 <./images/ATS1.png> <./images/ATS2.png> <./images/ATS3.png>]
+<./images/trilateracao.png, id=64, 281.25075pt x 232.4685pt>
+File: ./images/trilateracao.png Graphic file (type png)
+<use ./images/trilateracao.png>
+Package pdftex.def Info: ./images/trilateracao.png  used on input line 103.
+(pdftex.def)             Requested size: 281.25005pt x 232.46793pt.
+ [14 <./images/trilateracao.png>]
+Overfull \hbox (41.7377pt too wide) in paragraph at lines 118--119
+[]  \OT1/cmr/m/n/12 y = $[]$ 
+ []
+
+
+Overfull \hbox (41.7377pt too wide) in paragraph at lines 130--131
+[]  \OT1/cmr/m/n/12 y = $[]$ 
+ []
+
+) [15]
+\openout2 = `metodologia-do-trabalho.aux'.
+
+ (metodologia-do-trabalho.tex
+Cap\'{\i }tulo 2.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 156.
+
+[16
+
+
+
+]
+\openout2 = `especificacao-requisitos.aux'.
+
+ (especificacao-requisitos.tex
+Cap\'{\i }tulo 3.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 13.
+
+[17
+
+
+
+]
+<./images/esquematico.png, id=79, 602.25pt x 451.6875pt>
+File: ./images/esquematico.png Graphic file (type png)
+<use ./images/esquematico.png>
+Package pdftex.def Info: ./images/esquematico.png  used on input line 18.
+(pdftex.def)             Requested size: 602.24852pt x 451.68639pt.
+
+Overfull \hbox (147.00441pt too wide) in paragraph at lines 18--19
+ [][] 
+ []
+
+) [18 <./images/esquematico.png>]
+\openout2 = `tecnologias-utilizadas.aux'.
+
+ (tecnologias-utilizadas.tex
+Cap\'{\i }tulo 4.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 18.
+
+[19
+
+
+
+]) [20]
 \openout2 = `projeto-implementacao.aux'.
 
 
@@ -940,18 +1054,12 @@ No file SIMIOS.bbl.
 \openout2 = `apendice1.aux'.
 
 (apendice1.tex
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 1.
-
 Apendice A.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 25.
+less on input line 26.
 
-[10
-
-
+[21
 
 
 
@@ -959,44 +1067,34 @@ less on input line 25.
 
 
 
-] [11] [12] [13] [14] [15] [16] [17]) [18]
-Anexo A.
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 195.
-
-[19
 
 
-]
-Anexo B.
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 199.
-
-[20
-
-] (SIMIOS.aux (agradecimentos.aux) (resumo.aux) (abstract.aux)
-(projeto-implementacao.aux) (testes-avaliacao.aux) (consideracoes-finais.aux)
-(apendice1.aux)) ) 
+] [22] [23] [24] [25] [26] [27]) [28] [29] (SIMIOS.aux (agradecimentos.aux)
+(resumo.aux) (abstract.aux) (aspectos-conceituais.aux)
+(metodologia-do-trabalho.aux) (especificacao-requisitos.aux)
+(tecnologias-utilizadas.aux) (projeto-implementacao.aux) (testes-avaliacao.aux)
+(consideracoes-finais.aux) (apendice1.aux)) ) 
 Here is how much of TeX's memory you used:
- 5552 strings out of 493305
- 77999 string characters out of 3129802
- 172380 words of memory out of 3000000
- 8913 multiletter control sequences out of 15000+200000
+ 5637 strings out of 493305
+ 80272 string characters out of 3129802
+ 176670 words of memory out of 3000000
+ 8960 multiletter control sequences out of 15000+200000
  13859 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,45p,1434b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/laris/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/laris/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/la
-ris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
->
-Output written on SIMIOS.pdf (22 pages, 105102 bytes).
+ 41i,15n,45p,1434b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/laris/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/laris/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users
+/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/laris/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/laris/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on SIMIOS.pdf (31 pages, 534397 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 145 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
