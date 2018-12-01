@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  1 DEC 2018 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  1 DEC 2018 15:58
 entering extended mode
 **./SIMIOS.tex
 (SIMIOS.tex
@@ -736,7 +736,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 (aspectos-conceituais.aux) (metodologia-do-trabalho.aux)
 (especificacao-requisitos.aux) (tecnologias-utilizadas.aux)
 (projeto-implementacao.aux) (testes-avaliacao.aux) (consideracoes-finais.aux)
-(apendice1.aux))
+(apendice1.aux) (apendice2.aux) (apendice3.aux))
 \openout1 = `SIMIOS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -1069,32 +1069,93 @@ less on input line 26.
 
 
 
-] [22] [23] [24] [25] [26] [27]) [28] [29] (SIMIOS.aux (agradecimentos.aux)
-(resumo.aux) (abstract.aux) (aspectos-conceituais.aux)
+] [22] [23] [24] [25] [26] [27]) [28] [29]
+\openout2 = `apendice2.aux'.
+
+ (apendice2.tex
+Apendice B.
+<./images/graph-dist.png, id=121, 407.121pt x 253.54726pt>
+File: ./images/graph-dist.png Graphic file (type png)
+<use ./images/graph-dist.png>
+Package pdftex.def Info: ./images/graph-dist.png  used on input line 34.
+(pdftex.def)             Requested size: 372.92207pt x 232.24878pt.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 36.
+
+[30
+
+
+
+]
+<./images/graph-erro.png, id=125, 410.13225pt x 254.1495pt>
+File: ./images/graph-erro.png Graphic file (type png)
+<use ./images/graph-erro.png>
+Package pdftex.def Info: ./images/graph-erro.png  used on input line 40.
+(pdftex.def)             Requested size: 377.31998pt x 233.8165pt.
+) [31 <./images/graph-dist.png>] [32 <./images/graph-erro.png>]
+\openout2 = `apendice3.aux'.
+
+
+(apendice3.tex
+Apendice C.
+<./images/fluxo-telas-1.png, id=134, 446.26724pt x 502.2765pt>
+File: ./images/fluxo-telas-1.png Graphic file (type png)
+<use ./images/fluxo-telas-1.png>
+Package pdftex.def Info: ./images/fluxo-telas-1.png  used on input line 5.
+(pdftex.def)             Requested size: 401.6368pt x 452.04468pt.
+<./images/fluxo-telas-2.png, id=135, 440.24475pt x 502.2765pt>
+File: ./images/fluxo-telas-2.png Graphic file (type png)
+<use ./images/fluxo-telas-2.png>
+Package pdftex.def Info: ./images/fluxo-telas-2.png  used on input line 11.
+(pdftex.def)             Requested size: 396.21661pt x 452.04468pt.
+<./images/fluxo-telas-3.png, id=136, 448.074pt x 505.89pt>
+File: ./images/fluxo-telas-3.png Graphic file (type png)
+<use ./images/fluxo-telas-3.png>
+Package pdftex.def Info: ./images/fluxo-telas-3.png  used on input line 17.
+(pdftex.def)             Requested size: 403.26286pt x 455.29678pt.
+<./images/fluxo-telas-4.png, id=137, 448.074pt x 256.5585pt>
+File: ./images/fluxo-telas-4.png Graphic file (type png)
+<use ./images/fluxo-telas-4.png>
+Package pdftex.def Info: ./images/fluxo-telas-4.png  used on input line 23.
+(pdftex.def)             Requested size: 403.26286pt x 230.90051pt.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 184.
+
+[33
+
+
+
+ <./images/fluxo-telas-1.png>] [34 <./images/fluxo-telas-2.png>] [35 <./images/
+fluxo-telas-3.png>] [36 <./images/fluxo-telas-4.png>] (SIMIOS.aux
+(agradecimentos.aux) (resumo.aux) (abstract.aux) (aspectos-conceituais.aux)
 (metodologia-do-trabalho.aux) (especificacao-requisitos.aux)
 (tecnologias-utilizadas.aux) (projeto-implementacao.aux) (testes-avaliacao.aux)
-(consideracoes-finais.aux) (apendice1.aux)) ) 
+(consideracoes-finais.aux) (apendice1.aux) (apendice2.aux) (apendice3.aux)) ) 
 Here is how much of TeX's memory you used:
- 5642 strings out of 493305
- 80392 string characters out of 3129802
- 176670 words of memory out of 3000000
- 8964 multiletter control sequences out of 15000+200000
+ 5688 strings out of 493305
+ 81628 string characters out of 3129802
+ 178810 words of memory out of 3000000
+ 8990 multiletter control sequences out of 15000+200000
  13859 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,15n,45p,1434b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/laris/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/laris/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users
-/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/laris/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/laris/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on SIMIOS.pdf (31 pages, 1456504 bytes).
+ 41i,15n,45p,1434b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C
+:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmbx8.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/laris/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/laris/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/laris/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
+s/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb>
+Output written on SIMIOS.pdf (38 pages, 1717277 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
