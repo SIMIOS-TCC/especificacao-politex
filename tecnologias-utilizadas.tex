@@ -1,8 +1,15 @@
 \chapter{Tecnologias Utilizadas}
 Considerando os aspectos discutidos no capítulo 2 sobre possíveis e impossíveis instrumentos para o nosso contexto, por fim foram selecionadas as tecnologias que serão efetivamente utilizados no projeto, as quais são descritas neste capítulo.
 
-\section{Dispositivo Embarcado}
+\section{Dispositivos Embarcados}
 Partindo disso, selecionou-se a plataforma de desenvolvimento do Sensor Tag da Texas Instruments como componente embarcado de cada macaco. Trata-se de uma placa leve que contém 6 sensores, incluindo de temperatura, e comunicador BLE. Seu datasheet pode ser encontrado nas referências deste trabalho.
+
+De início, foi selecionado o protocolo de comunicação BLE, especialmente por se tratar de um sistema que requer absoluto cuidado com o consumo energético, como enfatizado no capítulo anterior.
+Partindo-se deste requisito, selecionou-se a plataforma de desenvolvimento Sensor Tag da Texas Instruments como componente embarcado que ficará em cada macaco e nos pontos de acessos nas árvores. Trata-se de uma placa leve e comercialmente atraente, que contém 6 sensores, incluindo de temperatura, e comunicação por BLE. Seu datasheet pode ser encontrado nas referências deste trabalho [1].
+
+Além do Sensortag, foi selecionado um Raspberry Pi 2 para receber os dados de uma placa sensortag central via UART. Tal placa central deverá receber dados dos demais pontos de acesso, e estes dados serão armazenados em um servidor pelo Raspberry Pi.
+
+\subsection{Sensortag}
 
 \begin{figure}[ht]
   \centering
@@ -10,7 +17,9 @@ Partindo disso, selecionou-se a plataforma de desenvolvimento do Sensor Tag da T
   \caption{Componentes do Sensor Tag (Fonte: extraído do site da Texas Instruments)}
 \end{figure}
 
-Foi utilizado um Raspberry Pi 2 para receber por BLE os dados de cada Sensor Tag e enviá-los por Wi-fi para o servidor, que pode ser local ou em nuvem. 
+O código da placa dentre os produtos da TI é CC1350STK. Este é um device que é facilmente integrável com aplicações mobile (tendo inclusive um aplicativo aberto oficial da TI que pode ser baixado nas lojas de aplicativo e ser usado em conjunto com as placas).\\
+
+A placa contém um microcontrolador que tem funcionalidades de comunicação wireless, um processador principal ARM Cortex M3 de 32 bits com clock de 48MHz e uma variedade de periféricos, como timers de propósito geral, conversor analógico-digital, GPIOs, entre outros. 
 
 \section{Servidor}
 Foi escolhido o banco de dados relacional MySQL da Oracle por se tratar de um sistema open source simples, embora completo.
