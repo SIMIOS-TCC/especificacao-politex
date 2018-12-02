@@ -35,7 +35,7 @@ Para controle do ciclo de envio e sleep do módulo target, foram pesquisadas tr�
   \item Ou alterando-se uma constante da estrutura de pacotes.
 \end{enumerate}
 
-A Texas Instruments permite que o controle dos periféricos dos módulos utilizados seja feito por meio do uso de APIs específicas de seus drivers. No caso do timer, é possível utilizar a referência da biblioteca GPTimerCC26XX.h [10]. Ela contém funções básicas de operação do timer, como init(), start(), stop() e callback().
+A Texas Instruments permite que o controle dos periféricos dos módulos utilizados seja feito por meio do uso de APIs específicas de seus drivers. No caso do timer, é possível utilizar a referência da biblioteca GPTimerCC26XX.h \cite{gptimer}. Ela contém funções básicas de operação do timer, como init(), start(), stop() e callback().
 
 Para utilização do timer, é necessário também que se configure seus parâmetros. Alguns deles, mais essenciais, são:
 
@@ -46,17 +46,17 @@ Para utilização do timer, é necessário também que se configure seus parâme
 	\item um serviço, para atuar no repositório.
 \end{itemize}
 
-Todos esses parâmetros são referenciados no datasheet do microcontrolador [1] e na referência da biblioteca do driver [10]. No contexto do sensortag e deste projeto, o timer pode ser configurado para funcionar de maneira periódica e a transmissão de mensagens ser incluída em sua função de callback.
+Todos esses parâmetros são referenciados no datasheet do microcontrolador \cite{st-datasheet} e na referência da biblioteca do driver \cite{gptimer}. No contexto do sensortag e deste projeto, o timer pode ser configurado para funcionar de maneira periódica e a transmissão de mensagens ser incluída em sua função de callback.
 
 O cálculo da periodicidade do timer deve ser feita levando-se em conta a sua frequência de atualização, lembrando que, em uma descrição simples, o funcionamento do timer consiste em contar de 0 até o valor especificado em seus parâmetros. O memorial de cálculo encontra-se no Apêndice 4.
 
-Boa parte dos exemplos de uso de periféricos providos pela Texas Instruments incluem criação de tasks. Conforme mencionado no início do capítulo 6, utilizou-se primariamente um dos exemplos fornecidos pela TI para operação do módulo de target. Uma solução mais simples do que configurar o timer (e possivelmente menos custosa) seria utilizar a função Task_Sleep(nticks) [13]. O que esta função faz em essência é bloquear a task pelo tempo definido em nticks, o qual é medido em ms e tem como referência o próprio clock do sistema (48MHz [1]).
+Boa parte dos exemplos de uso de periféricos providos pela Texas Instruments incluem criação de tasks. Conforme mencionado no início do capítulo 6, utilizou-se primariamente um dos exemplos fornecidos pela TI para operação do módulo de target. Uma solução mais simples do que configurar o timer (e possivelmente menos custosa) seria utilizar a função Task\texttt{\char`_}Sleep(nticks) \cite{task-modules}. O que esta função faz em essência é bloquear a task pelo tempo definido em nticks, o qual é medido em ms e tem como referência o próprio clock do sistema (48MHz \cite{st-datasheet}).
 
-Uma última estratégia seria utilizar um dos parâmetros da própria estrutura de mensagens de Tx do protocolo utilizado [14]. Tal parâmetro é EasyLink_ms_To_RadioTime e é medido em ms, como seu nome sugere [15]. Seria uma alternativa às duas últimas mencionadas, porém, há pouca informação sobre seu tamanho máximo e há relatos de outros usuários da API sobre bugs em seu uso por este motivo.
+Uma última estratégia seria utilizar um dos parâmetros da própria estrutura de mensagens de Tx do protocolo utilizado \cite{forum-easylink}. Tal parâmetro é EasyLink\texttt{\char`_}ms\texttt{\char`_}To\texttt{\char`_}RadioTime e é medido em ms, como seu nome sugere \cite{easylink}. Seria uma alternativa às duas últimas mencionadas, porém, há pouca informação sobre seu tamanho máximo e há relatos de outros usuários da API sobre bugs em seu uso por este motivo.
 
 \subsection{Eficiência Energética}
 
-Para efeito de preservação da bateria foi escolhida uma taxa de transmissão de 5 segundos de maneira a manter o aspecto de atualização em tempo real. Tal valor pode ser configurado facilmente alterando-se uma das variáveis mencionadas nas estratégias de temporização mencionadas anteriormente (loadVal para o timer, nTicks para Task_Sleep() e EasyLink_ms_To_RadioTime para a estrutura dos pacotes). Esta mudança deve ser feita caso seja julgada interessante uma maior economia de energia em troca de desempenho.
+Para efeito de preservação da bateria foi escolhida uma taxa de transmissão de 5 segundos de maneira a manter o aspecto de atualização em tempo real. Tal valor pode ser configurado facilmente alterando-se uma das variáveis mencionadas nas estratégias de temporização mencionadas anteriormente (loadVal para o timer, nTicks para Task\texttt{\char`_}Sleep() e EasyLink\texttt{\char`_}ms\texttt{\char`_}To\texttt{\char`_}RadioTime para a estrutura dos pacotes). Esta mudança deve ser feita caso seja julgada interessante uma maior economia de energia em troca de desempenho.
 
 \section{Módulo Do Ponto De Acesso}
 
@@ -87,7 +87,7 @@ O comportamento previamente descrito é esquematizado pela máquina de estados a
 
 \begin{figure}[ht]
   \centering
-    \includegraphics[scale=1]{estados-raspberry}
+    \includegraphics[scale=0.65]{estados-raspberry}
   \caption{Máquina de estados representando o funcionamento do módulo coletor (Fonte: autores)}
 \end{figure}
 \FloatBarrier
@@ -100,7 +100,7 @@ Pelo lado da segurança do sistema, foi utilizado um modelo padrão do Spring Se
 
 \begin{figure}[ht]
   \centering
-    \includegraphics[scale=1]{simios_db}
+    \includegraphics[scale=0.8]{simios_db}
   \caption{Diagrama de classes gerado pela ferramenta de engenharia reversa do MySQL (Fonte: autores)}
 \end{figure}
 \FloatBarrier
@@ -124,7 +124,7 @@ A figura a seguir identifica o fluxo de cada uma das telas existentes no sistema
 
 \begin{figure}[ht]
   \centering
-    \includegraphics[scale=1]{mapa-do-site}
+    \includegraphics[scale=0.45]{mapa-do-site}
   \caption{Mapa do site (Fonte: autores)}
 \end{figure}
 \FloatBarrier
