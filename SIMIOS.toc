@@ -1,36 +1,39 @@
 \babel@toc {brazil}{}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{11}
-\contentsline {section}{\numberline {1.1}Objetivo}{11}
-\contentsline {section}{\numberline {1.2}Motiva\IeC {\c c}\IeC {\~a}o}{11}
-\contentsline {section}{\numberline {1.3}Justificativa}{12}
-\contentsline {section}{\numberline {1.4}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{13}
-\contentsline {chapter}{\numberline {2}Aspectos Conceituais}{14}
-\contentsline {section}{\numberline {2.1}Macacos e Reservas Naturais}{14}
-\contentsline {section}{\numberline {2.2}Tecnologias Potenciais}{15}
-\contentsline {section}{\numberline {2.3}Modelos Comerciais}{16}
-\contentsline {section}{\numberline {2.4}Algoritmos}{17}
-\contentsline {chapter}{\numberline {3}Metodologia do Trabalho}{20}
-\contentsline {chapter}{\numberline {4}Especifica\IeC {\c c}\IeC {\~a}o de Requisitos de Sistema}{21}
-\contentsline {chapter}{\numberline {5}Tecnologias Utilizadas}{23}
-\contentsline {section}{\numberline {5.1}Dispositivos Embarcados}{23}
-\contentsline {subsection}{\numberline {5.1.1}Sensortag}{23}
-\contentsline {section}{\numberline {5.2}Servidor}{24}
-\contentsline {section}{\numberline {5.3}Software}{25}
-\contentsline {chapter}{\numberline {6}Projeto e Implementa\IeC {\c c}\IeC {\~a}o}{26}
-\contentsline {section}{\numberline {6.1}M\IeC {\'o}dulo Do Target}{26}
-\contentsline {subsection}{\numberline {6.1.1}Comunica\IeC {\c c}\IeC {\~a}o unidirecional}{27}
-\contentsline {subsection}{\numberline {6.1.2}Temporiza\IeC {\c c}\IeC {\~a}o}{27}
-\contentsline {subsection}{\numberline {6.1.3}Efici\IeC {\^e}ncia Energ\IeC {\'e}tica}{28}
-\contentsline {section}{\numberline {6.2}M\IeC {\'o}dulo Do Ponto De Acesso}{29}
-\contentsline {section}{\numberline {6.3}M\IeC {\'o}dulo Central}{29}
-\contentsline {section}{\numberline {6.4}M\IeC {\'o}dulo Do Controlador}{30}
-\contentsline {section}{\numberline {6.5}Banco De Dados}{31}
-\contentsline {section}{\numberline {6.6}Banco De Dados}{32}
-\contentsline {chapter}{\numberline {7}Testes e avalia\IeC {\c c}\IeC {\~a}o}{34}
-\contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{36}
-\contentsline {section}{\numberline {8.1}Conclus\IeC {\~o}es do Projeto de Formatura}{36}
-\contentsline {section}{\numberline {8.2}Contribui\IeC {\c c}\IeC {\~o}es}{38}
-\contentsline {section}{\numberline {8.3}Perspectivas De Continuidade}{38}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} A{} -- Entrevista com a prof\IeC {\textordfeminine } Dr\IeC {\textordfeminine } Cristiane Schilbach Pizzutto}{40}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} B{} -- Determina\IeC {\c c}\IeC {\~a}o da constante de propaga\IeC {\c c}\IeC {\~a}o}{49}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} C{} -- Fluxo de telas da aplica\IeC {\c c}\IeC {\~a}o}{52}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{12}
+\contentsline {section}{\numberline {1.1}Objetivo}{12}
+\contentsline {section}{\numberline {1.2}Motiva\IeC {\c c}\IeC {\~a}o}{12}
+\contentsline {section}{\numberline {1.3}Justificativa}{13}
+\contentsline {section}{\numberline {1.4}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{14}
+\contentsline {chapter}{\numberline {2}Aspectos Conceituais}{15}
+\contentsline {section}{\numberline {2.1}Macacos e Reservas Naturais}{15}
+\contentsline {section}{\numberline {2.2}Tecnologias Potenciais}{16}
+\contentsline {section}{\numberline {2.3}Modelos Comerciais}{17}
+\contentsline {section}{\numberline {2.4}Algoritmos}{18}
+\contentsline {chapter}{\numberline {3}Metodologia do Trabalho}{21}
+\contentsline {chapter}{\numberline {4}Especifica\IeC {\c c}\IeC {\~a}o de Requisitos de Sistema}{22}
+\contentsline {chapter}{\numberline {5}Tecnologias Utilizadas}{24}
+\contentsline {section}{\numberline {5.1}Dispositivos Embarcados}{24}
+\contentsline {subsection}{\numberline {5.1.1}Sensortag}{24}
+\contentsline {section}{\numberline {5.2}Servidor}{25}
+\contentsline {section}{\numberline {5.3}Software}{26}
+\contentsline {chapter}{\numberline {6}Projeto e Implementa\IeC {\c c}\IeC {\~a}o}{27}
+\contentsline {section}{\numberline {6.1}M\IeC {\'o}dulo Do Target}{27}
+\contentsline {subsection}{\numberline {6.1.1}Comunica\IeC {\c c}\IeC {\~a}o unidirecional}{28}
+\contentsline {subsection}{\numberline {6.1.2}Temporiza\IeC {\c c}\IeC {\~a}o}{28}
+\contentsline {subsection}{\numberline {6.1.3}Efici\IeC {\^e}ncia Energ\IeC {\'e}tica}{29}
+\contentsline {section}{\numberline {6.2}M\IeC {\'o}dulo Do Ponto De Acesso}{30}
+\contentsline {section}{\numberline {6.3}M\IeC {\'o}dulo Central}{30}
+\contentsline {section}{\numberline {6.4}M\IeC {\'o}dulo Do Controlador}{31}
+\contentsline {section}{\numberline {6.5}Banco De Dados}{32}
+\contentsline {section}{\numberline {6.6}Banco De Dados}{33}
+\contentsline {chapter}{\numberline {7}Testes e avalia\IeC {\c c}\IeC {\~a}o}{35}
+\contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{37}
+\contentsline {section}{\numberline {8.1}Conclus\IeC {\~o}es do Projeto de Formatura}{37}
+\contentsline {section}{\numberline {8.2}Contribui\IeC {\c c}\IeC {\~o}es}{39}
+\contentsline {section}{\numberline {8.3}Perspectivas De Continuidade}{39}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{41}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{42}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} A{} -- Entrevista com a prof\IeC {\textordfeminine } Dr\IeC {\textordfeminine } Cristiane Schilbach Pizzutto}{43}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} B{} -- Determina\IeC {\c c}\IeC {\~a}o da constante de propaga\IeC {\c c}\IeC {\~a}o}{52}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} C{} -- Fluxo de telas da aplica\IeC {\c c}\IeC {\~a}o}{55}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} D{} -- Memorial de C\IeC {\'a}lculo do Per\IeC {\'\i }odo do Timer}{59}
