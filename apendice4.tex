@@ -1,0 +1,51 @@
+\chapter{Memorial de Cálculo do Período do Timer}
+
+Uma das estratégias de temporização do módulo de target mencionado no capítulo 6 é o uso de um periférico timer de propósito geral, disponível pelo Microcontrolador presente nas placas do sensortag [1].
+
+De maneira geral, um timer funciona como um contador, podendo ser de modo up, down ou uma combinação de ambos, periódico ou “one-shot”, Pulse Width Modulation (PWM), entre outros. No contexto deste trabalho, o uso do timer seria feito de modo periódico, e o MCU prevê o funcionamento de seus timers apenas no modo up. Portanto, um timer no sensortag, essencialmente, funciona como um contador de 0 até um valor especificado por seu programador, podendo repetir isto de modo periódico ou não.
+
+O periférico é programado por meio de um driver, cuja API é fornecida pela própria Texas Instruments [11]. Um exemplo de codificação seria a seguinte:
+
+\begin{lstlisting}
+GPTimerCC26XX_Handle hTimer;
+void timerCallback(GPTimerCC26XX_Handle handle, GPTimerCC26XX_IntMask interruptMask) {
+       // interrupt callback code goes here.
+       // Minimize  processing in interrupt.
+}
+void taskFxn(UArg a0, UArg a1) {
+     GPTimerCC26XX_Params params;
+     GPTimerCC26XX_Params_init(&params);
+     params.width = GPT_CONFIG_16BIT;
+     params.mode = GPT_MODE_PERIODIC_UP;
+     params.debugStallMode = GPTimerCC26XX_DEBUG_STALL_OFF;
+     hTimer = GPTimerCC26XX_open(CC2650_GPTIMER0A, &params);
+     if(hTimer == NULL) {
+     Log_error0("Failed to open GPTimer");
+     Task_exit();
+}
+     Types_FreqHz freq;
+     BIOS_getCpuFreq(&freq);
+     GPTimerCC26XX_Value loadVal = freq.lo / 1000 - 1;
+     GPTimerCC26XX_setLoadValue(hTimer, loadVal);
+      GPTimerCC26XX_registerInterrupt(hTimer, timerCallback,
+        GPT_INT_TIMEOUT);
+      GPTimerCC26XX_start(hTimer);
+      while(1) {
+           Task_sleep(BIOS_WAIT_FOREVER);
+      }
+}
+\end{lstlisting}
+
+Um breve comentário acerca do código acima: há a declaração inicial de uma estrutura de referência a um timer, bem como os parâmetros que definem seu funcionamento (16 bits, periódico, sua função de callback, dentre outros). O parâmetro loadVal é o que define o valor até o qual o timer conta. Ele deve ser escolhido para controlar as chamadas à função de callback(), a qual ocorre sempre que o contador chega em seu valor máximo (definido em loadVal).
+
+Considerando que o contador é atualizado sincronizadamente com o clock do sistema de 48MHz (ou seja, a cada 1/48M segundos), e que ele deve ser atualizado (loadVal + 1), então o tempo para cada período do clock pode ser calculado como:
+
+\begin{equation}
+PeriodoTimer = \dfrac{loadVal + 1}{48MHz}
+\end{equation}
+
+Fixando-se então o período desejado para o timer, o valor de loadVal deve ser:
+
+\begin{equation}
+loadVal = PeriodoTimer \times 48MHz - 1
+\end{equation}
