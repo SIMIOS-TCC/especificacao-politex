@@ -1,8 +1,9 @@
+<<<<<<< current
 \documentclass[]{politex}
 % ========== Opções ==========
 % pnumromarab - Numeração de páginas usando algarismos romanos na parte pré-textual e arábicos na parte textual
 % abnttoc - Forçar paginação no sumário conforme ABNT (inclui "p." na frente das páginas)
-% normalnum - Numeração contínua de figuras e tabelas
+% normalnum - Numeração contínua de figuras e tabelas 
 %	(caso contrário, a numeração é reiniciada a cada capítulo)
 % draftprint - Ajusta as margens para impressão de rascunhos
 %	(reduz a margem interna)
@@ -47,6 +48,7 @@
   tabsize=3
 }
 
+
 % ========== Language options ==========
 \usepackage[brazil]{babel}
 %\usepackage[english]{babel}
@@ -72,7 +74,7 @@
 % Autor
 \autor{Larissa Mangolim Amaral \\%
 		Luciana da Costa Marques \\%
-		Pedro Orscar Gallo Vaz}
+		Pedro Oscar Gallo Vaz}
 
 % Para múltiplos autores (TCC)
 %\autor{Nome Sobrenome\\%
@@ -152,15 +154,33 @@
 % ========== Listas definidas pelo usuário (opcional) ==========
 \begin{pretextualsection}{Lista de abreviaturas e siglas}
 
-GPS \textit{Global Positioning System}
+AP \quad \quad $\>$ \textit{Access Point}
 
-MVC \textit{Model-view-controller}
+CRUD \quad \textit{Create Read Update Delete}
 
-RFID \textit{Radio-Frequency Identification}
+GPS \quad \quad \textit{Global Positioning System}
 
-RSSI \textit{Received Signal Strength Indication}
+ID \quad \quad \quad Identificador
 
-TI \textit{Texas Instruments}
+MCU \quad $\>$ \textit{Microcontroller Unit}
+
+MVC \quad $\>$ \textit{Model-view-controller}
+
+PWM \quad $\>$ \textit{Pulse Width Modulation}
+
+RFID \quad $\>$ \textit{Radio-Frequency Identification}
+
+RSSI \quad \quad \textit{Received Signal Strength Indication}
+
+RSSF \quad \quad Redes de Sensores Sem Fio
+
+SQL \quad \quad $\>$ \textit{Structured Query Language}
+
+TI \quad \quad \quad $\>$ \textit{Texas Instruments}
+
+UART \quad $\>$ \textit{Universal Asynchronous Receiver/Transmitter}
+
+UX \quad \quad \quad \textit{User Experience}
 
 \end{pretextualsection}
 
@@ -171,7 +191,7 @@ TI \textit{Texas Instruments}
 
 % ========== Elementos textuais ==========
 
-%\include{introducao}
+\include{introducao}
 
 \include{aspectos-conceituais}
 
@@ -181,7 +201,7 @@ TI \textit{Texas Instruments}
 
 \include{tecnologias-utilizadas}
 
-\include{projeto-implementacao}
+\include{projeto-e-implementacao}
 
 \include{testes-avaliacao}
 
@@ -190,11 +210,11 @@ TI \textit{Texas Instruments}
 % ========== Referências ==========
 % --- IEEE ---
 %	http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran
-%\bibliographystyle{IEEEbib}
+\bibliographystyle{IEEEbib}
 
 % --- ABNT (requer ABNTeX 2) ---
 %	http://www.ctan.org/tex-archive/macros/latex/contrib/abntex2
-\bibliographystyle{abntex2-num}
+%\bibliographystyle{abntex2-num}
 
 \bibliography{bibliography.tex}
 
@@ -206,6 +226,7 @@ TI \textit{Texas Instruments}
 \include{apendice3}
 \include{apendice4}
 
+
 % ========== Anexos (opcional) ==========
 %\anexo
 %\chapter{Alpha}
@@ -214,3 +235,242 @@ TI \textit{Texas Instruments}
 
 
 \end{document}
+=======
+\documentclass[]{politex}
+% ========== Opções ==========
+% pnumromarab - Numeração de páginas usando algarismos romanos na parte pré-textual e arábicos na parte textual
+% abnttoc - Forçar paginação no sumário conforme ABNT (inclui "p." na frente das páginas)
+% normalnum - Numeração contínua de figuras e tabelas 
+%	(caso contrário, a numeração é reiniciada a cada capítulo)
+% draftprint - Ajusta as margens para impressão de rascunhos
+%	(reduz a margem interna)
+% twosideprint - Ajusta as margens para impressão frente e verso
+% capsec - Forçar letras maiúsculas no título das seções
+% espacosimples - Documento usando espaçamento simples
+% espacoduplo - Documento usando espaçamento duplo
+%	(o padrão é usar espaçamento 1.5)
+% times - Tenta usar a fonte Times New Roman para o corpo do texto
+% noindentfirst - Não indenta o primeiro parágrafo dos capítulos/seções
+
+
+% ========== Packages ==========
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{graphicx,cite,enumerate}
+\usepackage{makecell}
+\graphicspath{ {./images/} }
+\usepackage{placeins}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
+% ========== Language options ==========
+\usepackage[brazil]{babel}
+%\usepackage[english]{babel}
+
+
+% ========== ABNT (requer ABNTeX 2) ==========
+%	http://www.ctan.org/tex-archive/macros/latex/contrib/abntex2
+\usepackage[num]{abntex2cite}
+
+% Forçar o abntex2 a usar [ ] nas referências ao invés de ( )
+\citebrackets{[}{]}
+
+
+% ========== Lorem ipsum ==========
+\usepackage{blindtext}
+
+
+
+% ========== Opções do documento ==========
+% Título
+\titulo{SIMIOS - Sistema de Monitoramento de Interação Orgânica entre Símios}
+
+% Autor
+\autor{Larissa Mangolim Amaral \\%
+		Luciana da Costa Marques \\%
+		Pedro Oscar Gallo Vaz}
+
+% Para múltiplos autores (TCC)
+%\autor{Nome Sobrenome\\%
+%		Nome Sobrenome\\%
+%		Nome Sobrenome}
+
+% Orientador / Coorientador
+\orientador{Professor Livre-Docente Carlos Eduardo Cugnasca}
+\coorientador{Professor Doutor Bruno de Carvalho Albertini}
+
+% Tipo de documento
+\tcc{Eletricista com ênfase em Computação}
+%\dissertacao{Engenharia Elétrica}
+%\teseDOC{Engenharia Elétrica}
+%\teseLD
+%\memorialLD
+
+% Departamento e área de concentração
+%\departamento{Nome do departamento}
+%\areaConcentracao{Área de concentração}
+
+% Local
+\local{São Paulo}
+
+% Ano
+\data{2018}
+
+
+
+
+\begin{document}
+% ========== Capa e folhas de rosto ==========
+\capa
+\falsafolhaderosto
+\folhaderosto
+
+
+% ========== Folha de assinaturas (opcional) ==========
+\begin{folhadeaprovacao}
+	\assinatura{Prof.\ Livre-Docente Carlos Eduardo Cugnasca}
+%	\assinatura{Prof.\ Y}
+%	\assinatura{Prof.\ Z}
+\end{folhadeaprovacao}
+
+
+% ========== Ficha catalográfica ==========
+% Fazer solicitação no site:
+%	http://www.poli.usp.br/en/bibliotecas/servicos/catalogacao-na-publicacao.html
+
+
+% ========== Dedicatória (opcional) ==========
+%\dedicatoria{Dedicatória}
+
+
+% ========== Agradecimentos ==========
+\include{agradecimentos}
+
+% ========== Epígrafe (opcional) ==========
+\epigrafe{
+	\emph{``Evidentemente, para os que não têm consciência do significado das heranças paisagísticas e ecológicas, os esforços dos cientistas que pretendem responsabilizar todos e cada um pela boa conservação e pelo uso racional da paisagem e dos recursos da natureza somente podem ser tomados como motivo de irritação, quando não de ameaça, a curto prazo, à economicidade das forças de produção econômica.''}
+	\begin{flushright}
+		-{}- Aziz Nacib Ab'Sáber
+	\end{flushright}
+}
+
+
+% ========== Resumo ==========
+\include{resumo}
+
+% ========== Abstract ==========
+\include{abstract}
+
+% ========== Listas (opcional) ==========
+\listadefiguras
+\listadetabelas
+
+% ========== Listas definidas pelo usuário (opcional) ==========
+\begin{pretextualsection}{Lista de abreviaturas e siglas}
+
+AP \quad \quad $\>$ \textit{Access Point}
+
+CRUD \quad \textit{Create Read Update Delete}
+
+GPS \quad \quad \textit{Global Positioning System}
+
+ID \quad \quad \quad Identificador
+
+MCU \quad $\>$ \textit{Microcontroller Unit}
+
+MVC \quad $\>$ \textit{Model-view-controller}
+
+PWM \quad $\>$ \textit{Pulse Width Modulation}
+
+RFID \quad $\>$ \textit{Radio-Frequency Identification}
+
+RSSI \quad \quad \textit{Received Signal Strength Indication}
+
+RSSF \quad \quad Redes de Sensores Sem Fio
+
+SQL \quad \quad $\>$ \textit{Structured Query Language}
+
+TI \quad \quad \quad $\>$ \textit{Texas Instruments}
+
+UART \quad $\>$ \textit{Universal Asynchronous Receiver/Transmitter}
+
+UX \quad \quad \quad \textit{User Experience}
+
+\end{pretextualsection}
+
+% ========== Sumário ==========
+\sumario
+
+
+
+% ========== Elementos textuais ==========
+
+\include{introducao}
+
+\include{aspectos-conceituais}
+
+\include{metodologia-do-trabalho}
+
+\include{especificacao-requisitos}
+
+\include{tecnologias-utilizadas}
+
+\include{projeto-e-implementacao}
+
+\include{testes-avaliacao}
+
+\include{consideracoes-finais}
+
+% ========== Referências ==========
+% --- IEEE ---
+%	http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran
+\bibliographystyle{IEEEbib}
+
+% --- ABNT (requer ABNTeX 2) ---
+%	http://www.ctan.org/tex-archive/macros/latex/contrib/abntex2
+%\bibliographystyle{abntex2-num}
+
+\bibliography{bibliography.tex}
+\bibliography{}
+
+
+% ========== Apêndices (opcional) ==========
+\apendice
+\include{apendice1}
+\include{apendice2}
+\include{apendice3}
+\include{apendice4}
+
+
+% ========== Anexos (opcional) ==========
+%\anexo
+%\chapter{Alpha}
+%\chapter{}
+
+
+
+\end{document}
+>>>>>>> before discard
