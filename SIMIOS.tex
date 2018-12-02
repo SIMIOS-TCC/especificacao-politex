@@ -2,7 +2,7 @@
 % ========== Opções ==========
 % pnumromarab - Numeração de páginas usando algarismos romanos na parte pré-textual e arábicos na parte textual
 % abnttoc - Forçar paginação no sumário conforme ABNT (inclui "p." na frente das páginas)
-% normalnum - Numeração contínua de figuras e tabelas 
+% normalnum - Numeração contínua de figuras e tabelas
 %	(caso contrário, a numeração é reiniciada a cada capítulo)
 % draftprint - Ajusta as margens para impressão de rascunhos
 %	(reduz a margem interna)
@@ -23,7 +23,29 @@
 \graphicspath{ {./images/} }
 \usepackage{placeins}
 \usepackage{enumitem}
+\usepackage{listings}
+\usepackage{color}
 
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
 
 % ========== Language options ==========
 \usepackage[brazil]{babel}
@@ -109,12 +131,12 @@
 \include{agradecimentos}
 
 % ========== Epígrafe (opcional) ==========
-%\epigrafe{%
-%	\emph{``Epígrafe''}
-%	\begin{flushright}
-%		-{}- Autor
-%	\end{flushright}
-%}
+\epigrafe{
+	\emph{``Evidentemente, para os que não têm consciência do significado das heranças paisagísticas e ecológicas, os esforços dos cientistas que pretendem responsabilizar todos e cada um pela boa conservação e pelo uso racional da paisagem e dos recursos da natureza somente podem ser tomados como motivo de irritação, quando não de ameaça, a curto prazo, à economicidade das forças de produção econômica.''}
+	\begin{flushright}
+		-{}- Aziz Nacib Ab'Sáber
+	\end{flushright}
+}
 
 
 % ========== Resumo ==========
@@ -168,13 +190,13 @@ TI \textit{Texas Instruments}
 % ========== Referências ==========
 % --- IEEE ---
 %	http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran
-\bibliographystyle{IEEEbib}
+%\bibliographystyle{IEEEbib}
 
 % --- ABNT (requer ABNTeX 2) ---
 %	http://www.ctan.org/tex-archive/macros/latex/contrib/abntex2
-%\bibliographystyle{abntex2-num}
+\bibliographystyle{abntex2-num}
 
-\bibliography{}
+\bibliography{bibliography.tex}
 
 
 % ========== Apêndices (opcional) ==========
@@ -182,7 +204,7 @@ TI \textit{Texas Instruments}
 \include{apendice1}
 \include{apendice2}
 \include{apendice3}
-
+\include{apendice4}
 
 % ========== Anexos (opcional) ==========
 %\anexo
