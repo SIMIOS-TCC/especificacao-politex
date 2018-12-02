@@ -1,0 +1,6 @@
+PWD C:/Users/Pedro/Documents/Meu/USP/SIMIOS - TCC/especificacao-politex
+INPUT c:/texlive/2018/texmf.cnf
+INPUT c:/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT apendice4.tex
+OUTPUT apendice4.log
