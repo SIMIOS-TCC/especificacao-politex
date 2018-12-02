@@ -34,3 +34,4 @@
 \contentsline {chapter}{Ap\IeC {\^e}ndice{} A{} -- Entrevista com a prof\IeC {\textordfeminine } Dr\IeC {\textordfeminine } Cristiane Schilbach Pizzutto}{40}
 \contentsline {chapter}{Ap\IeC {\^e}ndice{} B{} -- Determina\IeC {\c c}\IeC {\~a}o da constante de propaga\IeC {\c c}\IeC {\~a}o}{49}
 \contentsline {chapter}{Ap\IeC {\^e}ndice{} C{} -- Fluxo de telas da aplica\IeC {\c c}\IeC {\~a}o}{52}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} D{} -- Memorial de C\IeC {\'a}lculo do Per\IeC {\'\i }odo do Timer}{56}
