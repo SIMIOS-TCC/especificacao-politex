@@ -46,11 +46,11 @@ Para utilização do timer, é necessário também que se configure seus parâme
 	\item um serviço, para atuar no repositório.
 \end{itemize}
 
-Todos esses parâmetros são referenciados no datasheet do microcontrolador \cite{st-datasheet} e na referência da biblioteca do driver \cite{gptimer}. No contexto do sensortag e deste projeto, o timer pode ser configurado para funcionar de maneira periódica e a transmissão de mensagens ser incluída em sua função de callback.
+Todos esses parâmetros são referenciados no datasheet do microcontrolador \cite{datasheet} e na referência da biblioteca do driver \cite{gptimer}. No contexto do sensortag e deste projeto, o timer pode ser configurado para funcionar de maneira periódica e a transmissão de mensagens ser incluída em sua função de callback.
 
 O cálculo da periodicidade do timer deve ser feita levando-se em conta a sua frequência de atualização, lembrando que, em uma descrição simples, o funcionamento do timer consiste em contar de 0 até o valor especificado em seus parâmetros. O memorial de cálculo encontra-se no Apêndice 4.
 
-Boa parte dos exemplos de uso de periféricos providos pela Texas Instruments incluem criação de tasks. Conforme mencionado no início do capítulo 6, utilizou-se primariamente um dos exemplos fornecidos pela TI para operação do módulo de target. Uma solução mais simples do que configurar o timer (e possivelmente menos custosa) seria utilizar a função Task\texttt{\char`_}Sleep(nticks) \cite{task-modules}. O que esta função faz em essência é bloquear a task pelo tempo definido em nticks, o qual é medido em ms e tem como referência o próprio clock do sistema (48MHz \cite{st-datasheet}).
+Boa parte dos exemplos de uso de periféricos providos pela Texas Instruments incluem criação de tasks. Conforme mencionado no início do capítulo 6, utilizou-se primariamente um dos exemplos fornecidos pela TI para operação do módulo de target. Uma solução mais simples do que configurar o timer (e possivelmente menos custosa) seria utilizar a função Task\texttt{\char`_}Sleep(nticks) \cite{task-modules}. O que esta função faz em essência é bloquear a task pelo tempo definido em nticks, o qual é medido em ms e tem como referência o próprio clock do sistema (48MHz \cite{datasheet}).
 
 Uma última estratégia seria utilizar um dos parâmetros da própria estrutura de mensagens de Tx do protocolo utilizado \cite{forum-easylink}. Tal parâmetro é EasyLink\texttt{\char`_}ms\texttt{\char`_}To\texttt{\char`_}RadioTime e é medido em ms, como seu nome sugere \cite{easylink}. Seria uma alternativa às duas últimas mencionadas, porém, há pouca informação sobre seu tamanho máximo e há relatos de outros usuários da API sobre bugs em seu uso por este motivo.
 

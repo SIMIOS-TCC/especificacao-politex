@@ -1,0 +1,28 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem{larissaamaralmiltonbiscaro}
+\abntrefinfo{Amaral}{AMARAL}{2017}
+{AMARAL, M.~B. L. \emph{Beacon Bluetooth para Localização em Ambientes
+  Internos}. 2017. Dissertação para disciplina PCS 3432 Laboratório de
+  Processadores I, Departamento de Engenharia de Computação e Sistemas
+  Digitais.}
+
+\bibitem{apostilaSE}
+\abntrefinfo{Cugnasca}{CUGNASCA}{2018}
+{CUGNASCA, C.~E. \emph{Projeto de Sistemas Embarcados}. 2018. Apostila da
+  disciplina PCS 3548 Sistemas Embarcados, Departamento de Engenharia de
+  Computação e Sistemas Digitais.}
+
+\bibitem{datasheet}
+\abntrefinfo{Instruments}{INSTRUMENTS}{2016}
+{INSTRUMENTS, T. \emph{CC1350 SimpleLink™ Ultra-Low-Power Dual-Band Wireless
+  MCU}. [S.l.]: Texas Instruments, 2016.
+  \url{http://www.ti.com/lit/ds/symlink/cc1350.pdf}.
+Acessado em 31 maio, 2018.}
+
+\end{thebibliography}

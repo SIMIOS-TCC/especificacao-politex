@@ -23,7 +23,7 @@ Dada essa composição, as RSSFs são capazes de satisfazer áreas de cobertura 
 
 Por isso, compõem uma tecnologia ótima para organizações biológicas, que envolvem grandes populações distribuídas, sendo, portanto, frequentemente aplicadas em sistemas agrícolas.
 
-Como enfatizado por Handcock (2009), para animais essa utilidade também é incluída, mas prevê algumas ressalvas. Uma delas considera a situação de que o animal de vida livre pode permanecer por semanas fora do alcance de pontos de acesso que recebam seus dados e, por esse motivo, cada nó da rede deverá possuir bateria e memória suficientemente robustas. Para reduzir o tempo de ausência de resposta de um determinado indivíduo, é possível implementar escuta nos próprios nós da rede, de forma que os animais que entrarem em contato entre si mantenham as informações dos demais, aumentando a chance de que algum deles possa transmiti-las para o servidor no alcance de pontos de acesso. Essa prática, no entanto, exige ainda mais energia e armazenamento.
+Como enfatizado por Handcock (2009) \cite{handcock}, para animais essa utilidade também é incluída, mas prevê algumas ressalvas. Uma delas considera a situação de que o animal de vida livre pode permanecer por semanas fora do alcance de pontos de acesso que recebam seus dados e, por esse motivo, cada nó da rede deverá possuir bateria e memória suficientemente robustas. Para reduzir o tempo de ausência de resposta de um determinado indivíduo, é possível implementar escuta nos próprios nós da rede, de forma que os animais que entrarem em contato entre si mantenham as informações dos demais, aumentando a chance de que algum deles possa transmiti-las para o servidor no alcance de pontos de acesso. Essa prática, no entanto, exige ainda mais energia e armazenamento.
 
 RSSFs são, por vezes, estudadas para posicionamento em ambientes internos, principalmente atreladas ao uso de pontos de acesso Wi-fi, que já são naturalmente alocados nesses espaços para uso de internet.
 
@@ -35,14 +35,14 @@ O RFID foi bastante usado para obter informações relacionadas à condição do
 \textbf{GPS}
 A emancipação do GPS aplicado ao smartphone praticamente trivializou a tarefa de localização, principalmente quando associada à mobilidade e roteamento.
 
-A integração de tal tecnologia em sistemas biológicos demonstra uma tentativa de integrar o sensoriamento da interação do animal com o ambiente, como é salientado por Handcock [5].
+A integração de tal tecnologia em sistemas biológicos demonstra uma tentativa de integrar o sensoriamento da interação do animal com o ambiente, como é salientado por Handcock \cite{handcock}.
 
 O GPS, no entanto, tem uma série de complicações. Primeiramente, sua precisão em baixa escala é bem complicada. Handcock afirma que para obter boa acurácia, é necessário ter uma taxa de amostragem relativamente alta, o que é bastante ruim para a sustentabilidade da memória e da energia do sistema.
 
 Um outro problema está relacionado à pouca praticidade do módulo GPS, que apresenta peso relativamente elevado (aproximadamente 10g) dependendo do animal que está sendo rastreado.
 
 \section{Modelos Comerciais}
-Alguns modelos de coleiras voltadas a mamíferos são citadas na tabela a seguir. Os produtos são fornecidos pela empresa ATS que, infelizmente, não discrimina o porte recomendado do animal usuário em seu site, portanto só foi possível inferir o peso que o dispositivo deste projeto deveria ter confirmando o que havia sido relatado pelos pesquisadores: de algo de no máximo 10g, uma vez que macacos menores pesam cerca de 400g.
+Alguns modelos de coleiras voltadas a mamíferos são citadas na tabela a seguir. Os produtos são fornecidos pela empresa ATS (textit{Animal Traceability Solutions}) \cite{ats} que, infelizmente, não discrimina o porte recomendado do animal usuário em seu site, portanto só foi possível inferir o peso que o dispositivo deste projeto deveria ter confirmando o que havia sido relatado pelos pesquisadores: de algo de no máximo 10g, uma vez que macacos menores pesam cerca de 400g.
 
 Por outro lado, foi possível conceber alguns potenciais modelos para o invólucro do produto final deste projeto, principalmente no que diz respeito ao material utilizado.
 
@@ -75,7 +75,7 @@ Como visto no item anterior, comercialmente é utilizado rádio na maior parte d
 \section{Algoritmos}
 Inicialmente, é necessário compreender uma forma de calcular a posição dos animais através da distância entre macaco e ponto de acesso. De praxe, em RSSFs este cálculo pode ser feito de duas formas.
 
-A primeira delas é utilizando a intensidade do sinal (\textit{Received Signal Strength Indication} - RSSI). O cálculo da distância, neste caso, é dado pelo seguinte modelo proposto pela Texas Instruments, que é melhor detalhado por Dong e Dargie (2012).
+A primeira delas é utilizando a intensidade do sinal (\textit{Received Signal Strength Indication} - RSSI). O cálculo da distância, neste caso, é dado pelo seguinte modelo proposto pela Texas Instruments, que é melhor detalhado por Dong e Dargie (2012) \cite{dong}.
 
 \begin{equation}
 RSSI = -10 \times n \times \log_{10} d + A
@@ -89,7 +89,7 @@ Sendo:
 \item A a intensidade do sinal para 1 metro de distância
 \end{itemize}
 
-Essa é uma maneira simples de baixo custo de implementação, porém, como é bem destacado por Larsson (2015), dada a alta variação de n devido a suscetibilidade do sinal à interferência do meio, demonstra-se um tanto imprecisa.
+Essa é uma maneira simples de baixo custo de implementação, porém, como é bem destacado por Larsson (2015) \cite{larsson}, dada a alta variação de n devido a suscetibilidade do sinal à interferência do meio, demonstra-se um tanto imprecisa.
 
 A constante de propagação pode ser determinada empiricamente. Se sabe n=2 para o vácuo; no ar, valores coerentes estão entre 2.7 e 4. A determinação da constante para este projeto pode ser observada no apêndice.
 
@@ -97,7 +97,7 @@ Outra forma seria calcular a distância sabendo a velocidade de propagação do 
 
 Para este projeto, pretende-se implementar a primeira forma e verificar a precisão da mesma.
 
-Além disso, foi requerido desenvolver um algoritmo para obtenção do mapeamento da posição dos macacos. Este tema já havia sido discutido por Amaral e Biscaro (2017) e, para este caso, o único algoritmo que se fez praticável é a trilateração.
+Além disso, foi requerido desenvolver um algoritmo para obtenção do mapeamento da posição dos macacos. Este tema já havia sido discutido por Amaral e Biscaro \cite{larissaamaralmiltonbiscaro} e, para este caso, o único algoritmo que se fez praticável é a trilateração.
 
 \begin{figure}[ht]
   \centering

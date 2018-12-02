@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  2 DEC 2018 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  2 DEC 2018 18:24
 entering extended mode
 **./SIMIOS.tex
 (SIMIOS.tex
@@ -681,6 +681,24 @@ File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
 Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.
+sty"
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+)
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
+ty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+)
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2018/02/14 3.18 The Babel package
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
@@ -767,18 +785,18 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 (apendice1.aux) (apendice2.aux) (apendice3.aux) (apendice4.aux))
 \openout1 = `SIMIOS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -893,21 +911,21 @@ G,.JBIG2,.JB2,.eps]
 
 
 {C:/Users/laris/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+LaTeX Font Info:    Try loading font information for U+msa on input line 110.
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 88.
+LaTeX Font Info:    Try loading font information for U+msb on input line 110.
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 
  []
 
@@ -924,21 +942,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--89
 
 
 ])
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+
+ []
+
+
+Overfull \hbox (17.97797pt too wide) in paragraph at lines 140--141
+[]  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+[4
+
+
+]
 \openout2 = `resumo.aux'.
 
- (resumo.tex [4
-
+ (resumo.tex [5
 
 
 ])
 \openout2 = `abstract.aux'.
 
- (abstract.tex [5
+ (abstract.tex [6
 
 
 
-])
-(SIMIOS.lof
+]) (SIMIOS.lof
 Overfull \hbox (7.04005pt too wide) in paragraph at lines 7--7
  [][] []\OT1/cmr/m/n/12 Diagrama de clas-ses ge-rado pela fer-ra-menta de en-ge
 -nha-ria re-versa do MySQL 
@@ -948,24 +982,24 @@ Overfull \hbox (7.04005pt too wide) in paragraph at lines 7--7
 \tf@lof=\write3
 \openout3 = `SIMIOS.lof'.
 
- [6
+ [7
 
 
 ] (SIMIOS.lot)
 \tf@lot=\write4
 \openout4 = `SIMIOS.lot'.
 
- [7
+ [8
 
-] [8
+] [9
 
-] (SIMIOS.toc [9
+] (SIMIOS.toc [10
 
 ])
 \tf@toc=\write5
 \openout5 = `SIMIOS.toc'.
 
- [10]
+ [11]
 \openout2 = `introducao.aux'.
 
  (introducao.tex
@@ -978,11 +1012,18 @@ Cap\'{\i }tulo 1.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 15.
 
-[11
+[12
 
 
 
-] [12]) [13]
+]
+
+LaTeX Warning: Citation `handcock' on page 13 undefined on input line 27.
+
+
+LaTeX Warning: Citation `zinsstag' on page 13 undefined on input line 29.
+
+[13]) [14]
 \openout2 = `aspectos-conceituais.aux'.
 
  (aspectos-conceituais.tex
@@ -991,42 +1032,57 @@ Cap\'{\i }tulo 2.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 18.
 
-[14
+[15
 
 
 
-] [15]
-<./images/ATS1.png, id=60, 196.93575pt x 200.54926pt>
+]
+
+LaTeX Warning: Citation `handcock' on page 16 undefined on input line 26.
+
+[16]
+
+LaTeX Warning: Citation `handcock' on page 17 undefined on input line 38.
+
+
+LaTeX Warning: Citation `ats' on page 17 undefined on input line 45.
+
+<./images/ATS1.png, id=63, 196.93575pt x 200.54926pt>
 File: ./images/ATS1.png Graphic file (type png)
 <use ./images/ATS1.png>
 Package pdftex.def Info: ./images/ATS1.png  used on input line 57.
 (pdftex.def)             Requested size: 98.46762pt x 100.27437pt.
-<./images/ATS2.png, id=62, 142.73325pt x 192.72pt>
+<./images/ATS2.png, id=65, 142.73325pt x 192.72pt>
 File: ./images/ATS2.png Graphic file (type png)
 <use ./images/ATS2.png>
 Package pdftex.def Info: ./images/ATS2.png  used on input line 57.
 (pdftex.def)             Requested size: 71.36644pt x 96.35976pt.
-<./images/ATS3.png, id=63, 158.994pt x 184.2885pt>
+<./images/ATS3.png, id=66, 158.994pt x 184.2885pt>
 File: ./images/ATS3.png Graphic file (type png)
 <use ./images/ATS3.png>
 Package pdftex.def Info: ./images/ATS3.png  used on input line 57.
 (pdftex.def)             Requested size: 79.4968pt x 92.14401pt.
- [16]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 86.
+[17]
 
+LaTeX Warning: Citation `dong' on page 18 undefined on input line 78.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 86.
 ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
 
-[17 <./images/ATS1.png> <./images/ATS2.png> <./images/ATS3.png>]
-<./images/trilateracao.png, id=77, 281.25075pt x 232.4685pt>
+
+LaTeX Warning: Citation `larsson' on page 18 undefined on input line 92.
+
+[18 <./images/ATS1.png> <./images/ATS2.png> <./images/ATS3.png>]
+<./images/trilateracao.png, id=80, 281.25075pt x 232.4685pt>
 File: ./images/trilateracao.png Graphic file (type png)
 <use ./images/trilateracao.png>
 Package pdftex.def Info: ./images/trilateracao.png  used on input line 104.
 (pdftex.def)             Requested size: 281.25005pt x 232.46793pt.
- [18 <./images/trilateracao.png>]
+ [19 <./images/trilateracao.png>]
 Overfull \hbox (41.7377pt too wide) in paragraph at lines 119--120
 []  \OT1/cmr/m/n/12 y = $[]$ 
  []
@@ -1036,7 +1092,7 @@ Overfull \hbox (41.7377pt too wide) in paragraph at lines 131--132
 []  \OT1/cmr/m/n/12 y = $[]$ 
  []
 
-) [19]
+) [20]
 \openout2 = `metodologia-do-trabalho.aux'.
 
  (metodologia-do-trabalho.tex
@@ -1044,9 +1100,9 @@ Cap\'{\i }tulo 3.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 175.
+less on input line 199.
 
-[20
+[21
 
 
 
@@ -1059,22 +1115,25 @@ Cap\'{\i }tulo 4.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 13.
 
-[21
+[22
 
 
 
 ]
-<./images/esquematico.png, id=91, 602.25pt x 451.6875pt>
+
+LaTeX Warning: Citation `preece' on page 23 undefined on input line 14.
+
+<./images/esquematico.png, id=94, 602.25pt x 451.6875pt>
 File: ./images/esquematico.png Graphic file (type png)
 <use ./images/esquematico.png>
 Package pdftex.def Info: ./images/esquematico.png  used on input line 18.
 (pdftex.def)             Requested size: 421.57211pt x 316.17908pt.
-) [22 <./images/esquematico.png>]
+) [23 <./images/esquematico.png>]
 \openout2 = `tecnologias-utilizadas.aux'.
 
  (tecnologias-utilizadas.tex
 Cap\'{\i }tulo 5.
-<./images/sensortag.png, id=96, 814.84425pt x 680.5425pt>
+<./images/sensortag.png, id=100, 814.84425pt x 680.5425pt>
 File: ./images/sensortag.png Graphic file (type png)
 <use ./images/sensortag.png>
 Package pdftex.def Info: ./images/sensortag.png  used on input line 16.
@@ -1088,16 +1147,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 23.
 
-[23
+[24
 
 
 
-] [24 <./images/sensortag.png>]) [25]
+] [25 <./images/sensortag.png>]) [26]
 \openout2 = `projeto-e-implementacao.aux'.
 
  (projeto-e-implementacao.tex
 Cap\'{\i }tulo 6.
-<./images/arquitetura.png, id=108, 405.9165pt x 361.35pt>
+<./images/arquitetura.png, id=111, 405.9165pt x 361.35pt>
 File: ./images/arquitetura.png Graphic file (type png)
 <use ./images/arquitetura.png>
 Package pdftex.def Info: ./images/arquitetura.png  used on input line 9.
@@ -1106,36 +1165,30 @@ Package pdftex.def Info: ./images/arquitetura.png  used on input line 9.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 19.
 
-[26
+[27
 
 
 
  <./images/arquitetura.png>]
 
-LaTeX Warning: Citation `gptimer' on page 27 undefined on input line 38.
+LaTeX Warning: Citation `gptimer' on page 28 undefined on input line 38.
 
-[27]
+[28]
 
-LaTeX Warning: Citation `st-datasheet' on page 28 undefined on input line 49.
-
-
-LaTeX Warning: Citation `gptimer' on page 28 undefined on input line 49.
+LaTeX Warning: Citation `gptimer' on page 29 undefined on input line 49.
 
 
-LaTeX Warning: Citation `task-modules' on page 28 undefined on input line 53.
+LaTeX Warning: Citation `task-modules' on page 29 undefined on input line 53.
 
 
-LaTeX Warning: Citation `st-datasheet' on page 28 undefined on input line 53.
-
-
-LaTeX Warning: Citation `forum-easylink' on page 28 undefined on input line 55.
+LaTeX Warning: Citation `forum-easylink' on page 29 undefined on input line 55.
 
 
 
-LaTeX Warning: Citation `easylink' on page 28 undefined on input line 55.
+LaTeX Warning: Citation `easylink' on page 29 undefined on input line 55.
 
-[28] [29]
-<./images/estados-raspberry.png, id=124, 702.625pt x 519.9425pt>
+[29] [30]
+<./images/estados-raspberry.png, id=127, 702.625pt x 519.9425pt>
 File: ./images/estados-raspberry.png Graphic file (type png)
 <use ./images/estados-raspberry.png>
 Package pdftex.def Info: ./images/estados-raspberry.png  used on input line 90.
@@ -1146,20 +1199,20 @@ Overfull \hbox (1.45673pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-[30]
-<./images/simios_db.png, id=128, 564.30824pt x 482.40225pt>
+[31]
+<./images/simios_db.png, id=131, 564.30824pt x 482.40225pt>
 File: ./images/simios_db.png Graphic file (type png)
 <use ./images/simios_db.png>
 Package pdftex.def Info: ./images/simios_db.png  used on input line 103.
 (pdftex.def)             Requested size: 451.4472pt x 385.92232pt.
- [31 <./images/estados-raspberry.png>] [32 <./images/simios_db.png>]
-<./images/mapa-do-site.jpg, id=137, 963.6pt x 722.7pt>
+ [32 <./images/estados-raspberry.png>] [33 <./images/simios_db.png>]
+<./images/mapa-do-site.jpg, id=140, 963.6pt x 722.7pt>
 File: ./images/mapa-do-site.jpg Graphic file (type jpg)
 <use ./images/mapa-do-site.jpg>
 Package pdftex.def Info: ./images/mapa-do-site.jpg  used on input line 127.
 (pdftex.def)             Requested size: 433.616pt x 325.21199pt.
 )
-[33 <./images/mapa-do-site.jpg>]
+[34 <./images/mapa-do-site.jpg>]
 \openout2 = `testes-avaliacao.aux'.
 
  (testes-avaliacao.tex
@@ -1168,22 +1221,22 @@ Cap\'{\i }tulo 7.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 42.
 
-[34
+[35
 
 
 
 ]
-<./images/graph-test-dist.png, id=144, 422.7795pt x 261.97874pt>
+<./images/graph-test-dist.png, id=148, 422.7795pt x 261.97874pt>
 File: ./images/graph-test-dist.png Graphic file (type png)
 <use ./images/graph-test-dist.png>
 Package pdftex.def Info: ./images/graph-test-dist.png  used on input line 45.
 (pdftex.def)             Requested size: 333.99214pt x 206.96094pt.
-<./images/graph-test-erro.png, id=145, 431.81325pt x 269.808pt>
+<./images/graph-test-erro.png, id=149, 431.81325pt x 269.808pt>
 File: ./images/graph-test-erro.png Graphic file (type png)
 <use ./images/graph-test-erro.png>
 Package pdftex.def Info: ./images/graph-test-erro.png  used on input line 51.
 (pdftex.def)             Requested size: 341.12871pt x 213.14598pt.
-) [35 <./images/graph-test-dist.png> <./images/graph-test-erro.png>]
+) [36 <./images/graph-test-dist.png> <./images/graph-test-erro.png>]
 \openout2 = `consideracoes-finais.aux'.
 
 
@@ -1193,36 +1246,43 @@ Cap\'{\i }tulo 8.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 10.
 
-[36
+[37
 
 
 
-] [37] [38]
+] [38] [39]
 Overfull \hbox (3.9529pt too wide) in paragraph at lines 32--33
 []\OT1/cmr/m/n/12 Para ou-tros pro-je-tos que pre-ten-dem apro-vei-tar os re-su
 l-ta-dos deste, fa-cil-mente e possvel
  []
 
-) [39]
-No file SIMIOS.bbl.
+) [40] (SIMIOS.bbl)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 225.
+
+[41
+
+
+
+]
 \openout2 = `apendice1.aux'.
 
-(apendice1.tex
+ (apendice1.tex
 Apendice A.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 26.
 
-[40
+[42
 
 
-
-] [41] [42] [43] [44] [45] [46]) [47] [48]
+] [43] [44] [45] [46] [47] [48]) [49] [50]
 \openout2 = `apendice2.aux'.
 
  (apendice2.tex
 Apendice B.
-<./images/graph-dist.png, id=193, 407.121pt x 253.54726pt>
+<./images/graph-dist.png, id=200, 407.121pt x 253.54726pt>
 File: ./images/graph-dist.png Graphic file (type png)
 <use ./images/graph-dist.png>
 Package pdftex.def Info: ./images/graph-dist.png  used on input line 34.
@@ -1231,71 +1291,69 @@ Package pdftex.def Info: ./images/graph-dist.png  used on input line 34.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 36.
 
-[49
+[51
 
 
 
 ]
-<./images/graph-erro.png, id=197, 410.13225pt x 254.1495pt>
+<./images/graph-erro.png, id=204, 410.13225pt x 254.1495pt>
 File: ./images/graph-erro.png Graphic file (type png)
 <use ./images/graph-erro.png>
 Package pdftex.def Info: ./images/graph-erro.png  used on input line 40.
 (pdftex.def)             Requested size: 377.31998pt x 233.8165pt.
-) [50 <./images/graph-dist.png>] [51 <./images/graph-erro.png>]
+) [52 <./images/graph-dist.png>] [53 <./images/graph-erro.png>]
 \openout2 = `apendice3.aux'.
 
 
 (apendice3.tex
 Apendice C.
-<./images/fluxo-telas-1.png, id=206, 446.26724pt x 502.2765pt>
+<./images/fluxo-telas-1.png, id=214, 446.26724pt x 502.2765pt>
 File: ./images/fluxo-telas-1.png Graphic file (type png)
 <use ./images/fluxo-telas-1.png>
-Package pdftex.def Info: ./images/fluxo-telas-1.png  used on input line 5.
-(pdftex.def)             Requested size: 401.6368pt x 452.04468pt.
-<./images/fluxo-telas-2.png, id=207, 440.24475pt x 502.2765pt>
+Package pdftex.def Info: ./images/fluxo-telas-1.png  used on input line 7.
+(pdftex.def)             Requested size: 357.01427pt x 401.82175pt.
+<./images/fluxo-telas-2.png, id=215, 440.24475pt x 502.2765pt>
 File: ./images/fluxo-telas-2.png Graphic file (type png)
 <use ./images/fluxo-telas-2.png>
-Package pdftex.def Info: ./images/fluxo-telas-2.png  used on input line 11.
+Package pdftex.def Info: ./images/fluxo-telas-2.png  used on input line 13.
 (pdftex.def)             Requested size: 396.21661pt x 452.04468pt.
-<./images/fluxo-telas-3.png, id=208, 448.074pt x 505.89pt>
+<./images/fluxo-telas-3.png, id=216, 448.074pt x 505.89pt>
 File: ./images/fluxo-telas-3.png Graphic file (type png)
 <use ./images/fluxo-telas-3.png>
-Package pdftex.def Info: ./images/fluxo-telas-3.png  used on input line 17.
+Package pdftex.def Info: ./images/fluxo-telas-3.png  used on input line 19.
 (pdftex.def)             Requested size: 403.26286pt x 455.29678pt.
-<./images/fluxo-telas-4.png, id=209, 448.074pt x 256.5585pt>
+<./images/fluxo-telas-4.png, id=217, 448.074pt x 256.5585pt>
 File: ./images/fluxo-telas-4.png Graphic file (type png)
 <use ./images/fluxo-telas-4.png>
-Package pdftex.def Info: ./images/fluxo-telas-4.png  used on input line 23.
+Package pdftex.def Info: ./images/fluxo-telas-4.png  used on input line 25.
 (pdftex.def)             Requested size: 403.26286pt x 230.90051pt.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 203.
+less on input line 227.
 
-[52
+[54
 
 
 
- <./images/fluxo-telas-1.png>] [53 <./images/fluxo-telas-2.png>] [54 <./images/
-fluxo-telas-3.png>] [55 <./images/fluxo-telas-4.png>]
+ <./images/fluxo-telas-1.png>] [55 <./images/fluxo-telas-2.png>] [56 <./images/
+fluxo-telas-3.png>] [57 <./images/fluxo-telas-4.png>]
 \openout2 = `apendice4.aux'.
 
  (apendice4.tex
 Apendice D.
 
-Overfull \hbox (151.05484pt too wide) in paragraph at lines 11--12
-[][][][][][][][][][][][][][][][][] 
- []
+LaTeX Warning: Citation `shibata' on page 58 undefined on input line 7.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 23.
+less on input line 22.
 
-[56
+[58
 
 
 
-]) [57] (SIMIOS.aux (agradecimentos.aux) (resumo.aux) (abstract.aux)
+]) [59] (SIMIOS.aux (agradecimentos.aux) (resumo.aux) (abstract.aux)
 (introducao.aux) (aspectos-conceituais.aux) (metodologia-do-trabalho.aux)
 (especificacao-requisitos.aux) (tecnologias-utilizadas.aux)
 (projeto-e-implementacao.aux) (testes-avaliacao.aux) (consideracoes-finais.aux)
@@ -1305,13 +1363,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7348 strings out of 493305
- 104403 string characters out of 3129802
- 205441 words of memory out of 3000000
- 10610 multiletter control sequences out of 15000+200000
- 14028 words of font info for 53 fonts, out of 3000000 for 9000
+ 7617 strings out of 493305
+ 108801 string characters out of 3129802
+ 346696 words of memory out of 3000000
+ 10865 multiletter control sequences out of 15000+200000
+ 14548 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,19n,45p,1434b,1710s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,20n,49p,1434b,1880s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx8.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fo
@@ -1322,10 +1380,12 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/laris
 Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmti12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SIMIOS.pdf (59 pages, 2087673 bytes).
+ype1/public/amsfonts/cm/cmti8.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/laris/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on SIMIOS.pdf (61 pages, 2119616 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
+ 279 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
