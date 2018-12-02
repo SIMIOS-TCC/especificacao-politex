@@ -1,20 +1,21 @@
 \babel@toc {brazil}{}
-\contentsline {chapter}{\numberline {1}Aspectos Conceituais}{11}
-\contentsline {section}{\numberline {1.1}Macacos e Reservas Naturais}{11}
-\contentsline {section}{\numberline {1.2}Tecnologias Potenciais}{12}
-\contentsline {section}{\numberline {1.3}Modelos Comerciais}{13}
-\contentsline {section}{\numberline {1.4}Algoritmos}{14}
-\contentsline {chapter}{\numberline {2}Metodologia do Trabalho}{17}
-\contentsline {chapter}{\numberline {3}Especifica\IeC {\c c}\IeC {\~a}o de Requisitos de Sistema}{18}
-\contentsline {chapter}{\numberline {4}Tecnologias Utilizadas}{20}
-\contentsline {section}{\numberline {4.1}Dispositivo Embarcado}{20}
-\contentsline {section}{\numberline {4.2}Servidor}{20}
-\contentsline {section}{\numberline {4.3}Software}{21}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{22}
-\contentsline {section}{\numberline {5.1}Conclus\IeC {\~o}es do Projeto de Formatura}{22}
-\contentsline {section}{\numberline {5.2}Contribui\IeC {\c c}\IeC {\~o}es}{24}
-\contentsline {section}{\numberline {5.3}Perspectivas De Continuidade}{24}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} A{} -- Entrevista com a prof\IeC {\textordfeminine } Dr\IeC {\textordfeminine } Cristiane Schilbach Pizzutto}{26}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} B{} -- Determina\IeC {\c c}\IeC {\~a}o da constante de propaga\IeC {\c c}\IeC {\~a}o}{35}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} C{} -- Fluxo de telas da aplica\IeC {\c c}\IeC {\~a}o}{38}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} D{} -- Memorial de C\IeC {\'a}lculo do Per\IeC {\'\i }odo do Timer}{42}
+\contentsline {chapter}{\numberline {1}Aspectos Conceituais}{12}
+\contentsline {section}{\numberline {1.1}Macacos e Reservas Naturais}{12}
+\contentsline {section}{\numberline {1.2}Tecnologias Potenciais}{13}
+\contentsline {section}{\numberline {1.3}Modelos Comerciais}{14}
+\contentsline {section}{\numberline {1.4}Algoritmos}{15}
+\contentsline {chapter}{\numberline {2}Metodologia do Trabalho}{18}
+\contentsline {chapter}{\numberline {3}Especifica\IeC {\c c}\IeC {\~a}o de Requisitos de Sistema}{19}
+\contentsline {chapter}{\numberline {4}Tecnologias Utilizadas}{21}
+\contentsline {section}{\numberline {4.1}Dispositivo Embarcado}{21}
+\contentsline {section}{\numberline {4.2}Servidor}{21}
+\contentsline {section}{\numberline {4.3}Software}{22}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{23}
+\contentsline {section}{\numberline {5.1}Conclus\IeC {\~o}es do Projeto de Formatura}{23}
+\contentsline {section}{\numberline {5.2}Contribui\IeC {\c c}\IeC {\~o}es}{25}
+\contentsline {section}{\numberline {5.3}Perspectivas De Continuidade}{25}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{28}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} A{} -- Entrevista com a prof\IeC {\textordfeminine } Dr\IeC {\textordfeminine } Cristiane Schilbach Pizzutto}{29}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} B{} -- Determina\IeC {\c c}\IeC {\~a}o da constante de propaga\IeC {\c c}\IeC {\~a}o}{38}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} C{} -- Fluxo de telas da aplica\IeC {\c c}\IeC {\~a}o}{41}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} D{} -- Memorial de C\IeC {\'a}lculo do Per\IeC {\'\i }odo do Timer}{45}

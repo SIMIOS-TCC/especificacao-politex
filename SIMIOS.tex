@@ -23,9 +23,11 @@
 \graphicspath{ {./images/} }
 \usepackage{placeins}
 \usepackage{enumitem}
+\usepackage{url}
 \usepackage{listings}
 \usepackage{color}
 
+% ========== Configuração de listing ==========
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
@@ -187,6 +189,10 @@ TI \textit{Texas Instruments}
 
 \include{consideracoes-finais}
 
+Blablabla said Nobody ~\cite{apostilaSE}.
+
+Blablabla said Nobody ~\cite{bluetooth}.
+
 % ========== Referências ==========
 % --- IEEE ---
 %	http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran
@@ -196,7 +202,7 @@ TI \textit{Texas Instruments}
 %	http://www.ctan.org/tex-archive/macros/latex/contrib/abntex2
 \bibliographystyle{abntex2-num}
 
-\bibliography{bibliography.tex}
+\bibliography{referencias-bibliograficas}{}
 
 
 % ========== Apêndices (opcional) ==========
@@ -210,7 +216,6 @@ TI \textit{Texas Instruments}
 %\anexo
 %\chapter{Alpha}
 %\chapter{}
-
 
 
 \end{document}
