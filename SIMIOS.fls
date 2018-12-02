@@ -74,8 +74,6 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
-INPUT c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
-INPUT c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
@@ -101,6 +99,8 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/abntex2/abntex2abrev.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/abntex2/abntex2abrev.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/relsize/relsize.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/relsize/relsize.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/relsize/relsize.sty
@@ -249,8 +249,6 @@ OUTPUT testes-avaliacao.aux
 OUTPUT consideracoes-finais.aux
 INPUT consideracoes-finais.tex
 INPUT consideracoes-finais.tex
-INPUT SIMIOS.bbl
-INPUT SIMIOS.bbl
 OUTPUT apendice1.aux
 INPUT apendice1.tex
 INPUT apendice1.tex
