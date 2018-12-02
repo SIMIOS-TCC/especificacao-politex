@@ -75,7 +75,25 @@ Para isso, analogamente ao realizado nos demais componentes, foi desenvolvido um
 
 O tamanho dos buffers foi dimensionado para abrigar 32 medidas, considerando a memória máxima da placa e, ao mesmo tempo, a não sobrecarregar a comunicação serial com o controlador, que depende da interrupção dessa comunicação para escrever no banco. O módulo UART é configurado para atuar a taxa de transmissão de 115200 bps sem paridade.
 
+\subsection{Integração dos pontos de acesso e target}
+
+Definidos os módulos de target, acesso e ponto central, o seu funcionamento conjunto pode ser ilustrado conforme o diagrama da figura xx, conjuntamente com as principais funções de cada módulo.
+
+O projeto Simio-Tx representa o target. Ele é responsável por emitir pacotes com a identificação do macaco em que está instalado (pacote 1) e possui a função de Task_Sleep() para diminuir o consumo energético. \\
+O projeto AP_Peripheral_RxTx é o projeto dos pontos de acesso. Ele funciona concomitantemente como Rx e Tx. O primeiro é para receber o ID do macaco monitorado em diversos horários até que o buffer de mensagem a ser enviada ao ponto central esteja cheio. Ele então envia as informações que recebeu conjuntamente com o horário calculado e o parâmetro de RSSI (usado no Raspberry Pi para fazer o cálculo da distância). \\
+Já o projeto AP_central_RxUART recebe as informações de monitoramento dos três pontos de acesso, e assim as envia por UART para o Raspberry Pi. \\
+O código elaborado de cada projeto é acessível no link da organização do github do grupo [16].\\
+
+\begin{figure}[ht]
+  \centering
+    \includegraphics[scale=0.65]{sensortag-arquitetura}
+  \caption{ Funcionamento conjunto dos nós do sistema. (Fonte: autores)}
+\end{figure}
+\FloatBarrier
+
 \section{Módulo Do Controlador}
+
+Como módulo controlador escolheu-se uma placa Raspberry Pi que deve estar conectada ao módulo central. Para evitar demais interferências do ambiente e com isso demais gargalos na comunicação, os dois módulos se comunicam de forma serial através de UART. No módulo controlador isso se dá pela biblioteca "serial" em python.
 
 Ao receber as informações, o controlador deve formatar os dados das distâncias e timestamps de cada medida tomada. Neste momento os valores de RSSI recebidos devem ser convertidos em distâncias em metros através do equacionamento obtido no item 2.4 deste documento e os timestamps são ajustados para o tempo ao qual o controlador está conectado. Além disso, os valores da mensagem são checados para determinar se a mensagem está completa e coerente, ou seja, se não houve perda de dados durante os envios anteriores e é descartada em caso negativo.
 

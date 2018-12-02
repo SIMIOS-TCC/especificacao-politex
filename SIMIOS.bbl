@@ -3,11 +3,50 @@
 \begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.6 }
+\abntbstabout{v-1.9.7 }
+
+\bibitem{handcock}
+\abntrefinfo{Handcock et al.}{HANDCOCK et al.}{2009}
+{HANDCOCK, R.~N. et al. Monitoring animal behaviour and environmental
+  interactions using wireless sensor networks, gps collars and satellite remote
+  sensing.
+\emph{Sensors}, may 2009.
+Acesso em: 27 abril. 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3297144/\#}.}
+
+\bibitem{zinsstag}
+\abntrefinfo{Zinsstag et al.}{ZINSSTAG et al.}{2010}
+{ZINSSTAG, J. et al. From “one medicine” to “one health” and systemic
+  approaches to health and well-being.
+\emph{Preventive Veterinary Medicine}, v.~101, sep 2010.
+Acesso em: 20 de junho de 2018.}
+
+\bibitem{ats}
+\abntrefinfo{Advanced\ldots}{ADVANCED\ldots}{}
+{ADVANCED Telemetry Systems.
+Acessado 20 maio, 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.atstrack.com/customer-support/how-to-select-a-program-for-your-transmitter.html}.}
+
+\bibitem{dong}
+\abntrefinfo{Dong e Dargie}{DONG; DARGIE}{2012}
+{DONG, Q.; DARGIE, W. Evaluation of the reliability of rssi for indoor
+  localization. In:  \emph{International Conference On Wireless Communications
+  In Unusual And Confined Areas}. Clermont Ferrand: [s.n.], 2012. Acesso em: 03
+  de junho de 2018.}
+
+\bibitem{larsson}
+\abntrefinfo{Larsson}{LARSSON}{2015}
+{LARSSON, J.
+\emph{Distance Estimation and Positioning Based on Bluetooth Low Energy
+  Technology}.
+Disserta\c{c}\~{a}o (Mestrado) --- KTH Royal Institute of Technology in
+  Stockholm, 2015. Acesso em: 24 maio. 2018.}
 
 \bibitem{larissaamaralmiltonbiscaro}
-\abntrefinfo{Amaral}{AMARAL}{2017}
-{AMARAL, M.~B. L. \emph{Beacon Bluetooth para Localização em Ambientes
+\abntrefinfo{Amaral e Biscaro}{AMARAL; BISCARO}{2017}
+{AMARAL, L.; BISCARO, M. \emph{Beacon Bluetooth para Localização em Ambientes
   Internos}. 2017. Dissertação para disciplina PCS 3432 Laboratório de
   Processadores I, Departamento de Engenharia de Computação e Sistemas
   Digitais.}
@@ -18,11 +57,44 @@
   disciplina PCS 3548 Sistemas Embarcados, Departamento de Engenharia de
   Computação e Sistemas Digitais.}
 
+\bibitem{preece}
+\abntrefinfo{Rogers, Sharp e Preece}{ROGERS; SHARP; PREECE}{2015}
+{ROGERS, Y.; SHARP, H.; PREECE, J. \emph{Interaction Design – beyond Human
+  Computer Interaction}. fourth. [S.l.]: Wiley, 2015.}
+
 \bibitem{datasheet}
 \abntrefinfo{Instruments}{INSTRUMENTS}{2016}
 {INSTRUMENTS, T. \emph{CC1350 SimpleLink™ Ultra-Low-Power Dual-Band Wireless
   MCU}. [S.l.]: Texas Instruments, 2016.
   \url{http://www.ti.com/lit/ds/symlink/cc1350.pdf}.
 Acessado em 31 maio, 2018.}
+
+\bibitem{gptimer}
+\abntrefinfo{Instruments}{INSTRUMENTS}{a}
+{INSTRUMENTS, T. \emph{GPTimerCC26XX.h File Reference}.
+Acesso em Setembro de 2018.
+Dispon{\'\i}vel em:
+  \url{http://dev.ti.com/tirex/content/simplelink\_cc13x0\_sdk\_1\_30\_00\_06/docs/tidrivers/doxygen/html/\_g\_p\_timer\_c\_c26\_x\_x\_8h.html}.}
+
+\bibitem{task-modules}
+\abntrefinfo{Instruments}{INSTRUMENTS}{b}
+{INSTRUMENTS, T. \emph{Task module references}.
+Acesso em: 01 de Dezembro de 2018.
+Dispon{\'\i}vel em:
+  \url{http://software-dl.ti.com/dsps/dsps\_public\_sw/sdo\_sb/targetcontent/sysbios/6\_35\_03\_47/exports/bios\_6\_35\_03\_47/docs/cdoc/ti/sysbios/knl/Task.html}.}
+
+\bibitem{forum-easylink}
+\abntrefinfo{Instruments}{INSTRUMENTS}{c}
+{INSTRUMENTS, T. \emph{Thread no forum de suporte da Texas Instruments sobre
+  API da EasyLink}.
+Acessado em: 22 de Novembro de 2018.
+Dispon{\'\i}vel em: \url{https://e2e.ti.com/support/tools/ccs/f/81/t/749365}.}
+
+\bibitem{shibata}
+\abntrefinfo{Shibata et al.}{SHIBATA et al.}{2016}
+{SHIBATA, T. K.~C. et al. Energy consumption and execution time
+  characterization for the sensortag iot platform.
+\emph{XXXIV Simpósio Brasileiro De Telecomunicações}, 2016.
+Acesso em: 01 de dezembro de 2018.}
 
 \end{thebibliography}
