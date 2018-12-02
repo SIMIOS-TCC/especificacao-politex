@@ -132,4 +132,22 @@ Senão, se x2 $\neq$ x3:
 
 \quad \quad x = $\dfrac{2y(y2 - y3) + (x3^2 - x2^2) + (y3^2 - y2^2) + (r2^2 - r3^2)}{2(x3 - x2)}$
 
-Se não couberem nenhum desses dois casos, sabemos que as circunferências não possuem ponto de intersecção,
+Se não couberem nenhum desses dois casos, sabemos que as circunferências não possuem ponto de intersecção.
+
+Enfim, sabendo que o sistema deve considerar o erro $\epsilon$ de cada distância medida, foi elaborado um algoritmo semelhante ao cellbased \cite{larissaamaralmiltonbiscaro} que leva em conta as circunferências para raio r + $\epsilon$, tal como na figura a seguir.
+
+\begin{figure}[ht]
+  \centering
+    \includegraphics[scale=0.6]{cellbased}
+  \caption{Cellbased - área de intersecção(Fonte: autores)}
+\end{figure}
+\FloatBarrier
+
+O ponto sensível dessa linha de pensamento é o fato que, devido às possíveis variâncias no erro, em alguns casos pode ocorrer o ilustrado abaixo, em que a área alvo não se fecha como deveria. Para estes casos é necessário tratamento especial, ou tentando inferir valores mais adequados por proximidade entre os pontos de intersecção par-a-par das circunferências ou simplesmente tomando-os como dados inválidos demais e descartando-os.
+
+\begin{figure}[ht]
+  \centering
+    \includegraphics[scale=0.7]{cellbased-offrange}
+  \caption{Cellbased - área de intersecção fora do alcance (Fonte: autores)}
+\end{figure}
+\FloatBarrier
