@@ -1,38 +1,19 @@
 \babel@toc {brazil}{}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {1}{\ignorespaces Algoritmo de trilatera\IeC {\c c}\IeC {\~a}o (Fonte: autores)}}{18}
-\contentsline {figure}{\numberline {2}{\ignorespaces Resumo gr\IeC {\'a}fico do sistema (Fonte: autores)}}{22}
-\contentsline {figure}{\numberline {3}{\ignorespaces Componentes do Sensor Tag (Fonte: extra\IeC {\'\i }do do site da Texas Instruments)}}{24}
-\contentsline {figure}{\numberline {4}{\ignorespaces Diagrama esquem\IeC {\'a}tico da arquitetura (Fonte: autores)}}{26}
-\contentsline {figure}{\numberline {5}{\ignorespaces Funcionamento conjunto dos n\IeC {\'o}s do sistema. (Fonte: autores)}}{31}
-\contentsline {figure}{\numberline {6}{\ignorespaces M\IeC {\'a}quina de estados representando o funcionamento do m\IeC {\'o}dulo coletor (Fonte: autores)}}{32}
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagrama de classes gerado pela ferramenta de engenharia reversa do MySQL (Fonte: autores)}}{33}
-\contentsline {figure}{\numberline {8}{\ignorespaces Mapa do site (Fonte: autores)}}{34}
-\contentsline {figure}{\numberline {9}{\ignorespaces Gr\IeC {\'a}fico das dist\IeC {\^a}ncias medidas (Fonte: autores)}}{36}
-\contentsline {figure}{\numberline {10}{\ignorespaces Gr\IeC {\'a}fico do erro quadr\IeC {\'a}tico para as dist\IeC {\^a}ncias medidas em n=2.95 (Fonte: autores)}}{36}
-\contentsline {figure}{\numberline {11}{\ignorespaces Gr\IeC {\'a}fico das dist\IeC {\^a}ncias calculadas para cada n (Fonte: autores)}}{52}
-\contentsline {figure}{\numberline {12}{\ignorespaces Gr\IeC {\'a}fico do erro quadr\IeC {\'a}tico para cada n (Fonte: autores)}}{53}
-\contentsline {figure}{\numberline {13}{\ignorespaces Prot\IeC {\'o}tipo da homepage n\IeC {\~a}o autenticada e tela de login (Fonte: autores)}}{54}
-\contentsline {figure}{\numberline {14}{\ignorespaces Prot\IeC {\'o}tipo da homepage autenticada e da tela de listagem de usu\IeC {\'a}rios (Fonte: autores)}}{55}
-\contentsline {figure}{\numberline {15}{\ignorespaces Prot\IeC {\'o}tipo das tela de cadastro de usu\IeC {\'a}rios e listagem de s\IeC {\'\i }mios (Fonte: autores)}}{56}
-\contentsline {figure}{\numberline {16}{\ignorespaces Prot\IeC {\'o}tipo da tela do mapa (Fonte: autores)}}{57}
-=======
-\contentsline {figure}{\numberline {1}{\ignorespaces Algoritmo de trilatera\IeC {\c c}\IeC {\~a}o (Fonte: autores)}}{19}
-\contentsline {figure}{\numberline {2}{\ignorespaces \emph {Cellbased} - \IeC {\'a}rea de intersec\IeC {\c c}\IeC {\~a}o(Fonte: autores)}}{20}
-\contentsline {figure}{\numberline {3}{\ignorespaces \emph {Cellbased} - \IeC {\'a}rea de intersec\IeC {\c c}\IeC {\~a}o fora do alcance (Fonte: autores)}}{21}
-\contentsline {figure}{\numberline {4}{\ignorespaces Resumo gr\IeC {\'a}fico do sistema (Fonte: autores)}}{24}
-\contentsline {figure}{\numberline {5}{\ignorespaces Componentes do \emph {SensorTag} (Fonte: extra\IeC {\'\i }do do site da \emph {Texas Instruments})}}{26}
-\contentsline {figure}{\numberline {6}{\ignorespaces Diagrama esquem\IeC {\'a}tico da arquitetura (Fonte: autores)}}{28}
-\contentsline {figure}{\numberline {7}{\ignorespaces Funcionamento conjunto dos n\IeC {\'o}s do sistema. (Fonte: autores)}}{33}
-\contentsline {figure}{\numberline {8}{\ignorespaces M\IeC {\'a}quina de estados representando o funcionamento do m\IeC {\'o}dulo controlador (Fonte: autores)}}{34}
-\contentsline {figure}{\numberline {9}{\ignorespaces Diagrama de classes gerado pela ferramenta de engenharia reversa do MySQL (Fonte: autores)}}{35}
-\contentsline {figure}{\numberline {10}{\ignorespaces Mapa do site (Fonte: autores)}}{37}
-\contentsline {figure}{\numberline {11}{\ignorespaces Gr\IeC {\'a}fico das dist\IeC {\^a}ncias medidas (Fonte: autores)}}{39}
-\contentsline {figure}{\numberline {12}{\ignorespaces Gr\IeC {\'a}fico do erro quadr\IeC {\'a}tico para as dist\IeC {\^a}ncias medidas em n=2.95 (Fonte: autores)}}{39}
-\contentsline {figure}{\numberline {13}{\ignorespaces Gr\IeC {\'a}fico das dist\IeC {\^a}ncias calculadas para cada n (Fonte: autores)}}{56}
-\contentsline {figure}{\numberline {14}{\ignorespaces Gr\IeC {\'a}fico do erro quadr\IeC {\'a}tico para cada n (Fonte: autores)}}{57}
-\contentsline {figure}{\numberline {15}{\ignorespaces Prot\IeC {\'o}tipo da \emph {homepage} n\IeC {\~a}o autenticada e tela de entrada (Fonte: autores)}}{58}
-\contentsline {figure}{\numberline {16}{\ignorespaces Prot\IeC {\'o}tipo da \emph {homepage} autenticada e da tela de listagem de usu\IeC {\'a}rios (Fonte: autores)}}{59}
-\contentsline {figure}{\numberline {17}{\ignorespaces Prot\IeC {\'o}tipo das tela de cadastro de usu\IeC {\'a}rios e listagem de s\IeC {\'\i }mios (Fonte: autores)}}{60}
-\contentsline {figure}{\numberline {18}{\ignorespaces Prot\IeC {\'o}tipo da tela do mapa (Fonte: autores)}}{61}
->>>>>>> b2df9220c92431314f86d96dfe795dcf02c4d9ec
+\contentsline {figure}{\numberline {1}{\ignorespaces Algoritmo de trilatera\IeC {\c c}\IeC {\~a}o (Fonte: autores)}}{20}
+\contentsline {figure}{\numberline {2}{\ignorespaces \emph {Cellbased} - \IeC {\'a}rea de intersec\IeC {\c c}\IeC {\~a}o(Fonte: autores)}}{21}
+\contentsline {figure}{\numberline {3}{\ignorespaces \emph {Cellbased} - \IeC {\'a}rea de intersec\IeC {\c c}\IeC {\~a}o fora do alcance (Fonte: autores)}}{22}
+\contentsline {figure}{\numberline {4}{\ignorespaces Resumo gr\IeC {\'a}fico do sistema (Fonte: autores)}}{25}
+\contentsline {figure}{\numberline {5}{\ignorespaces Componentes do \emph {SensorTag} (Fonte: extra\IeC {\'\i }do do site da \emph {Texas Instruments})}}{27}
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagrama esquem\IeC {\'a}tico da arquitetura (Fonte: autores)}}{29}
+\contentsline {figure}{\numberline {7}{\ignorespaces Funcionamento conjunto dos n\IeC {\'o}s do sistema. (Fonte: autores)}}{34}
+\contentsline {figure}{\numberline {8}{\ignorespaces M\IeC {\'a}quina de estados representando o funcionamento do m\IeC {\'o}dulo controlador (Fonte: autores)}}{36}
+\contentsline {figure}{\numberline {9}{\ignorespaces Diagrama de classes gerado pela ferramenta de engenharia reversa do MySQL (Fonte: autores)}}{37}
+\contentsline {figure}{\numberline {10}{\ignorespaces Mapa do site (Fonte: autores)}}{38}
+\contentsline {figure}{\numberline {11}{\ignorespaces Gr\IeC {\'a}fico das dist\IeC {\^a}ncias medidas (Fonte: autores)}}{40}
+\contentsline {figure}{\numberline {12}{\ignorespaces Gr\IeC {\'a}fico do erro quadr\IeC {\'a}tico para as dist\IeC {\^a}ncias medidas em n=2.95 (Fonte: autores)}}{40}
+\contentsline {figure}{\numberline {13}{\ignorespaces Gr\IeC {\'a}fico das dist\IeC {\^a}ncias calculadas para cada n (Fonte: autores)}}{57}
+\contentsline {figure}{\numberline {14}{\ignorespaces Gr\IeC {\'a}fico do erro quadr\IeC {\'a}tico para cada n (Fonte: autores)}}{58}
+\contentsline {figure}{\numberline {15}{\ignorespaces Prot\IeC {\'o}tipo da \emph {homepage} n\IeC {\~a}o autenticada e tela de entrada (Fonte: autores)}}{59}
+\contentsline {figure}{\numberline {16}{\ignorespaces Prot\IeC {\'o}tipo da \emph {homepage} autenticada e da tela de listagem de usu\IeC {\'a}rios (Fonte: autores)}}{60}
+\contentsline {figure}{\numberline {17}{\ignorespaces Prot\IeC {\'o}tipo das tela de cadastro de usu\IeC {\'a}rios e listagem de s\IeC {\'\i }mios (Fonte: autores)}}{61}
+\contentsline {figure}{\numberline {18}{\ignorespaces Prot\IeC {\'o}tipo da tela do mapa (Fonte: autores)}}{62}
