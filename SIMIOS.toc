@@ -20,13 +20,13 @@
 \contentsline {section}{\numberline {6.1}M\IeC {\'o}dulo Do Target}{28}
 \contentsline {subsection}{\numberline {6.1.1}Comunica\IeC {\c c}\IeC {\~a}o unidirecional}{29}
 \contentsline {subsection}{\numberline {6.1.2}Temporiza\IeC {\c c}\IeC {\~a}o}{29}
-\contentsline {subsection}{\numberline {6.1.3}Efici\IeC {\^e}ncia Energ\IeC {\'e}tica}{30}
+\contentsline {subsection}{\numberline {6.1.3}Efici\IeC {\^e}ncia Energ\IeC {\'e}tica}{31}
 \contentsline {section}{\numberline {6.2}M\IeC {\'o}dulo Do Ponto De Acesso}{31}
 \contentsline {section}{\numberline {6.3}M\IeC {\'o}dulo Central}{31}
 \contentsline {subsection}{\numberline {6.3.1}Integra\IeC {\c c}\IeC {\~a}o dos pontos de acesso e target}{32}
 \contentsline {section}{\numberline {6.4}M\IeC {\'o}dulo Do Controlador}{33}
 \contentsline {section}{\numberline {6.5}Banco De Dados}{35}
-\contentsline {section}{\numberline {6.6}Banco De Dados}{36}
+\contentsline {section}{\numberline {6.6}Aplica\IeC {\c c}\IeC {\~a}o \emph {Web}}{36}
 \contentsline {chapter}{\numberline {7}Testes e avalia\IeC {\c c}\IeC {\~a}o}{38}
 \contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{40}
 \contentsline {section}{\numberline {8.1}Conclus\IeC {\~o}es do Projeto de Formatura}{40}
