@@ -81,9 +81,19 @@ O tamanho dos \emph{buffers} foi dimensionado para abrigar 32 medidas, considera
 
 Definidos os módulos de \emph{target}, acesso e ponto central, o seu funcionamento conjunto pode ser ilustrado conforme o diagrama da Figura 5, conjuntamente com as principais funções de cada módulo.
 
+<<<<<<< HEAD
+O projeto Simio-Tx representa o target. Ele é responsável por emitir pacotes com a identificação do macaco em que está instalado (pacote 1) e possui a função de Task Sleep para diminuir o consumo energético.
+
+O projeto AP-Peripheral-RxTx é o projeto dos pontos de acesso. Ele funciona concomitantemente como Rx e Tx. O primeiro é para receber o ID do macaco monitorado em diversos horários até que o buffer de mensagem a ser enviada ao ponto central esteja cheio. Ele então envia as informações que recebeu conjuntamente com o horário calculado e o parâmetro de RSSI (usado no Raspberry Pi para fazer o cálculo da distância). 
+
+Já o projeto AP-central-RxUART recebe as informações de monitoramento dos três pontos de acesso, e assim as envia por UART para o Raspberry Pi. 
+
+O código elaborado de cada projeto é acessível no link da organização do github do grupo [16].
+=======
 O projeto Simio-Tx representa o \emph{target}. Ele é responsável por emitir pacotes com a identificação do macaco em que está instalado (pacote 1) e possui a função de Task\texttt{\char`_}Sleep() para diminuir o consumo energético. \\
 O projeto AP\texttt{\char`_}Peripheral\texttt{\char`_}RxTx é o projeto dos pontos de acesso. Ele funciona concomitantemente como Rx e Tx. O primeiro é para receber o ID do macaco monitorado em diversos horários até que o \emph{buffer} de mensagem a ser enviada ao ponto central esteja cheio. Ele então envia as informações que recebeu conjuntamente com o horário calculado e o parâmetro de RSSI (usado no \emph{Raspberry Pi} para fazer o cálculo da distância). \\
 Já o projeto AP\texttt{\char`_}central\texttt{\char`_}RxUART recebe as informações de monitoramento dos três pontos de acesso, e assim as envia por UART para o \emph{Raspberry Pi}. \\
+>>>>>>> b2df9220c92431314f86d96dfe795dcf02c4d9ec
 
 \begin{figure}[ht]
   \centering
