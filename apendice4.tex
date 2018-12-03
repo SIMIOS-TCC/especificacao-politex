@@ -1,10 +1,10 @@
 \chapter{Memorial de Cálculo do Período do Timer}
 
-Uma das estratégias de temporização do módulo de target mencionado no capítulo 6 é o uso de um periférico timer de propósito geral, disponível pelo Microcontrolador presente nas placas do sensortag \cite{datasheet}.
+Uma das estratégias de temporização do módulo de \emph{target} mencionado no capítulo 6 é o uso de um periférico \emph{timer} de propósito geral, disponível pelo Microcontrolador presente nas placas do \emph{SensorTag} \cite{datasheet}.
 
-De maneira geral, um timer funciona como um contador, podendo ser de modo up, down ou uma combinação de ambos, periódico ou “one-shot”, Pulse Width Modulation (PWM), entre outros. No contexto deste trabalho, o uso do timer seria feito de modo periódico, e o MCU prevê o funcionamento de seus timers apenas no modo up. Portanto, um timer no sensortag, essencialmente, funciona como um contador de 0 até um valor especificado por seu programador, podendo repetir isto de modo periódico ou não.
+De maneira geral, um \emph{timer} funciona como um contador, podendo ser de modo up, down ou uma combinação de ambos, periódico ou “one-shot”, Modulação por Largura de Pulso (PWM - \emph{Pulse Width Modulation}), entre outros. No contexto deste trabalho, o uso do \emph{timer} seria feito de modo periódico, e o MCU prevê o funcionamento de seus \emph{timers} apenas no modo up. Portanto, um timer no \emph{SensorTag}, essencialmente, funciona como um contador de 0 até um valor especificado por seu programador, podendo repetir isto de modo periódico ou não.
 
-O periférico é programado por meio de um driver, cuja API é fornecida pela própria Texas Instruments \cite{shibata}. Um exemplo de codificação seria a seguinte:
+O periférico é programado por meio de um \emph{driver}, cuja API é fornecida pela própria TI \cite{shibata}. Um exemplo de codificação seria o seguinte:
 
 \begin{lstlisting}
 GPTimerCC26XX_Handle hTimer;
@@ -36,7 +36,7 @@ void taskFxn(UArg a0, UArg a1) {
 }
 \end{lstlisting}
 
-Um breve comentário acerca do código acima: há a declaração inicial de uma estrutura de referência a um timer, bem como os parâmetros que definem seu funcionamento (16 bits, periódico, sua função de callback, dentre outros). O parâmetro loadVal é o que define o valor até o qual o timer conta. Ele deve ser escolhido para controlar as chamadas à função de callback(), a qual ocorre sempre que o contador chega em seu valor máximo (definido em loadVal).
+Um breve comentário acerca do código acima: há a declaração inicial de uma estrutura de referência a um \emph{timer}, bem como os parâmetros que definem seu funcionamento (16 bits, periódico, sua função de callback, dentre outros). O parâmetro loadVal é o que define o valor até o qual o \emph{timer} conta. Ele deve ser escolhido para controlar as chamadas à função de callback(), a qual ocorre sempre que o contador chega em seu valor máximo (definido em loadVal).
 
 Considerando que o contador é atualizado sincronizadamente com o clock do sistema de 48MHz (ou seja, a cada 1/48M segundos), e que ele deve ser atualizado (loadVal + 1), então o tempo para cada período do clock pode ser calculado como:
 
@@ -44,7 +44,7 @@ Considerando que o contador é atualizado sincronizadamente com o clock do siste
 PeriodoTimer = \dfrac{loadVal + 1}{48MHz}
 \end{equation}
 
-Fixando-se então o período desejado para o timer, o valor de loadVal deve ser:
+Fixando-se então o período desejado para o \emph{timer}, o valor de loadVal deve ser:
 
 \begin{equation}
 loadVal = PeriodoTimer \times 48MHz - 1

@@ -17,13 +17,17 @@ A level-1 auxiliary file: apendice3.aux
 A level-1 auxiliary file: apendice4.aux
 Database file #1: abntex2-options.bib
 Database file #2: referencias-bibliograficas.bib
-Warning--I didn't find a database entry for "gptimer"
-Warning--I didn't find a database entry for "task-modules"
-Warning--I didn't find a database entry for "forum-easylink"
-Warning--I didn't find a database entry for "easylink"
+Warning--entry type for "ats" isn't style-file defined
+--line 45 of file referencias-bibliograficas.bib
+Warning--campo year vazio ou faltando em ats
+Warning--campo year vazio ou faltando em gptimer
+Warning--campo year vazio ou faltando em task-modules
+Warning--campo year vazio ou faltando em forum-easylink
+Warning--campo year vazio ou faltando em easylink
+Warning--campo year vazio ou faltando em github
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-num.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-(There were 4 warnings)
+(There were 7 warnings)
