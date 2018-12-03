@@ -1,26 +1,23 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.1)  3 DEC 2018 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.22)  3 DEC 2018 14:19
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**SIMIOS.tex
-(./SIMIOS.tex
+**./SIMIOS.tex
+(SIMIOS.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(./politex.cls
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+(politex.cls
 Document Class: politex 2013/12/29 POLI-USP LaTeX Class
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -261,7 +258,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -302,7 +299,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -325,11 +322,10 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+)) ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+) ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count79
 \calc@Bcount=\count80
@@ -341,8 +337,8 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count81
 \calc@Cskip=\skip43
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+) ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.s
+ty"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \c@tracingmulticols=\count82
 \mult@box=\box26
@@ -390,10 +386,10 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
 \mc@col@check@num=\count90
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+) ("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
+
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count91
@@ -409,21 +405,26 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip47
 \bibindent=\dimen113
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
+sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count100
@@ -438,8 +439,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen120
 \Gm@layoutvoffset=\dimen121
 \Gm@dimlist=\toks17
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+cfg"))
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
+sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip48
@@ -452,7 +456,8 @@ s
 \f@nch@O@olf=\skip55
 \f@nch@O@orf=\skip56
 )
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.
+sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 *geometry* verbose mode - [ newgeometry ] result:
@@ -493,27 +498,34 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 \ABNTsignthickness=\skip60
 \ABNTsignskip=\skip61
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\indentfirst.
+sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen122
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen123
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count103
@@ -554,7 +566,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks23
 \thm@bodyfont=\toks24
@@ -566,49 +578,57 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip67
 \dth@everypar=\toks28
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen131
 \Gin@req@width=\dimen132
 )
-(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate.st
+y"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks29
 )
-(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\makecell\makecell.
+sty"
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen133
 \extrarowheight=\dimen134
@@ -620,10 +640,12 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \c@nlinenum=\count115
 \TeXr@lab=\toks31
 )
-(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\placeins\placeins.
+sty"
 Package: placeins 2005/04/18  v 2.2
 )
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.
+sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip70
 \enit@outerparindent=\dimen136
@@ -631,7 +653,8 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box54
 \enitdp@description=\count116
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+sty"
 \lst@mode=\count117
 \lst@gtempboxa=\box55
 \lst@token=\toks33
@@ -645,56 +668,73 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \lst@lineno=\count122
 \lst@maxwidth=\dimen140
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
+ty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 \c@lstnumber=\count123
 \lst@skipnumbers=\count124
 \lst@framebox=\box56
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
+.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.
+sty"
+File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
+ty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2018/02/14 3.18 The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+"
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-portuges\por
+tuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count125
 \U@D=\dimen141
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
+ef")
 \bbl@dirlevel=\count126
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2cit
+e.sty"
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2abr
+ev.sty")
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -703,8 +743,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@ABCIaux=\count127
 \c@ABCImax=\count128
 
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\relsize.st
+y"
+Package: relsize 2003/07/04 ver 3.1
 )
 \biblabelsep=\skip73
 LaTeX Info: Redefining \newblock on input line 591.
@@ -712,10 +753,11 @@ LaTeX Info: Redefining \cite on input line 862.
 LaTeX Info: Redefining \citeonline on input line 866.
 \ABCItoken=\toks34
 )
-(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\blindtext\blindtex
+t.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count129
@@ -736,13 +778,11 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count144
 \c@blind@pangramcount=\count145
 \c@blind@pangrammax=\count146
-) (./SIMIOS.aux
-(./agradecimentos.aux) (./resumo.aux) (./abstract.aux) (./introducao.aux)
-(./aspectos-conceituais.aux) (./metodologia-do-trabalho.aux)
-(./especificacao-requisitos.aux) (./tecnologias-utilizadas.aux)
-(./projeto-e-implementacao.aux) (./testes-avaliacao.aux)
-(./consideracoes-finais.aux) (./apendice1.aux) (./apendice2.aux)
-(./apendice3.aux) (./apendice4.aux))
+) (SIMIOS.aux (agradecimentos.aux) (resumo.aux) (abstract.aux) (introducao.aux)
+(aspectos-conceituais.aux) (metodologia-do-trabalho.aux)
+(especificacao-requisitos.aux) (tecnologias-utilizadas.aux)
+(projeto-e-implementacao.aux) (testes-avaliacao.aux) (consideracoes-finais.aux)
+(apendice1.aux) (apendice2.aux) (apendice3.aux) (apendice4.aux))
 \openout1 = `SIMIOS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
@@ -792,7 +832,9 @@ LaTeX Font Info:    ... okay on input line 107.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count147
 \scratchdimen=\dimen142
@@ -805,31 +847,41 @@ LaTeX Font Info:    ... okay on input line 107.
 \MPnumerator=\count151
 \makeMPintoPDFobject=\count152
 \everyMPtoPDFconversion=\toks36
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+)
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -838,7 +890,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -852,28 +905,22 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 \c@lstlisting=\count153
+ [1
 
-[1
 
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/Users/laris/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 110--110
 
  []
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 110.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 110.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -884,13 +931,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--111
 
 [1
 
-] [2] [3
+] [2
 
 
 ]
 \openout2 = `agradecimentos.aux'.
 
- (./agradecimentos.tex [4
+ (agradecimentos.tex [3
 
 
 
@@ -909,59 +956,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-[5
+[4
 
 
 ]
 \openout2 = `resumo.aux'.
 
- (./resumo.tex [6
+ (resumo.tex [5
 
 
 ])
 \openout2 = `abstract.aux'.
 
- (./abstract.tex [7
+ (abstract.tex [6
 
 
 
-]) (./SIMIOS.lof
-Overfull \hbox (7.04005pt too wide) in paragraph at lines 10--10
- [][] []\OT1/cmr/m/n/12 Diagrama de clas-ses ge-rado pela fer-ra-menta de en-ge
--nha-ria re-versa do MySQL 
- []
-
-
-Overfull \hbox (0.6119pt too wide) in paragraph at lines 17--17
- [][] []\OT1/cmr/m/n/12 Prot^^Sotipo da \OT1/cmr/m/it/12 ho-me-page \OT1/cmr/m/
-n/12 au-ten-ti-cada e da tela de lis-ta-gem de usu^^Sarios (Fonte: 
- []
-
-)
+]) (SIMIOS.lof)
 \tf@lof=\write3
 \openout3 = `SIMIOS.lof'.
 
- [8
+ [7
 
 
-] (./SIMIOS.lot)
+] (SIMIOS.lot)
 \tf@lot=\write4
 \openout4 = `SIMIOS.lot'.
 
- [9
+ [8
 
-] [10
+]
+[9
 
-] (./SIMIOS.toc [11
+] (SIMIOS.toc [10
 
 ])
 \tf@toc=\write5
 \openout5 = `SIMIOS.toc'.
 
- [12]
+ [11]
 \openout2 = `introducao.aux'.
 
- (./introducao.tex
+ (introducao.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
@@ -971,357 +1007,360 @@ Cap\'{\i }tulo 1.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 15.
 
-[13
+[12
 
 
 
-] [14]) [15]
+] [13]) [14]
 \openout2 = `aspectos-conceituais.aux'.
 
- (./aspectos-conceituais.tex
+ (aspectos-conceituais.tex
 Cap\'{\i }tulo 2.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 18.
 
-[16
+[15
 
 
 
-] [17]
-<./images/ATS1.PNG, id=68, 196.93575pt x 200.54926pt>
-File: ./images/ATS1.PNG Graphic file (type png)
-<use ./images/ATS1.PNG>
-Package pdftex.def Info: ./images/ATS1.PNG  used on input line 57.
+] [16]
+<./images/ATS1.png, id=63, 196.93575pt x 200.54926pt>
+File: ./images/ATS1.png Graphic file (type png)
+<use ./images/ATS1.png>
+Package pdftex.def Info: ./images/ATS1.png  used on input line 57.
 (pdftex.def)             Requested size: 98.46762pt x 100.27437pt.
-<./images/ATS2.PNG, id=70, 142.73325pt x 192.72pt>
-File: ./images/ATS2.PNG Graphic file (type png)
-<use ./images/ATS2.PNG>
-Package pdftex.def Info: ./images/ATS2.PNG  used on input line 57.
+<./images/ATS2.png, id=65, 142.73325pt x 192.72pt>
+File: ./images/ATS2.png Graphic file (type png)
+<use ./images/ATS2.png>
+Package pdftex.def Info: ./images/ATS2.png  used on input line 57.
 (pdftex.def)             Requested size: 71.36644pt x 96.35976pt.
-<./images/ATS3.PNG, id=71, 158.994pt x 184.2885pt>
-File: ./images/ATS3.PNG Graphic file (type png)
-<use ./images/ATS3.PNG>
-Package pdftex.def Info: ./images/ATS3.PNG  used on input line 57.
+<./images/ATS3.png, id=66, 158.994pt x 184.2885pt>
+File: ./images/ATS3.png Graphic file (type png)
+<use ./images/ATS3.png>
+Package pdftex.def Info: ./images/ATS3.png  used on input line 57.
 (pdftex.def)             Requested size: 79.4968pt x 92.14401pt.
- [18]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 86.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ [17]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
+
+("C:\Users\laris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
 
-[19 <./images/ATS1.PNG> <./images/ATS2.PNG> <./images/ATS3.PNG>]
-<./images/trilateracao.PNG, id=84, 281.25075pt x 232.4685pt>
-File: ./images/trilateracao.PNG Graphic file (type png)
-<use ./images/trilateracao.PNG>
-Package pdftex.def Info: ./images/trilateracao.PNG  used on input line 104.
+[18 <./images/ATS1.png> <./images/ATS2.png> <./images/ATS3.png>]
+<./images/trilateracao.png, id=80, 281.25075pt x 232.4685pt>
+File: ./images/trilateracao.png Graphic file (type png)
+<use ./images/trilateracao.png>
+Package pdftex.def Info: ./images/trilateracao.png  used on input line 107.
 (pdftex.def)             Requested size: 281.25005pt x 232.46793pt.
- [20 <./images/trilateracao.PNG>]
-Overfull \hbox (41.7377pt too wide) in paragraph at lines 119--120
+ [19 <./images/trilateracao.png>]
+Overfull \hbox (41.7377pt too wide) in paragraph at lines 122--123
 []  \OT1/cmr/m/n/12 y = $[]$ 
  []
 
 
-Overfull \hbox (41.7377pt too wide) in paragraph at lines 131--132
+Overfull \hbox (41.7377pt too wide) in paragraph at lines 134--135
 []  \OT1/cmr/m/n/12 y = $[]$ 
  []
 
-<./images/cellbased.png, id=89, 396.48125pt x 402.50375pt>
+<./images/cellbased.png, id=85, 396.48125pt x 402.50375pt>
 File: ./images/cellbased.png Graphic file (type png)
 <use ./images/cellbased.png>
-Package pdftex.def Info: ./images/cellbased.png  used on input line 141.
-(pdftex.def)             Requested size: 237.89058pt x 241.5041pt.
-[21 <./images/cellbased.png>]
-<./images/cellbased-offrange.png, id=94, 469.755pt x 475.7775pt>
+Package pdftex.def Info: ./images/cellbased.png  used on input line 145.
+(pdftex.def)             Requested size: 198.24013pt x 201.25137pt.
+[20 <./images/cellbased.png>]
+<./images/cellbased-offrange.png, id=90, 469.755pt x 475.7775pt>
 File: ./images/cellbased-offrange.png Graphic file (type png)
 <use ./images/cellbased-offrange.png>
 Package pdftex.def Info: ./images/cellbased-offrange.png  used on input line 15
-0.
-(pdftex.def)             Requested size: 328.82626pt x 333.04196pt.
-) [22 <./images/cellbased-offrange.png>]
+5.
+(pdftex.def)             Requested size: 281.85518pt x 285.46869pt.
+) [21 <./images/cellbased-offrange.png>]
 \openout2 = `metodologia-do-trabalho.aux'.
 
 
-(./metodologia-do-trabalho.tex
+(metodologia-do-trabalho.tex
 Cap\'{\i }tulo 3.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 197.
 
-[23
+[22
 
 
 
 ]
 \openout2 = `especificacao-requisitos.aux'.
 
- (./especificacao-requisitos.tex
+ (especificacao-requisitos.tex
 Cap\'{\i }tulo 4.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 13.
 
-[24
+[23
 
 
 
 ]
-<./images/esquematico.png, id=106, 602.25pt x 451.6875pt>
+<./images/esquematico.png, id=102, 602.25pt x 451.6875pt>
 File: ./images/esquematico.png Graphic file (type png)
 <use ./images/esquematico.png>
-Package pdftex.def Info: ./images/esquematico.png  used on input line 18.
+Package pdftex.def Info: ./images/esquematico.png  used on input line 19.
 (pdftex.def)             Requested size: 421.57211pt x 316.17908pt.
-) [25 <./images/esquematico.png>]
+) [24 <./images/esquematico.png>]
 \openout2 = `tecnologias-utilizadas.aux'.
 
- (./tecnologias-utilizadas.tex
+ (tecnologias-utilizadas.tex
 Cap\'{\i }tulo 5.
-<./images/sensortag.png, id=111, 814.84425pt x 680.5425pt>
+<./images/sensortag.png, id=107, 814.84425pt x 680.5425pt>
 File: ./images/sensortag.png Graphic file (type png)
 <use ./images/sensortag.png>
-Package pdftex.def Info: ./images/sensortag.png  used on input line 14.
+Package pdftex.def Info: ./images/sensortag.png  used on input line 15.
 (pdftex.def)             Requested size: 407.42113pt x 340.27042pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 21.
+less on input line 22.
 
-[26
+[25
 
 
 
-] [27 <./images/sensortag.png>]) [28]
+] [26 <./images/sensortag.png>]) [27]
 \openout2 = `projeto-e-implementacao.aux'.
 
- (./projeto-e-implementacao.tex
+ (projeto-e-implementacao.tex
 Cap\'{\i }tulo 6.
-<./images/arquitetura.PNG, id=122, 405.9165pt x 361.35pt>
-File: ./images/arquitetura.PNG Graphic file (type png)
-<use ./images/arquitetura.PNG>
-Package pdftex.def Info: ./images/arquitetura.PNG  used on input line 9.
+<./images/arquitetura.png, id=119, 405.9165pt x 361.35pt>
+File: ./images/arquitetura.png Graphic file (type png)
+<use ./images/arquitetura.png>
+Package pdftex.def Info: ./images/arquitetura.png  used on input line 10.
 (pdftex.def)             Requested size: 284.13962pt x 252.94327pt.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 19.
+less on input line 20.
 
-[29
+[28
 
 
 
- <./images/arquitetura.PNG>] [30]
-Overfull \hbox (13.15356pt too wide) in paragraph at lines 57--58
+ <./images/arquitetura.png>] [29]
+Overfull \hbox (13.15356pt too wide) in paragraph at lines 58--59
 \OT1/cmr/m/n/12 gens de tras-miss~ao do pro-to-colo uti-li-zado [13]. Tal par^a
-metro ^^Se Easy-Link\OT1/cmtt/m/n/12 _\OT1/cmr/m/n/12 ms\OT1/cmtt/m/n/12 _\OT1/
-cmr/m/n/12 To\OT1/cmtt/m/n/12 _\OT1/cmr/m/n/12 RadioTime
+metro e Easy-Link\OT1/cmtt/m/n/12 _\OT1/cmr/m/n/12 ms\OT1/cmtt/m/n/12 _\OT1/cm
+r/m/n/12 To\OT1/cmtt/m/n/12 _\OT1/cmr/m/n/12 RadioTime
  []
 
-[31] [32]
-<./images/sensortag-arquitetura.png, id=138, 684.5575pt x 634.37pt>
+[30] [31]
+<./images/sensortag-arquitetura.png, id=135, 684.5575pt x 634.37pt>
 File: ./images/sensortag-arquitetura.png Graphic file (type png)
 <use ./images/sensortag-arquitetura.png>
 Package pdftex.def Info: ./images/sensortag-arquitetura.png  used on input line
- 101.
+ 103.
 (pdftex.def)             Requested size: 444.95709pt x 412.3356pt.
- [33] [34 <./images/sensortag-arquitetura.png>]
-<./images/estados-raspberry.png, id=146, 702.625pt x 519.9425pt>
+ [32] [33 <./images/sensortag-arquitetura.png>]
+<./images/estados-raspberry.png, id=143, 702.625pt x 519.9425pt>
 File: ./images/estados-raspberry.png Graphic file (type png)
 <use ./images/estados-raspberry.png>
-Package pdftex.def Info: ./images/estados-raspberry.png  used on input line 120
+Package pdftex.def Info: ./images/estados-raspberry.png  used on input line 123
 .
 (pdftex.def)             Requested size: 456.70084pt x 337.95862pt.
 
-Overfull \hbox (1.45673pt too wide) in paragraph at lines 120--121
+Overfull \hbox (1.45673pt too wide) in paragraph at lines 123--125
  [][] 
  []
 
-[35]
-<./images/simios_db.png, id=151, 564.30824pt x 482.40225pt>
+[34]
+<./images/simios_db.png, id=147, 564.30824pt x 482.40225pt>
 File: ./images/simios_db.png Graphic file (type png)
 <use ./images/simios_db.png>
-Package pdftex.def Info: ./images/simios_db.png  used on input line 133.
+Package pdftex.def Info: ./images/simios_db.png  used on input line 137.
 (pdftex.def)             Requested size: 451.4472pt x 385.92232pt.
- [36 <./images/estados-raspberry.png>] [37 <./images/simios_db.png>]
-<./images/mapa-do-site.jpg, id=161, 963.6pt x 722.7pt>
+ [35 <./images/estados-raspberry.png>] [36 <./images/simios_db.png>]
+<./images/mapa-do-site.jpg, id=158, 963.6pt x 722.7pt>
 File: ./images/mapa-do-site.jpg Graphic file (type jpg)
 <use ./images/mapa-do-site.jpg>
-Package pdftex.def Info: ./images/mapa-do-site.jpg  used on input line 157.
+Package pdftex.def Info: ./images/mapa-do-site.jpg  used on input line 162.
 (pdftex.def)             Requested size: 433.616pt x 325.21199pt.
 )
-[38 <./images/mapa-do-site.jpg>]
+[37 <./images/mapa-do-site.jpg>]
 \openout2 = `testes-avaliacao.aux'.
 
- (./testes-avaliacao.tex
+ (testes-avaliacao.tex
 Cap\'{\i }tulo 7.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 42.
+less on input line 46.
 
-[39
+[38
 
 
 
 ]
-<./images/graph-test-dist.PNG, id=168, 422.7795pt x 261.97874pt>
-File: ./images/graph-test-dist.PNG Graphic file (type png)
-<use ./images/graph-test-dist.PNG>
-Package pdftex.def Info: ./images/graph-test-dist.PNG  used on input line 45.
+<./images/graph-test-dist.png, id=165, 422.7795pt x 261.97874pt>
+File: ./images/graph-test-dist.png Graphic file (type png)
+<use ./images/graph-test-dist.png>
+Package pdftex.def Info: ./images/graph-test-dist.png  used on input line 50.
 (pdftex.def)             Requested size: 333.99214pt x 206.96094pt.
-<./images/graph-test-erro.PNG, id=169, 431.81325pt x 269.808pt>
-File: ./images/graph-test-erro.PNG Graphic file (type png)
-<use ./images/graph-test-erro.PNG>
-Package pdftex.def Info: ./images/graph-test-erro.PNG  used on input line 51.
+<./images/graph-test-erro.png, id=166, 431.81325pt x 269.808pt>
+File: ./images/graph-test-erro.png Graphic file (type png)
+<use ./images/graph-test-erro.png>
+Package pdftex.def Info: ./images/graph-test-erro.png  used on input line 57.
 (pdftex.def)             Requested size: 341.12871pt x 213.14598pt.
-) [40 <./images/graph-test-dist.PNG> <./images/graph-test-erro.PNG>]
+) [39 <./images/graph-test-dist.png> <./images/graph-test-erro.png>]
 \openout2 = `consideracoes-finais.aux'.
 
 
-(./consideracoes-finais.tex
+(consideracoes-finais.tex
 Cap\'{\i }tulo 8.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 10.
 
-[41
+[40
 
 
 
-] [42] [43]
+] [41] [42]
 Overfull \hbox (3.9529pt too wide) in paragraph at lines 32--33
 []\OT1/cmr/m/n/12 Para ou-tros pro-je-tos que pre-ten-dem apro-vei-tar os re-su
-l-ta-dos deste, fa-cil-mente ^^Se poss^^S^^Pvel
+l-ta-dos deste, fa-cil-mente e possvel
  []
 
-) [44] (./SIMIOS.bbl
+) [43] (SIMIOS.bbl
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 93.
 
-[45
+[44
 
 
 
-]) [46]
+]) [45]
 \openout2 = `apendice1.aux'.
 
- (./apendice1.tex
+ (apendice1.tex
 Apendice A.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 26.
 
-[47
+[46
 
 
-] [48] [49] [50] [51] [52] [53]) [54] [55]
+] [47] [48] [49] [50] [51] [52]) [53] [54]
 \openout2 = `apendice2.aux'.
 
- (./apendice2.tex
+ (apendice2.tex
 Apendice B.
-<./images/graph-dist.PNG, id=225, 407.121pt x 253.54726pt>
-File: ./images/graph-dist.PNG Graphic file (type png)
-<use ./images/graph-dist.PNG>
-Package pdftex.def Info: ./images/graph-dist.PNG  used on input line 34.
-(pdftex.def)             Requested size: 372.92207pt x 232.24878pt.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 36.
+less on input line 33.
 
-[56
+[55
 
 
 
 ]
-<./images/graph-erro.PNG, id=229, 410.13225pt x 254.1495pt>
-File: ./images/graph-erro.PNG Graphic file (type png)
-<use ./images/graph-erro.PNG>
-Package pdftex.def Info: ./images/graph-erro.PNG  used on input line 40.
+<./images/graph-dist.png, id=224, 407.121pt x 253.54726pt>
+File: ./images/graph-dist.png Graphic file (type png)
+<use ./images/graph-dist.png>
+Package pdftex.def Info: ./images/graph-dist.png  used on input line 37.
+(pdftex.def)             Requested size: 372.92207pt x 232.24878pt.
+<./images/graph-erro.png, id=225, 410.13225pt x 254.1495pt>
+File: ./images/graph-erro.png Graphic file (type png)
+<use ./images/graph-erro.png>
+Package pdftex.def Info: ./images/graph-erro.png  used on input line 44.
 (pdftex.def)             Requested size: 377.31998pt x 233.8165pt.
-) [57 <./images/graph-dist.PNG>] [58 <./images/graph-erro.PNG>]
+) [56 <./images/graph-dist.png>] [57 <./images/graph-erro.png>]
 \openout2 = `apendice3.aux'.
 
 
-(./apendice3.tex
+(apendice3.tex
 Apendice C.
-<./images/fluxo-telas-1.PNG, id=238, 446.26724pt x 502.2765pt>
-File: ./images/fluxo-telas-1.PNG Graphic file (type png)
-<use ./images/fluxo-telas-1.PNG>
-Package pdftex.def Info: ./images/fluxo-telas-1.PNG  used on input line 7.
+<./images/fluxo-telas-1.png, id=234, 446.26724pt x 502.2765pt>
+File: ./images/fluxo-telas-1.png Graphic file (type png)
+<use ./images/fluxo-telas-1.png>
+Package pdftex.def Info: ./images/fluxo-telas-1.png  used on input line 8.
 (pdftex.def)             Requested size: 357.01427pt x 401.82175pt.
-<./images/fluxo-telas-2.PNG, id=239, 440.24475pt x 502.2765pt>
-File: ./images/fluxo-telas-2.PNG Graphic file (type png)
-<use ./images/fluxo-telas-2.PNG>
-Package pdftex.def Info: ./images/fluxo-telas-2.PNG  used on input line 13.
+<./images/fluxo-telas-2.png, id=235, 440.24475pt x 502.2765pt>
+File: ./images/fluxo-telas-2.png Graphic file (type png)
+<use ./images/fluxo-telas-2.png>
+Package pdftex.def Info: ./images/fluxo-telas-2.png  used on input line 15.
 (pdftex.def)             Requested size: 396.21661pt x 452.04468pt.
-<./images/fluxo-telas-3.PNG, id=240, 448.074pt x 505.89pt>
-File: ./images/fluxo-telas-3.PNG Graphic file (type png)
-<use ./images/fluxo-telas-3.PNG>
-Package pdftex.def Info: ./images/fluxo-telas-3.PNG  used on input line 19.
+<./images/fluxo-telas-3.png, id=236, 448.074pt x 505.89pt>
+File: ./images/fluxo-telas-3.png Graphic file (type png)
+<use ./images/fluxo-telas-3.png>
+Package pdftex.def Info: ./images/fluxo-telas-3.png  used on input line 22.
 (pdftex.def)             Requested size: 403.26286pt x 455.29678pt.
-<./images/fluxo-telas-4.PNG, id=241, 448.074pt x 256.5585pt>
-File: ./images/fluxo-telas-4.PNG Graphic file (type png)
-<use ./images/fluxo-telas-4.PNG>
-Package pdftex.def Info: ./images/fluxo-telas-4.PNG  used on input line 25.
+<./images/fluxo-telas-4.png, id=237, 448.074pt x 256.5585pt>
+File: ./images/fluxo-telas-4.png Graphic file (type png)
+<use ./images/fluxo-telas-4.png>
+Package pdftex.def Info: ./images/fluxo-telas-4.png  used on input line 29.
 (pdftex.def)             Requested size: 403.26286pt x 230.90051pt.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 225.
 
-[59
+[58
 
 
 
- <./images/fluxo-telas-1.PNG>] [60 <./images/fluxo-telas-2.PNG>] [61 <./images/
-fluxo-telas-3.PNG>] [62 <./images/fluxo-telas-4.PNG>]
+ <./images/fluxo-telas-1.png>] [59 <./images/fluxo-telas-2.png>] [60 <./images/
+fluxo-telas-3.png>] [61 <./images/fluxo-telas-4.png>]
 \openout2 = `apendice4.aux'.
 
- (./apendice4.tex
+ (apendice4.tex
 Apendice D.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 23.
+less on input line 21.
 
-[63
+[62
 
 
 
-]) [64] (./SIMIOS.aux (./agradecimentos.aux) (./resumo.aux) (./abstract.aux) (.
-/introducao.aux) (./aspectos-conceituais.aux) (./metodologia-do-trabalho.aux) (
-./especificacao-requisitos.aux) (./tecnologias-utilizadas.aux)
-(./projeto-e-implementacao.aux) (./testes-avaliacao.aux)
-(./consideracoes-finais.aux) (./apendice1.aux) (./apendice2.aux)
-(./apendice3.aux) (./apendice4.aux)) ) 
+]) [63] (SIMIOS.aux (agradecimentos.aux) (resumo.aux) (abstract.aux)
+(introducao.aux) (aspectos-conceituais.aux) (metodologia-do-trabalho.aux)
+(especificacao-requisitos.aux) (tecnologias-utilizadas.aux)
+(projeto-e-implementacao.aux) (testes-avaliacao.aux) (consideracoes-finais.aux)
+(apendice1.aux) (apendice2.aux) (apendice3.aux) (apendice4.aux)) ) 
 Here is how much of TeX's memory you used:
- 7697 strings out of 492982
- 105014 string characters out of 6134896
- 211792 words of memory out of 5000000
- 10953 multiletter control sequences out of 15000+600000
- 14907 words of font info for 56 fonts, out of 8000000 for 9000
+ 7693 strings out of 493305
+ 110219 string characters out of 3129802
+ 345696 words of memory out of 3000000
+ 10936 multiletter control sequences out of 15000+200000
+ 15253 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,20n,49p,1432b,1880s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SIMIOS.pdf (66 pages, 2212333 bytes).
+ 41i,20n,49p,1434b,1880s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/lar
+is/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx8.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmbxti10.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/laris/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/laris/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/laris
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmti10.pfb><C:/Users/laris/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb><C:/Users/laris/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/laris/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/laris/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on SIMIOS.pdf (65 pages, 2252362 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
+ 305 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
