@@ -82,7 +82,6 @@ O tamanho dos \emph{buffers} foi dimensionado para abrigar 32 medidas, considera
 
 Definidos os módulos de \emph{target}, acesso e ponto central, o seu funcionamento conjunto pode ser ilustrado conforme o diagrama da Figura 5, conjuntamente com as principais funções de cada módulo.
 
-<<<<<<< HEAD
 O projeto Simio-Tx representa o target. Ele é responsável por emitir pacotes com a identificação do macaco em que está instalado (pacote 1) e possui a função de Task Sleep para diminuir o consumo energético.
 
 O projeto AP-Peripheral-RxTx é o projeto dos pontos de acesso. Ele funciona concomitantemente como Rx e Tx. O primeiro é para receber o ID do macaco monitorado em diversos horários até que o buffer de mensagem a ser enviada ao ponto central esteja cheio. Ele então envia as informações que recebeu conjuntamente com o horário calculado e o parâmetro de RSSI (usado no Raspberry Pi para fazer o cálculo da distância). 
