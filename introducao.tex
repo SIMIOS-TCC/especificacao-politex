@@ -2,7 +2,7 @@
 Neste capítulo, será explicado o escopo do trabalho - o que vai ser projetado -, quais resultados esperamos obter e por que o fazemos.
 
 \section{Objetivo}
-Este trabalho visa o projeto e implementação da base de um sistema capaz de obter a localização de animais, dando abertura para que possa ser expandido e que sua complexidade possa ser refinada a ponto de ser aplicável em reservas, chegando a capturar inclusive outros dados de interesse acadêmico. É requerido que a obtenção dessas informações seja feita de forma constante e não invasiva.
+Este trabalho visa o projeto e implementação da base de um sistema capaz de obter e apresentar a localização de animais, dando abertura para que possa ser expandido e que sua complexidade possa ser refinada a ponto de ser aplicável em reservas naturais, chegando a capturar inclusive outros dados de interesse acadêmico.
 
 Está dentro do escopo deste projeto: a escolha das informações sendo colhidas dos animais; o método pelo qual elas são obtidas, calculadas ou inferidas; a maneira como elas são transmitidas, armazenadas e apresentadas; a escolha e implementação das tecnologias utilizadas; e a avaliação de desempenho sobre sua operação.
 
@@ -11,7 +11,7 @@ A composição do sistema prevê que dispositivos embarcados inseridos em mochil
 A discriminação do sistema é melhor realizada nos capítulos 4 e 6.
 
 \section{Motivação}
-Este trabalho visa atender às necessidade de monitoramento de saguis nas reservas do Instituto Butantã da Universidade de São Paulo. Dentre elas, destaca-se: a coleta de informações sobre os animais de forma simples e sem viés, tais como suas disposições em bando e suas temperaturas corporais; e a apresentação destas, de forma a facilitar análise de dados em  pesquisas acadêmicas e a manutenção da saúde dos animais.
+Este trabalho visa atender às necessidade de monitoramento de símios nas reservas do Instituto Butantã da Universidade de São Paulo. Dentre elas, destaca-se: a coleta de informações sobre os animais de forma simples e sem viés, tais como suas disposições em bando e suas temperaturas corporais; e a apresentação destas, de forma a facilitar análise de dados em  pesquisas acadêmicas e a manutenção da saúde dos animais.
 
 Além disso, propõe-se que o este trabalho possa ser aplicado em qualquer reserva que necessite monitorar o comportamento de um bando de animais, sendo para tanto, veemente generalizado neste documento.
 
@@ -20,13 +20,11 @@ Ao final, espera-se obter um sistema que cubra o funcionamento mínimo de requis
 \section{Justificativa}
 Animais silvestres são difíceis de serem observados em habitat natural por uma série de motivos. Primeiro, a partir do momento que o pesquisador se coloca no campo de visão do animal para observá-lo gera viés no comportamento deste, pois o animal também detecta a presença daquele e em muitas instâncias, age de forma irregular. Um caso específico se encontra no contexto de desamamentação de filhotes de macacos, cuja prática é realizada exclusivamente em um ambiente recluso e onde a presença de outrem é inadmissível, portanto o conhecimento sobre este comportamento é limitado para os pesquisadores.
 
-Segundo, o auxílio tecnológico para essa tarefa é complicado uma vez que as tecnologias mais comumente usadas para monitoramento (câmeras de vídeo)  e rastreamento (\emph{Global Positioning System} - GPS) são descartadas pela densidade da mata, que dificulta a observação, e imprecisão da informação obtida, que impede a inferência de comportamentos, respectivamente.
-
-Assim, fica claro que, tanto para pesquisa laboratorial quanto para controle da localização com fim de manutenção da saúde de animais silvestres, o estudo para emancipação tecnológica para controle e automação se faz necessário.
+Segundo, o auxílio tecnológico para essa tarefa é complicado uma vez que as tecnologias mais comumente usadas para monitoramento (câmeras de vídeo)  e rastreamento (\emph{Global Positioning System} - GPS) são descartadas pela densidade da mata, que dificulta a observação, e imprecisão da informação obtida, que impede a inferência de comportamentos, respectivamente. Isso evidencia a necessidade de novas tecnologias a fim de automatizar os processos de pesquisa laboratorial e controle de localização de animais silvestres, tanto para o estudo sobre seu comportamento como para a manutenção de sua saúde.
 
 Primordialmente, o conceito que move este projeto está atrelado ao que foi tratado por Handcock (2009) \cite{handcock} de que a interação social biológica revela preferências sociais e comportamentais. Por exemplo, é citado como o mapeamento de encontros entre machos e fêmeas pode correlacionar com acasalamento, o que possibilita estudos de emancipação genética em uma população.
 
-Corolariamente, permeia ao projeto o conceito de Saúde Única (One Health) abordado por Zinsstag (2011) \cite{zinsstag}, onde indissocia-se a visão de saúde humana, animal e do ambiente. Como do ponto de vista biológico o estudo do comportamento animal permite novas conclusões sobre seu comportamento em reservas e cativeiro, e sob o ponto de vista veterinário a análise dos dados sobre o animal e seu ambiente leva a melhoras na manutenção da saúde deste e do ambiente, sob ambos vê-se um impacto na saúde do homem. O sistema pode, por exemplo, ajudar na prevenção de febre amarela, por meio de coleta de dados em populações de animais alvos da doença.
+Corolariamente, permeia o projeto o conceito de Saúde Única (One Health) abordado por Zinsstag (2011) \cite{zinsstag}, onde indissocia-se a visão de saúde humana, animal e do ambiente. Como do ponto de vista biológico o estudo do comportamento animal permite novas conclusões sobre seu comportamento em reservas e cativeiro, e sob o ponto de vista veterinário a análise dos dados sobre o animal e seu ambiente leva a melhoras na manutenção da saúde deste e do ambiente, sob ambos vê-se um impacto na saúde do homem. O sistema pode, por exemplo, ajudar na prevenção de febre amarela, por meio de coleta de dados em populações de animais alvos da doença.
 
 \section{Organização do Trabalho}
 O capítulo 2 deste trabalho relata os estudos realizados sobre conceitos fenotípicos e comportamentais do grupo de foco, sobre o contexto de pesquisa destes animais e sobre tecnologias voltadas para redes de sensores biológicos potencialmente válidas para este projeto.
