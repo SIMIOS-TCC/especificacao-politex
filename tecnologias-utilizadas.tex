@@ -3,7 +3,7 @@ Considerando os aspectos discutidos no capítulo 2 sobre possíveis e impossíve
 
 \section{Dispositivos Embarcados}
 
-Partindo-se deste requisito, selecionou-se a plataforma de desenvolvimento \emph{SensorTag} da \emph{Texas Instruments} como componente embarcado que ficará em cada macaco e nos pontos de acessos nas árvores. Trata-se de uma placa leve e comercialmente atraente, que contém 6 sensores, incluindo de temperatura, e Bluetooth de Baixo Consumo Energético (BLE - \emph{Bluetooth Low Energy}) ou Sub-1GHz. Seu \emph{datasheet} pode ser encontrado nas referências deste trabalho \cite{datasheet}.
+Partindo-se deste requisito, selecionou-se a plataforma de desenvolvimento \emph{SensorTag} da \emph{Texas Instruments} como componente embarcado que ficará em cada macaco e nos pontos de acessos nas árvores. Trata-se de uma placa leve e comercialmente atraente, que contém 6 sensores\footnote{A placa contém sensores de temperatura, de umidade, de luminosidade, de pressão, de movimento e magnético.}, incluindo de temperatura, e Bluetooth de Baixo Consumo Energético (BLE - \emph{Bluetooth Low Energy}) ou Sub-1GHz. Seu \emph{datasheet} pode ser encontrado nas referências deste trabalho \cite{datasheet}.
 
 Além do \emph{SensorTag}, foi selecionado um \emph{Raspberry Pi} 2 para receber os dados de uma placa \emph{SensorTag} central via Transmissor/Receptor Assíncrono Universal (UART - \emph{Universal Asynchronous Receiver/Transmitter}). Tal placa central deverá receber dados dos demais pontos de acesso, e estes dados serão armazenados em um servidor pelo \emph{Raspberry Pi}.
 
@@ -25,9 +25,9 @@ Foi escolhido o banco de dados relacional \emph{MySQL} da \emph{Oracle} por se t
 
 O projeto SIMIOS prevê o rastreio de animais em reservas, o que envolve, como visto anteriormente, no máximo cerca de 10 animais em grandes reservas. Dessa forma, sabemos que não envolve sobrecarga de acessos por segundo e mesmo isto poderia ser corrigido com \emph{buffering}.
 
-Um ponto negativo do \emph{MySQL} é que sua escalabilidade pode ser prejudicada - cada servidor tem um tamanho limitado e cada conjunto de dados só pode ser alocado em um servidor (não suporta particionamento), o que pode ser prejudicial em casos que deseja-se guardar no banco grande quantidade de dados. Para corrigir tal empecilho é possível implementar importação de dados.
+Um ponto negativo do \emph{MySQL} é que sua escalabilidade pode ser prejudicada - cada servidor tem um tamanho limitado e cada conjunto de dados só pode ser alocado em um servidor (não suporta particionamento), o que pode ser prejudicial em casos que se deseja guardar no banco grande quantidade de dados.
 
 \section{Software}
 Para desenvolvimento do programa computacional que é executado no servidor, foi escolhida a linguagem de programação \emph{Java}, com suporte de \emph{frameworks} \emph{Spring} e \emph{Java Persistence API} (JPA), facilitando principalmente os processos de queries do banco de dados, de autenticação e autorização e de mapeamento de interface \emph{model-view-controller} (MVC).
 
-Por se tratar de uma aplicação de histórico de dados, pouquíssimo processamento está previsto e a computação pode ser realizada em tempo real pelo computador do usuário. Dessa forma, não se faz necessário o uso de linguagem de programação de execução eficiente (C++, por exemplo).
+Por se tratar de uma aplicação de histórico de dados, pouco processamento está previsto e a computação pode ser realizada em tempo real pelo computador do usuário. Dessa forma, não se faz necessário o uso de linguagem de programação de execução eficiente (C++, por exemplo).
