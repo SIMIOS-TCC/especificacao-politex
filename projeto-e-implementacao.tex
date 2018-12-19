@@ -12,7 +12,7 @@ Também foram designados microsserviços principais que distinguiam o caminho cr
 \end{figure}
 \FloatBarrier
 
-Todo código elaborado pelos autores com relação a cada projeto é acessível no link da organização do repositório do grupo encontrado em \cite{github}.
+Todo código elaborado pelos autores com relação a cada projeto é acessível no link da organização do repositório do grupo\cite{github}.
 
 \section{Módulo Do Target}
 
@@ -22,7 +22,7 @@ Além disso, era necessário que o \emph{target} tivesse um ciclo de \emph{sleep
 
 \subsection{Comunicação unidirecional}
 
-Para tal, o módulo padrão de transmissão (Tx) disponibilizado pela TI foi estudado e modificado sutilmente para que o pacote enviado contivesse o Identificador (ID) de cada animal - que ficou codificado de maneira pré definida em cada \emph{SensorTag}.
+Para tal, o módulo padrão de transmissão (Tx) disponibilizado pela TI foi estudado e modificado para que o pacote enviado contivesse o Identificador (ID) de cada animal - que ficou codificado de maneira pré definida em cada \emph{SensorTag}.
 
 Esse módulo cria uma \emph{task} para a execução da tarefa de emissão dos pacotes cujo \emph{payload} e endereço de destino podem ser configurados. Como só era desejado o ID do macaco e a intensidade do sinal, o \emph{payload} foi constituído somente por um único \emph{byte} contendo a primeira informação. Tendo isso em vista, é compreensível que seria possível inserir no mesmo \emph{payload} demais informações relativas aos animais através dos sensores em cada placa.
 
@@ -59,7 +59,7 @@ Uma última estratégia seria utilizar um dos parâmetros da própria estrutura 
 
 \subsection{Eficiência Energética}
 
-Para efeito de preservação da bateria foi escolhida uma taxa de transmissão de 5 segundos de maneira a manter o aspecto de atualização em tempo real. Tal valor pode ser configurado facilmente alterando-se uma das variáveis contidas nas estratégias de temporização mencionadas anteriormente (loadVal para o \emph{timer}, nTicks para Task\texttt{\char`_}Sleep() e EasyLink\texttt{\char`_}ms\texttt{\char`_}To\texttt{\char`_}RadioTime para a estrutura dos pacotes). Esta mudança deve ser feita caso seja julgada interessante uma maior economia de energia em troca de desempenho.
+Para efeito de preservação da bateria escolheu-se realizar a transmissão a cada 5 segundos de maneira a manter o aspecto de atualização em tempo real. Tal valor pode ser configurado facilmente alterando-se uma das variáveis contidas nas estratégias de temporização mencionadas anteriormente (loadVal para o \emph{timer}, nTicks para Task\texttt{\char`_}Sleep() e EasyLink\texttt{\char`_}ms\texttt{\char`_}To\texttt{\char`_}RadioTime para a estrutura dos pacotes). Esta mudança deve ser feita caso seja julgada interessante uma maior economia de energia em troca de desempenho.
 
 \section{Módulo Do Ponto De Acesso}
 
@@ -80,19 +80,11 @@ O tamanho dos \emph{buffers} foi dimensionado para abrigar 32 medidas, considera
 
 \subsection{Integração dos pontos de acesso e target}
 
-Definidos os módulos de \emph{target}, acesso e ponto central, o seu funcionamento conjunto pode ser ilustrado conforme o diagrama da Figura 5, conjuntamente com as principais funções de cada módulo.
+Definidos os módulos de \emph{target}, ponto de acesso e ponto central, o seu funcionamento conjunto é ilustrado conforme o diagrama da Figura 7, conjuntamente com as principais funções de cada módulo.
 
-O projeto Simio-Tx representa o target. Ele é responsável por emitir pacotes com a identificação do macaco em que está instalado (pacote 1) e possui a função de Task Sleep para diminuir o consumo energético.
+O projeto Simio-Tx representa o comportamento do módulo \emph{target} que é responsável por emitir pacotes com a identificação do macaco em que está instalado (pacote 1) e possui a função de Task\texttt{\char`\_}Sleep() para diminuir o consumo energético.
 
-O projeto AP-Peripheral-RxTx é o projeto dos pontos de acesso. Ele funciona concomitantemente como Rx e Tx. O primeiro é para receber o ID do macaco monitorado em diversos horários até que o buffer de mensagem a ser enviada ao ponto central esteja cheio. Ele então envia as informações que recebeu conjuntamente com o horário calculado e o parâmetro de RSSI (usado no Raspberry Pi para fazer o cálculo da distância). 
-
-Já o projeto AP-central-RxUART recebe as informações de monitoramento dos três pontos de acesso, e assim as envia por UART para o Raspberry Pi. 
-
-O código elaborado de cada projeto é acessível no link da organização do github do grupo [16].
-
-O projeto Simio-Tx representa o \emph{target}. Ele é responsável por emitir pacotes com a identificação do macaco em que está instalado (pacote 1) e possui a função de Task\texttt{\char`\_}Sleep() para diminuir o consumo energético.
-
-O projeto AP\texttt{\char`\_}Peripheral\texttt{\char`\_}RxTx é o projeto dos pontos de acesso. Ele funciona concomitantemente como Rx e Tx. O primeiro é para receber o ID do macaco monitorado em diversos horários até que o \emph{buffer} de mensagem a ser enviada ao ponto central esteja cheio. Ele então envia as informações que recebeu conjuntamente com o horário calculado e o parâmetro de RSSI (usado no \emph{Raspberry Pi} para fazer o cálculo da distância).
+AP\texttt{\char`\_}Peripheral\texttt{\char`\_}RxTx é o projeto que implementa o funcionamento dos pontos de acesso. Ele atua concomitantemente como receptor e transmissor. O primeiro é para receber o ID do macaco monitorado em diversos horários até que o \emph{buffer} de mensagem a ser enviada ao ponto central esteja cheio. Ele então envia as informações que recebeu conjuntamente com o horário calculado e o parâmetro de RSSI (usado no \emph{Raspberry Pi} para fazer o cálculo da distância).
 
 Já o projeto AP\texttt{\char`\_}central\texttt{\char`\_}RxUART recebe as informações de monitoramento dos três pontos de acesso, e assim as envia por UART para o \emph{Raspberry Pi}. 
 
