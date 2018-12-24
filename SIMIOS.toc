@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {1.4}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{15}
 \contentsline {chapter}{\numberline {2}Aspectos Conceituais}{16}
 \contentsline {section}{\numberline {2.1}Macacos e Reservas Naturais}{16}
-\contentsline {section}{\numberline {2.2}Tecnologias Potenciais}{17}
+\contentsline {section}{\numberline {2.2}Tecnologias Potenciais}{16}
 \contentsline {section}{\numberline {2.3}Modelos Comerciais}{18}
 \contentsline {section}{\numberline {2.4}Algoritmos}{19}
 \contentsline {chapter}{\numberline {3}Metodologia do Trabalho}{23}
@@ -31,9 +31,10 @@
 \contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{41}
 \contentsline {section}{\numberline {8.1}Conclus\IeC {\~o}es do Projeto de Formatura}{41}
 \contentsline {section}{\numberline {8.2}Contribui\IeC {\c c}\IeC {\~o}es}{43}
-\contentsline {section}{\numberline {8.3}Perspectivas De Continuidade}{43}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{45}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} A{} -- Entrevista com a prof\IeC {\textordfeminine } Dr\IeC {\textordfeminine } Cristiane Schilbach Pizzutto}{47}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} B{} -- Determina\IeC {\c c}\IeC {\~a}o da constante de propaga\IeC {\c c}\IeC {\~a}o}{56}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} C{} -- Fluxo de telas da aplica\IeC {\c c}\IeC {\~a}o}{59}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} D{} -- Memorial de C\IeC {\'a}lculo do Per\IeC {\'\i }odo do Timer}{63}
+\contentsline {section}{\numberline {8.3}Perspectivas De Continuidade}{44}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{46}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} A{} -- Entrevista com a prof\IeC {\textordfeminine } Dr\IeC {\textordfeminine } Cristiane Schilbach Pizzutto}{48}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} B{} -- Determina\IeC {\c c}\IeC {\~a}o da constante de propaga\IeC {\c c}\IeC {\~a}o}{57}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} C{} -- Fluxo de telas da aplica\IeC {\c c}\IeC {\~a}o}{60}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} D{} -- Memorial de C\IeC {\'a}lculo do Per\IeC {\'\i }odo do Timer}{64}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} E{} -- Estimativa financeira e otimiza\IeC {\c c}\IeC {\~a}o de custos}{66}

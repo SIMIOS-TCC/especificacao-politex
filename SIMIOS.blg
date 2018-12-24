@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: SIMIOS.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: SIMIOS.aux
 A level-1 auxiliary file: agradecimentos.aux
 A level-1 auxiliary file: resumo.aux
 A level-1 auxiliary file: abstract.aux
@@ -17,23 +15,12 @@ A level-1 auxiliary file: apendice1.aux
 A level-1 auxiliary file: apendice2.aux
 A level-1 auxiliary file: apendice3.aux
 A level-1 auxiliary file: apendice4.aux
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+A level-1 auxiliary file: apendice5.aux
+A level-1 auxiliary file: apendice6.aux
 Database file #1: abntex2-options.bib
 Database file #2: referencias-bibliograficas.bib
 Warning--entry type for "ats" isn't style-file defined
---line 89 of file referencias-bibliograficas.bib
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+--line 45 of file referencias-bibliograficas.bib
 Warning--campo year vazio ou faltando em ats
 Warning--campo year vazio ou faltando em github
 Warning--campo year vazio ou faltando em gptimer
@@ -41,49 +28,8 @@ Warning--campo year vazio ou faltando em task-modules
 Warning--campo year vazio ou faltando em forum-easylink
 Warning--campo year vazio ou faltando em easylink
 +---------------------------------------------------------+
-| Estilo bibliográfico abntex2-num.bst versão v-1.9.7           |
+| Estilo bibliográfico abntex2-num.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 16 entries,
-            6714 wiz_defined-function locations,
-            1292 strings with 12766 characters,
-and the built_in function-call counts, 23331 in all, are:
-= -- 3054
-> -- 281
-< -- 647
-+ -- 845
-- -- 86
-* -- 1329
-:= -- 2822
-add.period$ -- 61
-call.type$ -- 16
-change.case$ -- 148
-chr.to.int$ -- 19
-cite$ -- 21
-duplicate$ -- 2400
-empty$ -- 811
-format.name$ -- 448
-if$ -- 4669
-int.to.chr$ -- 3
-int.to.str$ -- 0
-missing$ -- 271
-newline$ -- 90
-num.names$ -- 52
-pop$ -- 429
-preamble$ -- 1
-purify$ -- 58
-quote$ -- 0
-skip$ -- 2698
-stack$ -- 1
-substring$ -- 936
-swap$ -- 824
-text.length$ -- 8
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 28
-warning$ -- 6
-while$ -- 72
-width$ -- 0
-write$ -- 197
 (There were 7 warnings)
