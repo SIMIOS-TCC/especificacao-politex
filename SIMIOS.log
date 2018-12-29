@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.1)  29 DEC 2018 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.1)  29 DEC 2018 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1411,75 +1411,86 @@ Package pdftex.def Info: ./images/table6-primeiroperfil.png  used on input line
 Overfull \vbox (42.86652pt too high) detected at line 68
  []
 
-<./images/anexo7-quantosAnosVoceTem.png, id=304, 562.1pt x 202.7575pt>
+<./images/table7-segundoperfil.png, id=304, 142.5325pt x 269.005pt>
+File: ./images/table7-segundoperfil.png Graphic file (type png)
+<use ./images/table7-segundoperfil.png>
+Package pdftex.def Info: ./images/table7-segundoperfil.png  used on input line 
+92.
+(pdftex.def)             Requested size: 49.88712pt x 94.15315pt.
+
+Overfull \vbox (26.00327pt too high) detected at line 92
+ []
+
+[73 <./images/table6-primeiroperfil.png>]
+<./images/anexo7-quantosAnosVoceTem.png, id=309, 562.1pt x 202.7575pt>
 File: ./images/anexo7-quantosAnosVoceTem.png Graphic file (type png)
 <use ./images/anexo7-quantosAnosVoceTem.png>
 Package pdftex.def Info: ./images/anexo7-quantosAnosVoceTem.png  used on input 
-line 95.
+line 112.
 (pdftex.def)             Requested size: 281.04932pt x 101.3785pt.
-[73 <./images/table6-primeiroperfil.png>]
-<./images/apendice7-qualSuaAreaDeAtuacao.png, id=309, 574.145pt x 213.79875pt>
+<./images/apendice7-qualSuaAreaDeAtuacao.png, id=310, 574.145pt x 213.79875pt>
 File: ./images/apendice7-qualSuaAreaDeAtuacao.png Graphic file (type png)
 <use ./images/apendice7-qualSuaAreaDeAtuacao.png>
 Package pdftex.def Info: ./images/apendice7-qualSuaAreaDeAtuacao.png  used on i
-nput line 103.
+nput line 120.
 (pdftex.def)             Requested size: 287.0718pt x 106.89911pt.
-<./images/apendice7-qualSuaFormacao.png, id=310, 489.83pt x 176.66pt>
+<./images/apendice7-qualSuaFormacao.png, id=311, 489.83pt x 176.66pt>
 File: ./images/apendice7-qualSuaFormacao.png Graphic file (type png)
 <use ./images/apendice7-qualSuaFormacao.png>
 Package pdftex.def Info: ./images/apendice7-qualSuaFormacao.png  used on input 
-line 111.
+line 128.
 (pdftex.def)             Requested size: 244.9144pt x 88.32977pt.
-<./images/apendice7-pesquisaAnimais.png, id=311, 377.41pt x 182.6825pt>
+ [74 <./images/table7-segundoperfil.png> <./images/anexo7-quantosAnosVoceTem.pn
+g> <./images/apendice7-qualSuaAreaDeAtuacao.png>]
+<./images/apendice7-pesquisaAnimais.png, id=318, 377.41pt x 182.6825pt>
 File: ./images/apendice7-pesquisaAnimais.png Graphic file (type png)
 <use ./images/apendice7-pesquisaAnimais.png>
 Package pdftex.def Info: ./images/apendice7-pesquisaAnimais.png  used on input 
-line 119.
+line 136.
 (pdftex.def)             Requested size: 188.70453pt x 91.34102pt.
- [74 <./images/anexo7-quantosAnosVoceTem.png> <./images/apendice7-qualSuaAreaDe
-Atuacao.png> <./images/apendice7-qualSuaFormacao.png>]
-<./images/apendice7-pesquisaLaboratorio.png, id=318, 430.60875pt x 179.67125pt>
+<./images/apendice7-pesquisaLaboratorio.png, id=319, 430.60875pt x 179.67125pt>
 
 File: ./images/apendice7-pesquisaLaboratorio.png Graphic file (type png)
 <use ./images/apendice7-pesquisaLaboratorio.png>
 Package pdftex.def Info: ./images/apendice7-pesquisaLaboratorio.png  used on in
-put line 127.
+put line 144.
 (pdftex.def)             Requested size: 215.30383pt x 89.83539pt.
-) [75 <./images/apendice7-pesquisaAnimais.png> <./images/apendice7-pesquisaLabo
-ratorio.png>] (./SIMIOS.aux (./agradecimentos.aux)
-(./resumo.aux) (./abstract.aux) (./introducao.aux) (./aspectos-conceituais.aux)
-(./metodologia-do-trabalho.aux) (./especificacao-requisitos.aux)
-(./tecnologias-utilizadas.aux) (./projeto-e-implementacao.aux)
-(./testes-avaliacao.aux) (./consideracoes-finais.aux) (./apendice1.aux)
-(./apendice2.aux) (./apendice3.aux) (./apendice4.aux) (./apendice5.aux)
-(./apendice6.aux) (./apendice7.aux)) ) 
+) [75 <./images/apendice7-qualSuaFormacao.png> <./images/apendice7-pesquisaAnim
+ais.png> <./images/apendice7-pesquisaLaboratorio.png>] (./SIMIOS.aux (./agradec
+imentos.aux) (./resumo.aux) (./abstract.aux) (./introducao.aux)
+(./aspectos-conceituais.aux) (./metodologia-do-trabalho.aux)
+(./especificacao-requisitos.aux) (./tecnologias-utilizadas.aux)
+(./projeto-e-implementacao.aux) (./testes-avaliacao.aux)
+(./consideracoes-finais.aux) (./apendice1.aux) (./apendice2.aux)
+(./apendice3.aux) (./apendice4.aux) (./apendice5.aux) (./apendice6.aux)
+(./apendice7.aux)) ) 
 Here is how much of TeX's memory you used:
- 8521 strings out of 492982
- 119573 string characters out of 6134896
+ 8526 strings out of 492982
+ 119748 string characters out of 6134896
  229295 words of memory out of 5000000
- 11722 multiletter control sequences out of 15000+600000
+ 11726 multiletter control sequences out of 15000+600000
  16952 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,20n,49p,1432b,1882s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt12.pfb>
-Output written on SIMIOS.pdf (77 pages, 2369222 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pf
+b>
+Output written on SIMIOS.pdf (77 pages, 2443512 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
+ 378 PDF objects out of 1000 (max. 8388607)
  220 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
