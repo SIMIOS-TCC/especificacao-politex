@@ -44,5 +44,6 @@
 \contentsline {section}{\numberline {F.3}Necessidades}{71}
 \contentsline {section}{\numberline {F.4}Instrumentos}{72}
 \contentsline {section}{\numberline {F.5}Amostra}{72}
-\contentsline {section}{\numberline {F.6}Resultados}{72}
+\contentsline {section}{\numberline {F.6}Resultados}{73}
 \contentsline {section}{\numberline {F.7}Registro das respostas do question\IeC {\'a}rio}{74}
+\contentsline {section}{\numberline {F.8}Mapa do Desafio}{75}
