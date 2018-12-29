@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.1)  26 DEC 2018 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.1)  29 DEC 2018 12:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -691,6 +691,13 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count125
 \AM@templatesizebox=\box58
 )
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip71
+\multirow@cntb=\count126
+\multirow@dima=\skip72
+\bigstrutjot=\dimen143
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -708,11 +715,11 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count126
-\U@D=\dimen143
+\babel@savecnt=\count127
+\U@D=\dimen144
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count127
+\bbl@dirlevel=\count128
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
@@ -725,15 +732,15 @@ Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\minimumbiblabelwidth=\skip71
-\ABCIauxlen=\skip72
-\c@ABCIaux=\count128
-\c@ABCImax=\count129
+\minimumbiblabelwidth=\skip73
+\ABCIauxlen=\skip74
+\c@ABCIaux=\count129
+\c@ABCImax=\count130
 
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\biblabelsep=\skip73
+\biblabelsep=\skip75
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 862.
 LaTeX Info: Redefining \citeonline on input line 866.
@@ -745,24 +752,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count130
-\c@Blindtext=\count131
-\c@blind@countparstart=\count132
-\blind@countxx=\count133
-\blindtext@numBlindtext=\count134
-\blind@countyy=\count135
-\c@blindlist=\count136
-\c@blindlistlevel=\count137
-\c@blindlist@level=\count138
-\blind@listitem=\count139
-\c@blind@listcount=\count140
-\c@blind@levelcount=\count141
-\blind@mathformula=\count142
-\blind@Mathformula=\count143
-\c@blind@randomcount=\count144
-\c@blind@randommax=\count145
-\c@blind@pangramcount=\count146
-\c@blind@pangrammax=\count147
+\c@blindtext=\count131
+\c@Blindtext=\count132
+\c@blind@countparstart=\count133
+\blind@countxx=\count134
+\blindtext@numBlindtext=\count135
+\blind@countyy=\count136
+\c@blindlist=\count137
+\c@blindlistlevel=\count138
+\c@blindlist@level=\count139
+\blind@listitem=\count140
+\c@blind@listcount=\count141
+\c@blind@levelcount=\count142
+\blind@mathformula=\count143
+\blind@Mathformula=\count144
+\c@blind@randomcount=\count145
+\c@blind@randommax=\count146
+\c@blind@pangramcount=\count147
+\c@blind@pangrammax=\count148
 ) (./SIMIOS.aux
 (./agradecimentos.aux) (./resumo.aux) (./abstract.aux) (./introducao.aux)
 (./aspectos-conceituais.aux) (./metodologia-do-trabalho.aux)
@@ -773,18 +780,18 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 (./apendice7.aux))
 \openout1 = `SIMIOS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -822,16 +829,16 @@ LaTeX Font Info:    ... okay on input line 108.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count148
-\scratchdimen=\dimen144
+\scratchcounter=\count149
+\scratchdimen=\dimen145
 \scratchbox=\box59
-\nofMPsegments=\count149
-\nofMParguments=\count150
+\nofMPsegments=\count150
+\nofMParguments=\count151
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count151
-\MPscratchDim=\dimen145
-\MPnumerator=\count152
-\makeMPintoPDFobject=\count153
+\MPscratchCnt=\count152
+\MPscratchDim=\dimen146
+\MPnumerator=\count153
+\makeMPintoPDFobject=\count154
 \everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -879,7 +886,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count154
+\c@lstlisting=\count155
 \AtBeginShipoutBox=\box60
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -893,22 +900,22 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 111.
+LaTeX Font Info:    Try loading font information for U+msa on input line 112.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 111.
+LaTeX Font Info:    Try loading font information for U+msb on input line 112.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 
  []
 
@@ -921,39 +928,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--112
 <EPUSP-Catalogacao-na-Fonte.pdf, id=17, 597.51233pt x 845.0471pt>
 File: EPUSP-Catalogacao-na-Fonte.pdf Graphic file (type pdf)
 <use EPUSP-Catalogacao-na-Fonte.pdf>
-Package pdftex.def Info: EPUSP-Catalogacao-na-Fonte.pdf  used on input line 128
+Package pdftex.def Info: EPUSP-Catalogacao-na-Fonte.pdf  used on input line 129
 .
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: EPUSP-Catalogacao-na-Fonte.pdf Graphic file (type pdf)
 <use EPUSP-Catalogacao-na-Fonte.pdf>
-Package pdftex.def Info: EPUSP-Catalogacao-na-Fonte.pdf  used on input line 128
+Package pdftex.def Info: EPUSP-Catalogacao-na-Fonte.pdf  used on input line 129
 .
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 <EPUSP-Catalogacao-na-Fonte.pdf, id=20, page=1, 597.51233pt x 845.0471pt>
 File: EPUSP-Catalogacao-na-Fonte.pdf Graphic file (type pdf)
 <use EPUSP-Catalogacao-na-Fonte.pdf, page 1>
 Package pdftex.def Info: EPUSP-Catalogacao-na-Fonte.pdf , page1 used on input l
-ine 128.
+ine 129.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: EPUSP-Catalogacao-na-Fonte.pdf Graphic file (type pdf)
 <use EPUSP-Catalogacao-na-Fonte.pdf, page 1>
 Package pdftex.def Info: EPUSP-Catalogacao-na-Fonte.pdf , page1 used on input l
-ine 128.
+ine 129.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: EPUSP-Catalogacao-na-Fonte.pdf Graphic file (type pdf)
 <use EPUSP-Catalogacao-na-Fonte.pdf, page 1>
 Package pdftex.def Info: EPUSP-Catalogacao-na-Fonte.pdf , page1 used on input l
-ine 128.
+ine 129.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: EPUSP-Catalogacao-na-Fonte.pdf Graphic file (type pdf)
 <use EPUSP-Catalogacao-na-Fonte.pdf, page 1>
 Package pdftex.def Info: EPUSP-Catalogacao-na-Fonte.pdf , page1 used on input l
-ine 128.
+ine 129.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: EPUSP-Catalogacao-na-Fonte.pdf Graphic file (type pdf)
 <use EPUSP-Catalogacao-na-Fonte.pdf, page 1>
 Package pdftex.def Info: EPUSP-Catalogacao-na-Fonte.pdf , page1 used on input l
-ine 128.
+ine 129.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [3
 
@@ -964,17 +971,17 @@ ine 128.
 
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 
  []
 
 
-Overfull \hbox (17.97797pt too wide) in paragraph at lines 143--144
+Overfull \hbox (17.97797pt too wide) in paragraph at lines 144--145
 []  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
@@ -1107,7 +1114,7 @@ Cap\'{\i }tulo 3.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 200.
+less on input line 201.
 
 [25
 
@@ -1330,7 +1337,7 @@ Package pdftex.def Info: ./images/fluxo-telas-4.PNG  used on input line 29.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 228.
+less on input line 229.
 
 [62
 
@@ -1394,54 +1401,63 @@ less on input line 17.
 
 
 ] [71] [72]
-<./images/anexo7-quantosAnosVoceTem.png, id=303, 562.1pt x 202.7575pt>
+<./images/table6-primeiroperfil.png, id=303, 98.3675pt x 317.185pt>
+File: ./images/table6-primeiroperfil.png Graphic file (type png)
+<use ./images/table6-primeiroperfil.png>
+Package pdftex.def Info: ./images/table6-primeiroperfil.png  used on input line
+ 68.
+(pdftex.def)             Requested size: 34.42912pt x 111.0164pt.
+
+Overfull \vbox (42.86652pt too high) detected at line 68
+ []
+
+<./images/anexo7-quantosAnosVoceTem.png, id=304, 562.1pt x 202.7575pt>
 File: ./images/anexo7-quantosAnosVoceTem.png Graphic file (type png)
 <use ./images/anexo7-quantosAnosVoceTem.png>
 Package pdftex.def Info: ./images/anexo7-quantosAnosVoceTem.png  used on input 
-line 78.
+line 95.
 (pdftex.def)             Requested size: 281.04932pt x 101.3785pt.
- [73]
-<./images/apendice7-qualSuaAreaDeAtuacao.png, id=307, 574.145pt x 213.79875pt>
+[73 <./images/table6-primeiroperfil.png>]
+<./images/apendice7-qualSuaAreaDeAtuacao.png, id=309, 574.145pt x 213.79875pt>
 File: ./images/apendice7-qualSuaAreaDeAtuacao.png Graphic file (type png)
 <use ./images/apendice7-qualSuaAreaDeAtuacao.png>
 Package pdftex.def Info: ./images/apendice7-qualSuaAreaDeAtuacao.png  used on i
-nput line 86.
+nput line 103.
 (pdftex.def)             Requested size: 287.0718pt x 106.89911pt.
-<./images/apendice7-qualSuaFormacao.png, id=308, 489.83pt x 176.66pt>
+<./images/apendice7-qualSuaFormacao.png, id=310, 489.83pt x 176.66pt>
 File: ./images/apendice7-qualSuaFormacao.png Graphic file (type png)
 <use ./images/apendice7-qualSuaFormacao.png>
 Package pdftex.def Info: ./images/apendice7-qualSuaFormacao.png  used on input 
-line 94.
+line 111.
 (pdftex.def)             Requested size: 244.9144pt x 88.32977pt.
-<./images/apendice7-pesquisaAnimais.png, id=309, 377.41pt x 182.6825pt>
+<./images/apendice7-pesquisaAnimais.png, id=311, 377.41pt x 182.6825pt>
 File: ./images/apendice7-pesquisaAnimais.png Graphic file (type png)
 <use ./images/apendice7-pesquisaAnimais.png>
 Package pdftex.def Info: ./images/apendice7-pesquisaAnimais.png  used on input 
-line 102.
+line 119.
 (pdftex.def)             Requested size: 188.70453pt x 91.34102pt.
  [74 <./images/anexo7-quantosAnosVoceTem.png> <./images/apendice7-qualSuaAreaDe
 Atuacao.png> <./images/apendice7-qualSuaFormacao.png>]
-<./images/apendice7-pesquisaLaboratorio.png, id=316, 430.60875pt x 179.67125pt>
+<./images/apendice7-pesquisaLaboratorio.png, id=318, 430.60875pt x 179.67125pt>
 
 File: ./images/apendice7-pesquisaLaboratorio.png Graphic file (type png)
 <use ./images/apendice7-pesquisaLaboratorio.png>
 Package pdftex.def Info: ./images/apendice7-pesquisaLaboratorio.png  used on in
-put line 110.
+put line 127.
 (pdftex.def)             Requested size: 215.30383pt x 89.83539pt.
-)
-[75 <./images/apendice7-pesquisaAnimais.png> <./images/apendice7-pesquisaLabora
-torio.png>] (./SIMIOS.aux (./agradecimentos.aux) (./resumo.aux) (./abstract.aux
-) (./introducao.aux) (./aspectos-conceituais.aux)
+) [75 <./images/apendice7-pesquisaAnimais.png> <./images/apendice7-pesquisaLabo
+ratorio.png>] (./SIMIOS.aux (./agradecimentos.aux)
+(./resumo.aux) (./abstract.aux) (./introducao.aux) (./aspectos-conceituais.aux)
 (./metodologia-do-trabalho.aux) (./especificacao-requisitos.aux)
 (./tecnologias-utilizadas.aux) (./projeto-e-implementacao.aux)
 (./testes-avaliacao.aux) (./consideracoes-finais.aux) (./apendice1.aux)
 (./apendice2.aux) (./apendice3.aux) (./apendice4.aux) (./apendice5.aux)
 (./apendice6.aux) (./apendice7.aux)) ) 
 Here is how much of TeX's memory you used:
- 8466 strings out of 492982
- 118600 string characters out of 6134896
- 228740 words of memory out of 5000000
- 11671 multiletter control sequences out of 15000+600000
+ 8521 strings out of 492982
+ 119573 string characters out of 6134896
+ 229295 words of memory out of 5000000
+ 11722 multiletter control sequences out of 15000+600000
  16952 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,20n,49p,1432b,1882s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1460,10 +1476,10 @@ ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmtt12.pfb>
-Output written on SIMIOS.pdf (77 pages, 2325160 bytes).
+Output written on SIMIOS.pdf (77 pages, 2369222 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
+ 376 PDF objects out of 1000 (max. 8388607)
  220 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
