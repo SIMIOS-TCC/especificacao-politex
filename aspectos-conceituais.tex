@@ -91,13 +91,13 @@ Sendo:
 
 Essa é uma maneira simples de baixo custo de implementação, porém, como é bem destacado por Larsson (2015) \cite{larsson}, dada a alta variação de n devido a suscetibilidade do sinal à interferência do meio, demonstra-se um tanto imprecisa.
 
-A constante de propagação pode ser determinada empiricamente. Se sabe n=2 para o vácuo; no ar, valores coerentes estão entre 2.7 e 4. A determinação da constante para este projeto pode ser observada no apêndice.
+A constante de propagação pode ser determinada empiricamente. Se sabe n=2 para o vácuo; no ar, valores coerentes estão entre 2.7 e 4. A determinação da constante para este projeto pode ser observada no Apêndice B.
 
 Outra forma seria calcular a distância sabendo a velocidade de propagação do sinal no meio, dado o tempo que demora para que o sinal seja recebido a partir da implementação de um eco. Idealmente esta é uma abordagem muito mais precisa, que só é impossibilitada em casos que o hardware utilizado não possua relógio. No entanto, qualquer deficiência na temporização e sincronização, por menor que seja, pode comprometer a precisão de tal metodologia.
 
 Para este projeto, pretende-se implementar a primeira forma e verificar a precisão da mesma.
 
-Além disso, foi requerido desenvolver um algoritmo para obtenção do mapeamento da posição dos macacos. Este tema já havia sido discutido por Amaral e Biscaro \cite{larissaamaralmiltonbiscaro} e, para este caso, o único algoritmo que se fez praticável é a trilateração.
+Além disso, foi requerido desenvolver um algoritmo para obtenção do mapeamento da posição dos macacos. Este tema já havia sido discutido por Amaral e Biscaro \cite{larissaamaralmiltonbiscaro} e, para tanto, o algoritmo computacional desenvolvido se baseou na trilateração e em \emph{cellbased}.
 
 \begin{figure}[ht]
   \centering

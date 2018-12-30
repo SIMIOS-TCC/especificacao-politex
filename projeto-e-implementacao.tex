@@ -12,7 +12,7 @@ Também foram designados microsserviços principais que distinguiam o caminho cr
 \end{figure}
 \FloatBarrier
 
-Todo código elaborado pelos autores com relação a cada projeto é acessível no link da organização do repositório do grupo\cite{github}.
+Todo código elaborado pelos autores com relação a cada projeto é acessível no link da organização do repositório do grupo \cite{github}.
 
 \section{Módulo Do Target}
 
@@ -51,7 +51,7 @@ Para utilização do \emph{timer}, é necessário também que se configure seus 
 
 Todos esses parâmetros são referenciados no datasheet do microcontrolador \cite{datasheet} e na referência da biblioteca do \emph{driver} \cite{gptimer}. No contexto do \emph{SensorTag} e deste projeto, o \emph{timer} pode ser configurado para funcionar de maneira periódica e a transmissão de mensagens ser incluída em sua função de \emph{callback}.
 
-O cálculo da periodicidade do \emph{timer} deve ser feita levando-se em conta a sua frequência de atualização, lembrando que, em uma descrição simples, o funcionamento do \emph{timer} consiste em contar de 0 até o valor especificado em seus parâmetros. O memorial de cálculo encontra-se no Apêndice 4.
+O cálculo da periodicidade do \emph{timer} deve ser feita levando-se em conta a sua frequência de atualização, lembrando que, em uma descrição simples, o funcionamento do \emph{timer} consiste em contar de 0 até o valor especificado em seus parâmetros. O memorial de cálculo encontra-se no Apêndice D.
 
 Boa parte dos exemplos de uso de periféricos providos pela TI incluem criação de tarefas. Conforme mencionado no início do capítulo 6, utilizou-se primariamente um dos exemplos fornecidos pela TI para operação do módulo de \emph{target}. Uma solução mais simples do que configurar o \emph{timer} (e possivelmente menos custosa) seria utilizar a função Task\texttt{\char`_}Sleep(nticks) \cite{task-modules}. O que esta função faz em essência é bloquear a tarefa pelo tempo definido em nticks, o qual é medido em microssegundos e tem como referência o próprio \emph{clock} do sistema (48MHz \cite{datasheet}).
 
@@ -145,7 +145,7 @@ Para isso, foi utilizado o \emph{framework Spring MVC} cuja estrutura consistia 
 	\item um serviço, para atuar no repositório.
 \end{itemize}
 
-A figura a seguir identifica o fluxo de cada uma das telas existentes no sistema. O protótipo das telas é exibido no apêndice 3.
+A figura a seguir identifica o fluxo de cada uma das telas existentes no sistema. O protótipo das telas é exibido no Apêndice C.
 
 \begin{figure}[ht]
   \centering
