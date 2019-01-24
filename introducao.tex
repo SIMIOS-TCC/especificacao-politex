@@ -1,40 +1,52 @@
 \chapter{Introdução}
-Neste capítulo, será explicado o escopo do trabalho - o que vai ser projetado -, quais resultados esperamos obter e por que o fazemos.
+Neste capítulo será explicado o escopo do trabalho que foi projetado, qual sua motivação e quais resultados esperava-se obter.
 
 \section{Objetivo}
-Este trabalho visa o projeto e implementação da base de um sistema capaz de obter e apresentar a localização de animais, dando abertura para que possa ser expandido e que sua complexidade possa ser refinada a ponto de ser aplicável em reservas naturais, chegando a capturar inclusive outros dados de interesse acadêmico.
+Este trabalho visava o projeto e implementação da base de um sistema capaz de obter e apresentar a localização de animais, dando abertura para que possa ser expandido e que sua complexidade possa ser refinada a ponto de ser aplicável em reservas naturais, chegando a capturar inclusive outros dados de interesse acadêmico.
 
-Está dentro do escopo deste projeto: a escolha das informações sendo colhidas dos animais; o método pelo qual elas são obtidas, calculadas ou inferidas; a maneira como elas são transmitidas, armazenadas e apresentadas; a escolha e implementação das tecnologias utilizadas; e a avaliação de desempenho sobre sua operação.
+Esteve dentro do escopo deste projeto: a escolha das informações sendo colhidas dos animais; o método pelo qual elas são obtidas, calculadas ou inferidas; a maneira como elas são transmitidas, armazenadas e apresentadas; a escolha e implementação das tecnologias utilizadas; e a avaliação de desempenho sobre sua operação.
 
-A composição do sistema prevê que dispositivos embarcados inseridos em mochilas anexadas ao macaco possam ser mapeados por uma rede de sensores introduzida nas árvores do ambiente natural. Dispositivos centrais de comunicação também inseridos no ambiente realizarão a coleta dessas informações, a fim de enviá-las para retenção em um servidor. Este realiza o processamento e armazenamento dos dados que são injetados em uma interface em \emph{software} disponível para o usuário.
+A composição do sistema prevê que dispositivos embarcados inseridos em mochilas anexadas ao macaco possam ser mapeados por uma rede de sensores introduzida nas árvores do ambiente natural. Dispositivos centrais de comunicação também inseridos no ambiente coletam essas informações, a fim de enviá-las para retenção em um servidor. Este realiza o processamento e armazenamento dos dados que são injetados em uma interface em \emph{software} disponível para o usuário.
 
 A discriminação do sistema é melhor realizada nos capítulos 4 e 6.
 
 \section{Motivação}
-Este trabalho visa atender às necessidade de monitoramento de símios nas reservas do Instituto Butantã da Universidade de São Paulo. Dentre elas, destaca-se: a coleta de informações sobre os animais de forma simples e sem viés, tais como suas disposições em bando e suas temperaturas corporais; e a apresentação destas, de forma a facilitar análise de dados em  pesquisas acadêmicas e a manutenção da saúde dos animais.
+Este trabalho atende às necessidade de monitoramento de símios nas reservas do Instituto Butantã da Universidade de São Paulo. Dentre elas, destaca-se: a coleta de informações sobre os animais de forma simples e sem viés, tais como suas disposições em bando e suas temperaturas corporais; e a apresentação destas, de forma a facilitar análise de dados em  pesquisas acadêmicas e a manutenção da saúde dos animais.
 
-Além disso, propõe-se que o este trabalho possa ser aplicado em qualquer reserva que necessite monitorar o comportamento de um bando de animais, sendo para tanto, veemente generalizado neste documento.
+Além disso, este trabalho pode ser aplicado em qualquer reserva que necessite monitorar o comportamento de um bando de animais, sendo para tanto, veemente generalizado neste documento.
 
-Ao final, espera-se obter um sistema que cubra o funcionamento mínimo de requisitos funcionais especificados no capítulo 4.
+Ao final, foi obtido um sistema que cobre o funcionamento mínimo de requisitos funcionais especificados no capítulo 4.
 
 \section{Justificativa}
-Animais silvestres são difíceis de serem observados em habitat natural por uma série de motivos. Primeiro, a partir do momento que o pesquisador se coloca no campo de visão do animal para observá-lo gera viés no comportamento deste, pois o animal também detecta a presença daquele e em muitas instâncias, age de forma irregular. Um caso específico se encontra no contexto de desamamentação de filhotes de macacos, cuja prática é realizada exclusivamente em um ambiente recluso e onde a presença de outrem é inadmissível, portanto o conhecimento sobre este comportamento é limitado para os pesquisadores.
+Animais silvestres são difíceis de serem observados em habitat natural por uma série de motivos. Um deles se trata de que a partir do momento que o pesquisador se coloca no campo de visão do animal para observá-lo gera viés no comportamento deste, pois o animal também detecta a presença daquele e em muitas instâncias, age de forma irregular. Um caso específico se encontra no contexto de desamamentação de filhotes de macacos, cuja prática é realizada exclusivamente em um ambiente recluso e onde a presença de outrem é inadmissível, portanto o conhecimento sobre este comportamento é limitado para os pesquisadores.
 
-Segundo, o auxílio tecnológico para essa tarefa é complicado uma vez que as tecnologias mais comumente usadas para monitoramento (câmeras de vídeo)  e rastreamento (\emph{Global Positioning System} - GPS) são descartadas pela densidade da mata, que dificulta a observação, e imprecisão da informação obtida, que impede a inferência de comportamentos, respectivamente. Isso evidencia a necessidade de novas tecnologias a fim de automatizar os processos de pesquisa laboratorial e controle de localização de animais silvestres, tanto para o estudo sobre seu comportamento como para a manutenção de sua saúde.
+Outro empecilho consta do fato de que o auxílio tecnológico para essa tarefa é complicado uma vez que as tecnologias mais comumente usadas para monitoramento (câmeras de vídeo)  e rastreamento (\emph{Global Positioning System} - GPS) são descartadas pela densidade da mata, que dificulta a observação, e imprecisão da informação obtida, que impede a inferência de comportamentos, respectivamente. Isso evidencia a necessidade de novas tecnologias a fim de automatizar os processos de pesquisa laboratorial e controle de localização de animais silvestres, tanto para o estudo sobre seu comportamento como para a manutenção de sua saúde.
 
-Primordialmente, o conceito que move este projeto está atrelado ao que foi tratado por Handcock (2009) \cite{handcock} de que a interação social biológica revela preferências sociais e comportamentais. Por exemplo, é citado como o mapeamento de encontros entre machos e fêmeas pode correlacionar com acasalamento, o que possibilita estudos de emancipação genética em uma população.
+Primordialmente, o conceito que moveu este projeto está atrelado ao que foi tratado em \cite{handcock} de que a interação social biológica revela preferências sociais e comportamentais. Por exemplo, é citado como o mapeamento de encontros entre machos e fêmeas pode correlacionar com acasalamento, o que possibilita estudos de emancipação genética em uma população.
 
-Corolariamente, permeia o projeto o conceito de Saúde Única (One Health) abordado por Zinsstag (2011) \cite{zinsstag}, onde indissocia-se a visão de saúde humana, animal e do ambiente. Como do ponto de vista biológico o estudo do comportamento animal permite novas conclusões sobre seu comportamento em reservas e cativeiro, e sob o ponto de vista veterinário a análise dos dados sobre o animal e seu ambiente leva a melhoras na manutenção da saúde deste e do ambiente, sob ambos vê-se um impacto na saúde do homem. O sistema pode, por exemplo, ajudar na prevenção de febre amarela, por meio de coleta de dados em populações de animais alvos da doença.
+Corolariamente, permeia o projeto o conceito de Saúde Única (\emph{One Health}) abordado em \cite{zinsstag}, onde indissocia-se a visão de saúde humana, animal e do ambiente. Como do ponto de vista biológico o estudo do comportamento animal permite novas conclusões sobre seu comportamento em reservas e cativeiro, e sob o ponto de vista veterinário a análise dos dados sobre o animal e seu ambiente leva a melhoras na manutenção da saúde deste e do ambiente, sob ambos vê-se um impacto na saúde do homem. O sistema poderia, por exemplo, ajudar na prevenção de febre amarela, por meio de coleta de dados em populações de animais alvos da doença.
 
 \section{Organização do Trabalho}
 O capítulo 2 deste trabalho relata os estudos realizados sobre conceitos fenotípicos e comportamentais do grupo de foco, sobre o contexto de pesquisa destes animais e sobre tecnologias voltadas para redes de sensores biológicos potencialmente válidas para este projeto.
 
-O capítulo 3 trata da forma como o planejamento do sistema deverá ser pensado, enfatizando aspectos de projeto de sistemas embarcados.
+O capítulo 3 trata da forma como o planejamento do sistema foi pensado, enfatizando aspectos de projeto de sistemas embarcados.
 
 No capítulo 4 são indicados os requisitos funcionais e não funcionais levantados e algumas das possíveis soluções para essas problemáticas.
 
-O capítulo 5 destrincha as tecnologias de fato selecionadas para serem utilizadas no sistema a ser implementado, considerando seus pontos falhos mas acentuando o motivo de terem sido escolhidas.
+O capítulo 5 destrincha as tecnologias de fato selecionadas para serem utilizadas no sistema implementado, considerando seus pontos falhos mas acentuando o motivo de terem sido escolhidas.
 
 O capítulo 6, por sua vez, trabalha de fato a projeção do sistema seguindo todos os princípios estudados nos capítulos anteriores para que esteja clara a maneira de implementá-lo. Neste mesmo capítulo, os aspectos que tocam a implementação do sistema, que consideram a parte prática do objeto de estudo, também são descritos.
 
 Por fim, no capítulo 7 são mostrados os resultados obtidos a partir do sistema desenvolvido através de validações e testes quantitativos e qualitativos de desempenho e satisfação.
+
+No Apêndice A pode ser encontrada entrevista realizada com a professora veterinária Cristiane Pizzuto, que colabora com a percepção das dores do usuário do sistema.
+
+O Apêndice B contém as medidas tomadas e cálculos realizados para a determinação da constante de propagação do meio, que é explicada no capítulo 2 onde é falado sobre os algoritmos utilizados.
+
+O Apêndice C possui um compilado das imagens que formam o protótipo para as telas que foram desenvolvidas para a interface.
+
+O Apêndice D documenta a pesquisa realizada sobre o uso de um \emph{timer} interno ao dispositivo embarcado para a temporização de seu funcionamento.
+
+O Apêndice E trata da estimativa financeira realizada para a implementação do sistema e de como esse custo pode ser otimizado.
+
+O Apêndice F consta do estudo de usabilidade para o possível desenvolvimento de uma interface em realidade aumentada.
