@@ -2,13 +2,13 @@
 Alguns dos principais conceitos para compreensão e contextualização deste projeto são trabalhados neste capítulo.
 
 \section{Macacos e Reservas Naturais}
-Para melhor compreensão do aspecto biológico que este trabalho toca, foi realizada uma entrevista com a professora Cristiane Pizzutto, que pode ser vista na íntegra no apêndice A deste documento.
+Para melhor compreensão do aspecto biológico que este trabalho toca, foi realizada uma entrevista com a professora Cristiane Pizzutto, que pode ser vista na íntegra no Apêndice A deste documento.
 
 A partir desta, foi possível quantificar alguns parâmetros importantes para o dimensionamento do projeto, tal como a quantidade comumente observada de animais em bandos de reservas e cativeiros, para qual foi assegurado que, considerando um bando de dez macacos, estaríamos abrangendo seguramente o suficiente.
 
 Também foi possível notar como a tarefa de observação para aquisição de dados relativos aos animais, tais como sinais vitais, movimentação e alimentação, é exaustiva, toma tempo e pode ser objetiva o bastante para que possa ser realizada por um sistema remoto.
 
-A parte subjetiva do levantamento de dados está relacionada às atividades e interações dos animais, que normalmente só podem ser adquiridos por observação direta. Essa é a parte que nosso projeto tenta abordar e que nos fez perceber que talvez, para cativeiro, o auxílio de câmeras com alguma inteligência seria bem vindo.
+A parte subjetiva do levantamento de dados está relacionada às atividades e interações dos animais, que normalmente só podem ser adquiridos por observação direta. Essa é a parte que o projeto tenta abordar e que se fez perceber que talvez, para cativeiro, o auxílio de câmeras com alguma inteligência traria benefícios para o sistema.
 
 \section{Tecnologias Potenciais}
 \textbf{Redes de Sensores Sem Fio}
@@ -21,23 +21,29 @@ Dada essa composição, as RSSFs são capazes de satisfazer áreas de cobertura 
 
 Por isso, compõem uma tecnologia ótima para organizações biológicas, que envolvem grandes populações distribuídas, sendo, portanto, frequentemente aplicadas em sistemas agrícolas.
 
-Como enfatizado por Handcock (2009) \cite{handcock}, para animais essa utilidade também é incluída, mas prevê algumas ressalvas. Uma delas considera a situação de que o animal de vida livre pode permanecer por semanas fora do alcance de pontos de acesso que recebam seus dados e, por esse motivo, cada nó da rede deverá possuir bateria e memória suficientemente robustas. Para reduzir o tempo de ausência de resposta de um determinado indivíduo, é possível implementar escuta nos próprios nós da rede, de forma que os animais que entrarem em contato entre si mantenham as informações dos demais, aumentando a chance de que algum deles possa transmiti-las para o servidor no alcance de pontos de acesso. Essa prática, no entanto, exige ainda mais energia e armazenamento.
+Como enfatizado em \cite{handcock}, para animais essa utilidade também é incluída, mas prevê algumas ressalvas. Uma delas considera a situação de que o animal de vida livre pode permanecer por semanas fora do alcance de pontos de acesso que recebam seus dados e, por esse motivo, cada nó da rede deverá possuir bateria e memória suficientemente robustas. Para reduzir o tempo de ausência de resposta de um determinado indivíduo, é possível implementar escuta nos próprios nós da rede, de forma que os animais que entrarem em contato entre si mantenham as informações dos demais, aumentando a chance de que algum deles possa transmiti-las para o servidor no alcance de pontos de acesso. Essa prática, no entanto, exige ainda mais energia e armazenamento.
 
 RSSFs são, por vezes, estudadas para posicionamento em ambientes internos, principalmente atreladas ao uso de pontos de acesso \emph{Wi-fi}, que já são naturalmente alocados nesses espaços para uso de internet.
 
-\textbf{Rádio}
-A aplicação tecnológica para rastreamento de animais mostra-se insistente no uso de transmissores de rádio por muitos anos, por mais que a tecnologia de localização para aplicações humanas já o tenha superado de longe.
+\begin{itemize}
+\item \textbf{Rádio}
+
+A aplicação tecnológica para rastreamento de animais mostra-se insistente no uso de transmissores de rádio por muitos anos, por mais que a tecnologia de localização para aplicações humanas o tenha superado de longe com o auxílio do GPS.
 
 O RFID (\emph{Radio Frequency Identification}) foi bastante usado para obter informações relacionadas à condição do animal identificado. Recentemente, estes transmissores têm sido também utilizados para detectar encontros sociais entre animais através de picos de intensidade do sinal de rádio sendo transmitido.
 
-\textbf{GPS}
-A emancipação do GPS aplicado ao smartphone praticamente trivializou a tarefa de localização, principalmente quando associada à mobilidade e roteamento.
+\item \textbf{GPS}
 
-A integração de tal tecnologia em sistemas biológicos demonstra uma tentativa de integrar o sensoriamento da interação do animal com o ambiente, como é salientado por Handcock \cite{handcock}.
+A emancipação do GPS aplicado ao \emph{smartphone} praticamente trivializou a tarefa de localização, principalmente quando associada à mobilidade e roteamento.
 
-O GPS, no entanto, tem uma série de complicações. Primeiramente, sua precisão em baixa escala é bem complicada. Handcock afirma que para obter boa acurácia, é necessário ter uma taxa de amostragem relativamente alta, o que é bastante ruim para a sustentabilidade da memória e da energia do sistema.
+A integração de tal tecnologia em sistemas biológicos demonstra uma tentativa de integrar o sensoriamento da interação do animal com o ambiente, como é salientado em \cite{handcock}.
+
+O GPS, no entanto, tem uma série de limitações para a aplicação em questão. Primeiramente, sua imprecisão é um complicador em baixa escala. Em \cite{handcock} é explicado que para se obter boa acurácia é necessário ter uma taxa de amostragem relativamente alta, o que é bastante ruim para a sustentabilidade da memória e da energia do sistema.
 
 Um outro problema está relacionado à pouca praticidade do módulo GPS, que apresenta peso relativamente elevado (aproximadamente 10g) dependendo do animal que está sendo rastreado.
+
+Finalmente, o GPS necessita da visibilidade de pelo menos quatro satélites para a determinação da localização, ao passo que a vegetação, quando muito densa, pode servir de bloqueio para a recepção do sinal.
+\end{itemize}
 
 \section{Modelos Comerciais}
 Alguns modelos de coleiras voltadas a mamíferos são citadas na tabela 1. Os produtos são fornecidos pela empresa ATS (\emph{Animal Traceability Solutions}) \cite{ats} que, infelizmente, não discrimina o porte recomendado do animal usuário em seu site, portanto só foi possível inferir o peso que o dispositivo deste projeto deveria ter confirmando o que havia sido relatado pelos pesquisadores: de algo de no máximo 10g, uma vez que macacos menores pesam cerca de 400g.
@@ -73,9 +79,9 @@ Como visto no item anterior, comercialmente é utilizado rádio na maior parte d
 \FloatBarrier
 
 \section{Algoritmos}
-Inicialmente, é necessário compreender uma forma de calcular a posição dos animais através da distância entre macaco e ponto de acesso. De praxe, em RSSFs este cálculo pode ser feito de duas formas.
+Inicialmente é necessário compreender uma forma de calcular a posição dos animais através da distância entre macaco e ponto de acesso. De praxe, em RSSFs este cálculo pode ser feito de duas formas.
 
-A primeira delas é utilizando a intensidade do sinal (\emph{Received Signal Strength Indication} - RSSI). O cálculo da distância, neste caso, é dado pelo seguinte modelo proposto pela \emph{Texas Instruments} (TI), que é melhor detalhado por Dong e Dargie (2012) \cite{dong}.
+A primeira delas é utilizando a intensidade do sinal (\emph{Received Signal Strength Indication} - RSSI). O cálculo da distância, neste caso, é dado pelo seguinte modelo proposto pela \emph{Texas Instruments} (TI), que é melhor detalhado em \cite{dong}.
 
 \begin{equation}
 RSSI = -10 \times n \times \log_{10} d + A
@@ -89,15 +95,15 @@ Sendo:
 \item A a intensidade do sinal para 1 metro de distância
 \end{itemize}
 
-Essa é uma maneira simples de baixo custo de implementação, porém, como é bem destacado por Larsson (2015) \cite{larsson}, dada a alta variação de n devido a suscetibilidade do sinal à interferência do meio, demonstra-se um tanto imprecisa.
+Essa é uma maneira simples de baixo custo de implementação, porém, como é bem destacado em \cite{larsson}, dada a alta variação de n devido a suscetibilidade do sinal à interferência do meio, demonstra-se um tanto imprecisa.
 
 A constante de propagação pode ser determinada empiricamente. Se sabe n=2 para o vácuo; no ar, valores coerentes estão entre 2.7 e 4. A determinação da constante para este projeto pode ser observada no Apêndice B.
 
 Outra forma seria calcular a distância sabendo a velocidade de propagação do sinal no meio, dado o tempo que demora para que o sinal seja recebido a partir da implementação de um eco. Idealmente esta é uma abordagem muito mais precisa, que só é impossibilitada em casos que o hardware utilizado não possua relógio. No entanto, qualquer deficiência na temporização e sincronização, por menor que seja, pode comprometer a precisão de tal metodologia.
 
-Para este projeto, pretende-se implementar a primeira forma e verificar a precisão da mesma.
+Para este projeto, foi implementada a primeira forma e verificada a precisão da mesma.
 
-Além disso, foi requerido desenvolver um algoritmo para obtenção do mapeamento da posição dos macacos. Este tema já havia sido discutido por Amaral e Biscaro \cite{larissaamaralmiltonbiscaro} e, para tanto, o algoritmo computacional desenvolvido se baseou na trilateração e em \emph{cellbased}.
+Além disso, foi requerido desenvolver um algoritmo para obtenção do mapeamento da posição dos macacos. Este tema já havia sido discutido em \cite{larissaamaralmiltonbiscaro} e, para tanto, o algoritmo computacional desenvolvido se baseou na trilateração e em \emph{cellbased}.
 
 \begin{figure}[ht]
   \centering
