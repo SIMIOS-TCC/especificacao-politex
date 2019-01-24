@@ -1,11 +1,11 @@
 \chapter{Tecnologias Utilizadas}
-Considerando os aspectos discutidos no capítulo 2 sobre possíveis e impossíveis instrumentos para o nosso contexto, por fim foram selecionadas as tecnologias que serão efetivamente utilizados no projeto, as quais são descritas neste capítulo.
+Considerando os aspectos discutidos no capítulo 2 sobre possíveis e impossíveis instrumentos para o contexto em questão, por fim foram selecionadas as tecnologias efetivamente utilizadas no projeto, as quais são descritas neste capítulo.
 
 \section{Dispositivos Embarcados}
 
-Partindo-se deste requisito, selecionou-se a plataforma de desenvolvimento \emph{SensorTag} da \emph{Texas Instruments} como componente embarcado que ficará em cada macaco e nos pontos de acessos nas árvores. Trata-se de uma placa leve e comercialmente atraente, que contém 6 sensores\footnote{A placa contém sensores de temperatura, de umidade, de luminosidade, de pressão, de movimento e magnético.}, incluindo de temperatura, e Bluetooth de Baixo Consumo Energético (BLE - \emph{Bluetooth Low Energy}) ou Sub-1GHz. Seu \emph{datasheet} pode ser encontrado nas referências deste trabalho \cite{datasheet}.
+Partindo-se deste requisito, selecionou-se a plataforma de desenvolvimento \emph{SensorTag} da \emph{Texas Instruments} como componente embarcado que ficaria em cada macaco e nos pontos de acessos nas árvores. Trata-se de uma placa leve e comercialmente atraente, que contém 6 sensores\footnote{A placa contém sensores de temperatura, de umidade, de luminosidade, de pressão, de movimento e magnético.}, incluindo de temperatura, e Bluetooth de Baixo Consumo Energético (BLE - \emph{Bluetooth Low Energy}) ou Sub-1GHz. Seu \emph{datasheet} pode ser encontrado nas referências deste trabalho \cite{datasheet}.
 
-Além do \emph{SensorTag}, foi selecionado um \emph{Raspberry Pi} 2 para receber os dados de uma placa \emph{SensorTag} central via Transmissor/Receptor Assíncrono Universal (UART - \emph{Universal Asynchronous Receiver/Transmitter}). Tal placa central deverá receber dados dos demais pontos de acesso, e estes dados serão armazenados em um servidor pelo \emph{Raspberry Pi}.
+Foi selecionado um \emph{Raspberry Pi} 2 para receber os dados de uma placa \emph{SensorTag} central via Transmissor/Receptor Assíncrono Universal (UART - \emph{Universal Asynchronous Receiver/Transmitter}). Tal placa central recebe dados dos demais pontos de acesso, e estes dados são armazenados em um servidor pelo \emph{Raspberry Pi}.
 
 \subsection{Sensortag}
 
@@ -16,12 +16,12 @@ Além do \emph{SensorTag}, foi selecionado um \emph{Raspberry Pi} 2 para receber
   \centerline{\small{Fonte: \emph{Texas Instruments}}}
 \end{figure}
 
-O código da placa dentre os produtos da TI é CC1350STK. Este é um dispositivo que é facilmente integrável com aplicações de tecnologia móvel (tendo inclusive um aplicativo aberto oficial da TI que pode ser baixado nas lojas de aplicativo e ser usado em conjunto com as placas).\\
+O código da placa dentre os produtos da TI é CC1350STK. Este é um dispositivo que é facilmente integrável com aplicações de tecnologia móvel (tendo inclusive um aplicativo aberto oficial da TI que pode ser usado em conjunto com as placas).\\
 
 A placa contém um microcontrolador que tem funcionalidades de comunicação sem fio, um processador principal \emph{ARM Cortex} M3 de 32 \emph{bits} com \emph{clock} de 48MHz e uma variedade de periféricos, como temporizadores de propósito geral, conversor analógico-digital, pinos de propósito geral, entre outros.
 
 \section{Servidor}
-Foi escolhido o banco de dados relacional \emph{MySQL} da \emph{Oracle} por se tratar de um sistema de código aberto simples, embora completo.
+Foi escolhido o banco de dados relacional \emph{MySQL} da \emph{Oracle} por se tratar de um sistema gratuito e simples, embora completo.
 
 O projeto SIMIOS prevê o rastreio de animais em reservas, o que envolve, como visto anteriormente, no máximo cerca de 10 animais em grandes reservas. Dessa forma, sabemos que não envolve sobrecarga de acessos por segundo e mesmo isto poderia ser corrigido com \emph{buffering}.
 
